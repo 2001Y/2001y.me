@@ -1,0 +1,9 @@
+
+{{ $alt := .PlainText | safeHTML }}
+
+<figure>
+    <picture>
+      <img src={{.Destination}} alt="{{ $alt }}" decoding=async loading=lazy>
+    </picture>
+    <figcaption>{{ $alt }}</figcaption>
+</figure>

@@ -1,0 +1,206 @@
+dark()
+  @media (prefers-color-scheme dark)
+    block
+
+main 
+  animation fadeIn 1.5s .5s forwards
+  will-change opacity
+  opacity 0
+  z-index 8
+h1
+  font-size 2rem
+  @media (max-width: 810px)
+    margin-right 4rem
+  opacity 0
+  animation fadeIn 1.5s forwards
+  will-change opacity
+  color var(--d)
+main img
+  max-width 80%
+  @media (max-width: 500px)
+    max-width 100%
+  max-height 60vh
+  margin auto;
+  display block
+  margin-bottom 1rem
+h2,h3,main h4
+    margin 1.5em 0 .6em 0
+#article p
+  margin-bottom .6em
+  text-indent:1em;
+figure
+  color var(--d5)
+  +dark()
+    color var(--l5)
+  font-size .8rem
+  text-align center
+  margin-bottom .6rem
+  img
+    margin-bottom .3rem
+#top
+  color var(--l)
+  font-size 3rem
+  position absolute
+  top 3rem
+  right 1rem
+  padding 1rem
+  z-index 1 
+      
+#category
+  font-size 1.5rem
+  position absolute
+  bottom -1.5rem
+  right 0
+.category
+  padding .6rem .4rem
+  margin 0 .2rem
+  border-radius .9rem
+  display inline-block
+  transition background .4s
+  will-change background
+  position relative
+  @media (max-width: 500px)
+    margin 0
+  &:after
+    font-size 1rem
+    content attr(data-tooltip)
+    color var(--d)
+    +dark()
+      color var(--l)
+    top 2.5rem
+    left -1.3em
+    width 5em
+    text-align center
+    position absolute
+    transition .4s .1s
+    will-change transform,opacity
+    opacity 0
+    display block
+  &:hover:after
+    transform translateY(.3rem)
+    opacity 1
+    @media (max-width: 500px)
+      opacity 0
+.Gadget>.Gadget:after,.Camera>.Camera:after,.Web>.Web:after,.Other>.Other:after
+  will-change transform
+  animation category 2s
+  will-change opacity,transform
+  @media (max-width: 500px)
+    animation category .75s -.25s
+    
+#Voting
+  font-weight bold
+  text-align center
+  padding 3em
+  border-radius 3rem
+  margin 0 -1rem
+  transition .3s
+  z-index 8
+.normal
+  position fixed
+  max-width 500px
+  display block
+  padding 0 1rem 1rem 1rem !important
+  margin auto !important
+  border-radius 2.5rem !important
+  bottom .5rem
+  left 0
+  right 0
+  opacity 0
+  transition opacity 1s
+  will-change opacity
+  backdrop-filter: blur(10px);
+  transform translateY(1rem)
+  @media (max-width: 500px)
+    bottom 0
+    border-radius 2.5rem 2.5rem 0 0 !important
+    padding-bottom 1.5rem
+  #voting-box
+    margin-top .5rem
+.hover
+  opacity .9
+  transform translate(0)
+  @media (max-width: 500px)
+    opacity 1
+  &:hover
+    opacity 1
+#Close
+  cursor pointer
+  width 100%
+  &:after
+    content ""
+    width 8.3em
+    height .25rem
+    background var(--d5)
+    +dark()
+      background var(--l5)
+    border-radius .2rem
+    display block
+    margin .8rem auto .5rem auto
+#voting-box
+  display flex
+  justify-content center
+  margin-top 1rem
+#goodElem,#badElem
+  font-weight bold
+  cursor: pointer
+  width 9rem
+  height 3rem
+  border-radius 1.5rem
+  padding .5rem 1rem .5rem 2.5rem
+  position relative
+  transition .4s
+  will-change background,color
+  &:before
+    position absolute
+    left 1.2em
+    top calc(50% - .5em)
+#goodElem
+  color var(--d)
+  background var(--a)
+  border solid var(--a)
+  margin-right 1rem
+  &:before
+    content "\e903"
+#badElem,#goodElem.done
+  color var(--d)
+  background var(--l)
+  border solid var(--l)
+  +dark()
+    color var(--l)
+    background var(--d)
+    border solid var(--d)
+#badElem:before
+    content "\e905"
+
+#goodElem:hover,#badElem:hover,#goodElem.stop,#badElem.stop
+  color var(--l)
+  background var(--d)
+  border solid var(--d)
+  +dark()
+    color var(--d)
+    background var(--l)
+    border solid var(--l)
+
+.done
+  pointer-events: none;
+@media (max-width: 500px)
+  header
+    margin 0 auto 2em auto
+  #categoryBox,header .search-box
+    bottom -2rem
+@keyframes category
+  0%
+    transform translate(0)
+    opacity 0
+  20%,80%
+    transform translateY(.3rem)
+    opacity 1
+  100%
+    transform translate(0)
+    opacity 0
+@keyframes fadeIn
+ 0%
+   opacity: 0
+ 100%
+   opacity 1
