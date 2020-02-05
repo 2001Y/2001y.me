@@ -6,10 +6,6 @@
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
-/*
-    Accept-Encoding: gzip, deflate, br;
-    Cache-Control: max-age=604800, immutable;
-    Content-type: text/html; charset=utf-8
     
     Link: </base.css>; rel=preload; as=stylesheet;
     
