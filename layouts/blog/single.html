@@ -5,25 +5,32 @@
   <link rel="stylesheet" href="/post.css">
   <title>{{ .Title }}｜2001Y.me</title>
   {{ partial "head.html" . }}
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:title" content="{{ .Title }}｜2001Y.me" />
-  <meta property="og:description" content="{{ .Content | plainify | truncate 200 }}">
-  <meta property="og:image" content="https://2001y.me/blog/tmb/{{ .Params.img }}.jpeg" />
+  <meta name="description" content="{{ .Content | plainify | truncate 200 }}"> 
+  <meta property=og:type content=article>
+  <meta property=og:url content="{{ .Permalink }}" />
+  <meta property=og:title content="{{ .Title }}｜2001Y.me" />
+  <meta property=og:description content="{{ .Content | plainify | truncate 200 }}">
+  <meta property=og:image content="https://2001y.me/blog/img/{{ .Params.img }}.jpeg" />
   <link rel="dns-prefetch" href="//script.google.com">
   <link rel="prerender" href="{{ with .Site.RegularPages.Related . | first 1 }}{{ range . }}{{ .Permalink }}{{ end }}{{ end }}">
-  <script async src=/ga-lite.min.js></script>
   <script defer>let title ="{{ .File.TranslationBaseName }}";</script>
-  <link rel="serviceworker" href="sw.js" scope="/">
-  <script defer src=/script.js></script>
+  <script defer src=/script.min.js></script>
+  <script defer src=/quicklink.min.js></script>
+  {{ if findRE "twitter-tweet" .Content }}
+    <script async src=//platform.twitter.com/widgets.js></script>
+  {{ end }}
+  {{ if not .Site.IsServer }}
+    <script async src=//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js data-ad-client=ca-pub-3750999099107987></script>
+  {{ end }}
 </head>
 <body id=body ontouchstart>
   <nav id=bar>
-    <a href="/blog" title="2001Y Blog" class="logo"><h4>2001Y Blog</h4></a>
-    <a href="/" title="2001Y Portfolio">Portfolio</a>
-    <a href="/contact" title="2001Y Contact">Contact</a>
+    <a href=/blog title="2001Y Blog" class=logo><h4>2001Y Blog</h4></a>
+    <a href=/ title="2001Y Portfolio">Portfolio</a>
+    <a href=/contact title="2001Y Contact">Contact</a>
+    <time>{{ .Date.Format "2006.01.02" }}</time>
   </nav>
-  <a href="/blog" title="2001Y Blog" id=top>
+  <a href=/blog title="2001Y Blog" id=top>
     &#xe904;
   </a>
   <header id=header>
@@ -31,19 +38,26 @@
       <h1>{{ .Title }}</h1>
     </a>
     <div id=category class={{ range .Params.categories }}{{ . }}{{ end }}>
-      <a href="/blog/gadget" class="category Gadget" data-tooltip=ガジェット title=ガジェット｜2001Y.me></a><a href="/blog/camera" class="category Camera" data-tooltip=カメラ title=カメラ｜2001Y.me></a><a href="/blog/web" class="category Web" data-tooltip=Web title=Web｜2001Y.me></a><a href="/blog/other" class="category Other" data-tooltip=その他 title=その他｜2001Y.me></a>
+      <a href=/blog/gadget class="category Gadget" data-tooltip=ガジェット title=ガジェット｜2001Y.me></a><a href=/blog/camera class="category Camera" data-tooltip=カメラ title=カメラ｜2001Y.me></a><a href=/blog/web class="category Web" data-tooltip=Web title=Web｜2001Y.me></a><a href=/blog/other class="category Other" data-tooltip=その他 title=その他｜2001Y.me></a>
     </div>
   </header>
   <main id=main>
     <article id=article>
-      <img id=tmb src=/tmb/{{ .Params.img }}.webp decoding=async loading=lazy>
+      <picture id=tmb data-original=/img/{{ .Params.img }} data-figcaption="{{ .Title }}｜2001Y.me">
+          <source srcset="/img/{{ .Params.img }}-700.webp, /img/{{ .Params.img }}-1400.webp 2x,/img/{{ .Params.img }}-2100.webp 3x" width=700 height=368
+                  alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy type=image/webp>
+          <img src=/img/{{ .Params.img }}-700.jpg
+               srcset="/img/{{ .Params.img }}-1400.webp 2x,/img/{{ .Params.img }}-2100.webp 3x" width=700 height=368
+               alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+      </picture>
       {{ .Content }}
-      <div id="Voting" class="normal">
-        <button onclick="block();" id="Close"></button>
+      <!-- .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" "${1}&nbsp;<a class=\"headline-hash\" href=\"#${2}\">#</a> ${3}" | safeHTML  -->
+      <div id=Voting class=normal>
+        <button onclick="block();" id="Close" aria-label=閉じる></button>
         <span id=votingText>記事への評価をおねがいします！</span>
         <div id=voting-box>
-          <button onclick="voting('good');" id=goodElem>いいね</button>
-          <button onclick="voting('bad');" id=badElem>・・・</button>
+          <button onclick="voting('good');" id=goodElem aria-label=いいね>いいね</button>
+          <button onclick="voting('bad');" id=badElem aria-label=・・・>・・・</button>
         </div>
       </div>
     </article>
@@ -54,12 +68,13 @@
           {{ range . }}
             <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
               <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
-                <svg class="post-tmb">
-                  <image xlink:href="/tmb/{{ .Params.img }}.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" clip-path="url(#tmb)"/>
-                </svg>
-                <div class="post-data">
+                <picture class=post-tmb>
+                  <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
+                  <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x">
+                </picture>
+                <div class=post-data>
                   <h5>{{ .Title }}</h5>
-                  <div class="post-meta">
+                  <div class=post-meta>
                     <time>{{ .Date.Format "2006/01/02" }}</time>・{{ range .Params.categories }}{{ . }}{{ end }}
                   </div>
                   <p>{{ .Content | plainify | truncate 50 }}</p>
@@ -71,12 +86,13 @@
           {{ range first 3 (where $.Site.RegularPages "Section" "blog") }}
           <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
             <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
-              <svg class="post-tmb">
-                <image xlink:href="/tmb/{{ .Params.img }}.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" clip-path="url(#tmb)"/>
-              </svg>
-              <div class="post-data">
+              <picture class=post-tmb>
+                <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
+                <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x">
+              </picture>
+              <div class=post-data>
                 <h5>{{ .Title }}</h5>
-                <div class="post-meta">
+                <div class=post-meta>
                   <time>{{ .Date.Format "2006/01/02" }}</time>・{{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}
                 </div>
                 <p>{{ .Content | plainify | truncate 50 }}</p>
@@ -88,19 +104,26 @@
       {{ end }}
     </aside>
   </main>
-  <a href="/blog" title="2001Y Blog">
-    <aside id="fixed">
+  <aside id=fixed>
+    <a href=/blog title="2001Y Blog">
       &#xe904;
-    </aside>
-  </a>
+    </a>
+  </aside>
+  <picture id=lightbox class=close>
+    <source type=image/webp alt=lightbox id=lightbox-webp>
+    <img alt=lightbox id=lightbox-jpeg>
+    <figcaption id=lightbox-figcaption></figcaption>
+  </picture>
+  <div id="Top"></div>
+  <div id="Bottom"></div>
   <footer>
     <ol id=breadcrumb>
-      <li><a class=logo href="/" title="2001Y Portfolio"></a></li>
-      <li><a href="/blog" title="2001Y Blog">Blog</a></li>
-      <li><a href="/blog" title="Camera｜2001Y.me">Camera</a></li>
+      <li><a class=logo href=/ title="2001Y Portfolio"></a></li>
+      <li><a href=/blog title="2001Y Blog">Blog</a></li>
+      <li><a href=/blog title="Camera｜2001Y.me">Camera</a></li>
     </ol>
   {{ partial "footer.html" . }}
-  <form class=search-box action="/blog/" method="get">
+  <form class=search-box action=/blog/ method=get>
       <input class=search name=s type=search>
       <input class=submit type=submit value="&#xe901;">
   </form>
@@ -111,9 +134,15 @@
     <path d="M.8,.7c0,.15-.1,.3-.3,.3S.2,.85,.2,.7c0-.3,.3-.7,.3-.7S.8,.4,.8,.7z"/>
   </clipPath>
 </svg>
-<link rel="stylesheet" href="/syntax.css">
+{{ if findRE "highlight" .Content }}
+  <link rel="stylesheet" href="/syntax.css">
+{{ end }}
 {{ if not .Site.IsServer }}
-  <script>
+  <script async>
+    (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+    ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+    ;c.parentNode.insertBefore(a,c)
+    })(window,document,"galite","script","/ga-lite.min.js");
     galite('create', 'UA-68964193-14', 'auto');
     galite('send', 'pageview');
   </script>
@@ -144,7 +173,7 @@
         "name" : "2001Y"
     },
     "datePublished": "{{ .Date.Format "2006/01/02" }}",
-    "dateModified": "",
+    "dateModified": "{{ .Lastmod.Format "2006/01/02" }}",
     "mainEntityOfPage": "{{ .Permalink }}"
 }
 </script>

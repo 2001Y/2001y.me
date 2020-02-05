@@ -1,9 +1,15 @@
-
+{{ $name := .Destination | replaceRE "../../../images/" "" | replaceRE ".jpeg" "" | replaceRE ".jpg" "" | replaceRE ".JPG" "" | replaceRE ".JPG" "" }}
+{{ $file := .Destination | replaceRE "../../../images/" ""}}
 {{ $alt := .PlainText | safeHTML }}
 
+{{ $img := $name | printf "/static/img/%s-560.jpg" }}
+{{ $imgData := imageConfig $img }}
+
 <figure>
-    <picture>
-      <img src={{.Destination}} alt="{{ $alt }}" decoding=async loading=lazy>
+    <picture data-original=/img/{{ $name }} data-figcaption="{{ if .Title }}{{ with .Title}}{{ . }}{{ end }}{{ else }}{{ $alt }}{{ end }}">
+        <source srcset="/img/{{ $name }}-560.webp, /img/{{ $name }}-1120.webp 2x,/img/{{ $name }}-1680.webp 3x"
+                alt="{{ $alt }}" width={{ $imgData.Width }} height={{ $imgData.Height }} decoding=async loading=lazy type=image/webp>
+        <img src="/img/{{ $file }}" width={{ $imgData.Width }} height={{ $imgData.Height }} alt="{{ $alt }}">
     </picture>
-    <figcaption>{{ $alt }}</figcaption>
+    <figcaption>{{ if .Title }}{{ with .Title}}{{ . }}{{ end }}{{ else }}{{ $alt }}{{ end }}</figcaption>
 </figure>

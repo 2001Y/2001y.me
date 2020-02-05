@@ -11,13 +11,12 @@
     <meta property="og:title" content="{{ .Title }}｜2001Y.me" />
   {{ end }}
   {{ partial "head.html" . }}
+  <meta name="description" content="2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログです。"> 
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}" />
   <meta property="og:description" content="2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログです。">
   <meta property="og:image" content="https://2001y.me/blog/tmb/{{ .Params.img }}.jpeg" />
-  <link rel=prerender href="{{ with .Site.RegularPages.Related . | first 1 }}{{ range . }}{{ .Permalink }}{{ end }}{{ end }}">
-  <link rel="serviceworker" href="sw.js" scope="/">
-  <script async src=/ga-lite.min.js></script>
+  <script defer src=/quicklink.min.js></script>
 </head>
 <body ontouchstart>
   <nav id=bar>
@@ -47,9 +46,10 @@
       {{ range (.Paginator 5).Pages }}
       <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
         <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
-          <svg class=post-tmb>
-            <image xlink:href="/tmb/{{ .Params.img }}.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" clip-path="url(#tmb)"/>
-          </svg>
+          <picture class=post-tmb>
+            <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
+            <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x">
+          </picture>
           <div class=post-data>
             <h2>{{ .Title }}</h2>
             <div class=post-meta>
@@ -73,9 +73,10 @@
       {{ range $paginator.Pages}}
         <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
           <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
-            <svg class=post-tmb>
-              <image xlink:href="/tmb/{{ .Params.img }}.webp" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" clip-path="url(#tmb)"/>
-            </svg>
+            <picture class=post-tmb>
+              <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
+              <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x">
+            </picture>
             <div class=post-data>
               <h2>{{ .Title }}</h2>
               <div class=post-meta>
@@ -111,21 +112,19 @@
     <path d="M.8,.7c0,.15-.1,.3-.3,.3S.2,.85,.2,.7c0-.3,.3-.7,.3-.7S.8,.4,.8,.7z"/>
   </clipPath>
 </svg>
-<script data-no-instant>
-  format = ".webp";
-  let webp = new Image();
-  webp.src = 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
-  webp.onerror = function(){
-    document.body.innerHTML = document.body.innerHTML.split(".webp").join(".jpg");
-    format = ".jpg";
-  }
-  {{ if not .Site.IsServer }}
+{{ if not .Site.IsServer }}
+  <script async>
+    window.addEventListener('load', () =>{ quicklink.listen(); });
+    (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+    ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+    ;c.parentNode.insertBefore(a,c)
+    })(window,document,"galite","script","/ga-lite.min.js");
     galite('create', 'UA-68964193-14', 'auto');
     galite('send', 'pageview');
-  {{ end }}
-</script>
+  </script>
+{{ end }}
 <script defer src="/data.js"></script>
-<script defer src="/search.js"></script>
+<script defer src="/search.min.js"></script>
 <script type=application/ld+json>
 {
     "@context" : "http://schema.org",
@@ -152,7 +151,7 @@
         "name" : "2001Y"
     },
     "datePublished": "{{ .Date.Format "2006/01/02" }}",
-    "dateModified": "",
+    "dateModified": "{{ .Lastmod.Format "2006/01/02" }}",
     "mainEntityOfPage": "{{ .Permalink }}"
 }
 </script>

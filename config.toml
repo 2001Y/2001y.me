@@ -15,3 +15,6 @@ hrefTargetBlank = true
 
 [params]
 dateformat = "2006年1月2日"
+
+[markup.goldmark.renderer]
+  unsafe = true
