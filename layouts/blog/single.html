@@ -11,7 +11,10 @@
   <meta property=og:title content="{{ .Title }}｜2001Y.me" />
   <meta property=og:description content="{{ .Content | plainify | truncate 200 }}">
   <meta property=og:image content="https://2001y.me/blog/img/{{ .Params.img }}.jpeg" />
-  <link rel="dns-prefetch" href="//script.google.com">
+  <link rel="dns-prefetch" href="//www.googletagservices.com">
+  <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="//adservice.google.co.jp">
+  <link rel="dns-prefetch" href="//adservice.google.com">
   <link rel="prerender" href="{{ with .Site.RegularPages.Related . | first 1 }}{{ range . }}{{ .Permalink }}{{ end }}{{ end }}">
   <script defer>let title ="{{ .File.TranslationBaseName }}";</script>
   <script defer src=/script.min.js></script>
