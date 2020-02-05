@@ -6,11 +6,11 @@
   <title>{{ .Title }}｜2001Y.me</title>
   {{ partial "head.html" . }}
   <meta name="description" content="{{ .Content | plainify | truncate 200 }}"> 
-  <meta property=og:type content=article>
-  <meta property=og:url content="https://2001y.me{{ .Permalink }}" />
-  <meta property=og:title content="{{ .Title }}｜2001Y.me" />
-  <meta property=og:description content="{{ .Content | plainify | truncate 200 }}">
-  <meta property=og:image content="https://2001y.me/img/{{ .Params.img }}.jpg" />
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://2001y.me{{ .Permalink }}" />
+  <meta property="og:title" content="{{ .Title }}｜2001Y.me" />
+  <meta property="og:description" content="{{ .Content | plainify | truncate 200 }}">
+  <meta property="og:image" content="https://2001y.me/img/{{ .Params.img }}.jpg" />
   <link rel="dns-prefetch" href="//www.googletagservices.com">
   <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
   <link rel="dns-prefetch" href="//adservice.google.co.jp">
