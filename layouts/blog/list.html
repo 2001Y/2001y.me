@@ -13,7 +13,7 @@
   {{ partial "head.html" . }}
   <meta name="description" content="2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログです。"> 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Permalink | absURL }}" />
+  <meta property="og:url" content="https://2001y.me{{ .Permalink }}" />
   <meta property="og:description" content="2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログです。">
   <meta property="og:image" content="https://2001y.me/blog/tmb/{{ .Params.img }}.jpeg" />
   <script defer src=/quicklink.min.js></script>
@@ -150,7 +150,7 @@
     },
     "datePublished": "{{ .Date.Format "2006/01/02" }}",
     "dateModified": "{{ .Lastmod.Format "2006/01/02" }}",
-    "mainEntityOfPage": "{{ .Permalink | absURL }}"
+    "mainEntityOfPage": "{{ .Permalink }}"
 }
 </script>
 <script type=application/ld+json>
@@ -171,7 +171,7 @@
     "@type": "ListItem",
     "position": 3,
     "name": "{{ .Title }}",
-    "item": {{ .Permalink | absURL }}
+    "item": "https://2001y.me{{ .Permalink | jsonify }}"
   }{{ end }}]
 }
 </script>

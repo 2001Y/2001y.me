@@ -7,10 +7,10 @@
   {{ partial "head.html" . }}
   <meta name="description" content="{{ .Content | plainify | truncate 200 }}"> 
   <meta property=og:type content=article>
-  <meta property=og:url content="{{ .Permalink | absURL }}" />
+  <meta property=og:url content="https://2001y.me{{ .Permalink }}" />
   <meta property=og:title content="{{ .Title }}｜2001Y.me" />
   <meta property=og:description content="{{ .Content | plainify | truncate 200 }}">
-  <meta property=og:image content="https://2001y.me/img/{{ .Params.img }}-1400.jpg" />
+  <meta property=og:image content="https://2001y.me/img/{{ .Params.img }}.jpg" />
   <link rel="dns-prefetch" href="//www.googletagservices.com">
   <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
   <link rel="dns-prefetch" href="//adservice.google.co.jp">
@@ -172,7 +172,7 @@
     },
     "datePublished": "{{ .Date.Format "2006/01/02" }}",
     "dateModified": "{{ .Lastmod.Format "2006/01/02" }}",
-    "mainEntityOfPage": "{{ .Permalink | absURL }}"
+    "mainEntityOfPage": "{{ .Permalink }}"
 }
 </script>
 <script type=application/ld+json>
@@ -193,7 +193,7 @@
     "@type": "ListItem",
     "position": 3,
     "name": "{{ .Title }}",
-    "item": {{ .Permalink | absURL }}
+    "item": {{ .Permalink }}
   }]
 }
 </script>
