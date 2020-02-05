@@ -1,11 +1,6 @@
 /*
-    Strict-Transport-Security: max-age=63072000;includeSubDomains; preload
     Accept-Encoding: gzip, deflate, br
     Cache-Control: max-age=604800, immutable;
-    Content-Security-Policy: default-src https:
-    X-Frame-Options: DENY
-    X-XSS-Protection: 1; mode=block
-    X-Content-Type-Options: nosniff
     
     Link: </base.css>; rel=preload; as=stylesheet;
     
