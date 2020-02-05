@@ -5,6 +5,8 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 pygmentsStyle = "monokai"
 paginate = 5
+canonifyURLs = true
+UglyURLs = true
 
 [taxonomies]
 tag = "tags"
