@@ -172,7 +172,7 @@
     },
     "datePublished": "{{ .Date.Format "2006/01/02" }}",
     "dateModified": "{{ .Lastmod.Format "2006/01/02" }}",
-    "mainEntityOfPage": {{ .Permalink | absURL }} }}
+    "mainEntityOfPage": {{ .Permalink | printf "https://2001y.me%s" }}
 }
 </script>
 <script type=application/ld+json>
@@ -193,7 +193,7 @@
     "@type": "ListItem",
     "position": 3,
     "name": "{{ .Title }}",
-    "item": {{ .Permalink | absURL }} }}
+    "item": {{ .Permalink | printf "https://2001y.me%s" }}
   }]
 }
 </script>
