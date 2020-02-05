@@ -28,7 +28,21 @@ exports.img = () =>
         ]))
         .pipe(responsive({
             // '*.{png,gif}': [{}],
-            '*.{jpeg,jpg,JPG}': [{format: 'jpg'}],
+            '*.{jpeg,jpg,JPG}': [{
+                format: 'jpg'
+            },{
+                format: 'jpg',
+                width: 560,
+                rename: { suffix: '-560' }
+            },{
+                format: 'jpg',
+                width: 1120,
+                rename: { suffix: '-1120' }
+            },{
+                format: 'jpg',
+                width: 1680,
+                rename: { suffix: '-1680' }
+            }],
             '*.{png,jpeg,jpg,JPG,gif}': [{
                 format: 'webp'
             },{
@@ -36,23 +50,11 @@ exports.img = () =>
                 width: 560,
                 rename: { suffix: '-560' }
             },{
-                format: 'jpg',
-                width: 560,
-                rename: { suffix: '-560' }
-            },{
                 format: 'webp',
                 width: 1120,
                 rename: { suffix: '-1120' }
             },{
-                format: 'jpg',
-                width: 1120,
-                rename: { suffix: '-1120' }
-            },{
                 format: 'webp',
-                width: 1680,
-                rename: { suffix: '-1680' }
-            },{
-                format: 'jpg',
                 width: 1680,
                 rename: { suffix: '-1680' }
             }]
@@ -68,7 +70,7 @@ exports.tmb = () =>
         ]))
         .pipe(responsive({
             '*.{jpeg,jpg,JPG}': [{format: 'jpg'}],
-            '*.{png,jpeg,jpg,JPG,gif}': [{
+            '*.{png,jpeg,jpg,JPG}': [{
                 format: 'webp'
             },{
                 format: 'webp',

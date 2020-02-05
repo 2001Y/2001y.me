@@ -48,7 +48,7 @@
     <article id=article>
       <picture id=tmb data-original=/img/{{ .Params.img }} data-figcaption="{{ .Title }}｜2001Y.me">
           <source srcset="/img/{{ .Params.img }}-700.webp, /img/{{ .Params.img }}-1400.webp 2x,/img/{{ .Params.img }}-2100.webp 3x" width=700 height=368 decoding=async loading=lazy type=image/webp>
-          <img src=/img/{{ .Params.img }}-700.jpg srcset="/img/{{ .Params.img }}-1400.webp 2x,/img/{{ .Params.img }}-2100.webp 3x" width=700 height=368 alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+          <img src=/img/{{ .Params.img }}-700.jpg srcset="/img/{{ .Params.img }}-1400.jpg 2x,/img/{{ .Params.img }}-2100.jpg 3x" width=700 height=368 alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
       </picture>
       {{ .Content }}
       <!-- .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" "${1}&nbsp;<a class=\"headline-hash\" href=\"#${2}\">#</a> ${3}" | safeHTML  -->
