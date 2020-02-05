@@ -27,18 +27,22 @@
     Link: </list.css>; rel=preload; as=style;
     Link: </font/athens-regular-italic-sub.woff2>; rel=preload; as=font; type=font/woff2;
     Link: </search.min.js>; rel=preload; as=script;
+    Link: </data.min.js>; rel=preload; as=script;
     
 /blog/gadget
     Link: </list.css>; rel=preload; as=style;
     Link: </font/athens-regular-italic-sub.woff2>; rel=preload; as=font; type=font/woff2;
     Link: </search.min.js>; rel=preload; as=script;
+    Link: </data.min.js>; rel=preload; as=script;
     
 /blog/web
     Link: </list.css>; rel=preload; as=style;
     Link: </font/athens-regular-italic-sub.woff2>; rel=preload; as=font; type=font/woff2;
     Link: </search.min.js>; rel=preload; as=script;
+    Link: </data.min.js>; rel=preload; as=script;
     
 /blog/other
     Link: </list.css>; rel=preload; as=style;
     Link: </font/athens-regular-italic-sub.woff2>; rel=preload; as=font; type=font/woff2;
     Link: </search.min.js>; rel=preload; as=script;
+    Link: </data.min.js>; rel=preload; as=script;
