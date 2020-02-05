@@ -1,6 +1,5 @@
 /*
     Accept-Encoding: gzip, deflate, br
-    Cache-Control: max-age=604800, immutable;
     
     Link: </base.css>; rel=preload; as=stylesheet;
     
