@@ -1,3 +1,3 @@
 ---
-url: "/data.js"
+url: "/data.min.js"
 ---
