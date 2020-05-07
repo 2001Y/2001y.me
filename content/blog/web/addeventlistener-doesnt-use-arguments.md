@@ -7,7 +7,13 @@ tags: ["Blog","JavaScript"]
 
 ---
 
-addEventListenerで因数が使えなくて、調べてみたところ、
+GoogleFile
+
+ローカルにpackage.jsonを移してnpm install --no-bin-links
+
+--no-bin-linksはシンボリックリンクを作らなくなる
+
+GDFSでnpm install --no-bin-linksをしても動作しない
 
 ## 
 
