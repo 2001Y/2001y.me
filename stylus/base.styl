@@ -1,4 +1,4 @@
-https://www.cloudflare.com/api_json.html?a=fpurge_ts&tkn=0000000000000000000000000000000000000&email=name@domain.com&z=domain.com&v=1dark()
+dark()
   @media (prefers-color-scheme dark)
     block
 
@@ -42,8 +42,6 @@ body
   --d5 rgba(66, 66, 66, .5)
   --l05 #4B4A4A
   --d05 #DEDAD5
-  // --l05 rgba(229,225,220,.05)
-  // --d05 rgba(66,66,66,.05)
   --g rgba(217,115,91,.9)
   --c rgba(219,166,103,.9)
   --w rgba(151,195,198,.9)
@@ -319,6 +317,62 @@ footer .search-box
 .fixed
   opacity 1 !important
   transform translate(0) !important
+  
+*
+  cursor none !important
+::selection
+  background rgba(151,195,198,.3)
+  +dark()
+    colour var(--d)
+#cursor
+  position relative
+  will-change transform,width,height
+  position fixed
+  top -.3rem
+  left -.3rem
+  width .6rem
+  height .6rem
+  background rgba(177, 177, 177, .8)
+  filter: drop-shadow(0 0 .3rem var(--l));
+  +dark()
+    filter: drop-shadow(0 0 .3rem var(--d));
+  border-radius 1rem
+  z-index 99999
+  pointer-events: none
+  transition opacity .2s,width .2s,height .2s,top .2s,left .2s,background .2s,border-radius .2s
+  &.zoom
+    top: -.5rem
+    left: -.5rem
+    width: 1rem
+    height: 1rem
+  &.red
+    background var(--w)
+  &.text
+      top -.5rem
+      left -.05rem
+      width .1rem
+      height 1rem
+      border-radius 0
+.click
+    content ""
+    position absolute
+    top -1.7rem
+    left -1.7rem
+    border-radius 9rem
+    background rgba(189, 189, 189, .1)
+    width: 4rem
+    height: 4rem
+    animation drop 1s
+    z-index 9999
+    opacity 0
+@keyframes drop
+  0%
+    opacity 0
+    transform scale(0)
+  50%
+    opacity 1
+  100%
+    opacity 0
 
 @media (max-width: 500px)
   header

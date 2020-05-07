@@ -6,7 +6,7 @@ pygmentsCodefences = true
 pygmentsStyle = "monokai"
 paginate = 5
 canonifyURLs = true
-UglyURLs = true
+# UglyURLs = true
 
 [taxonomies]
 tag = "tags"

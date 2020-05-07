@@ -17,6 +17,8 @@ let stylus       = require('gulp-stylus'),
 
 let closure = require('gulp-closure-compiler-service');
 
+var minify = require('gulp-minifier');
+
 exports.img = () =>
     // src('images/*.{png,jpeg,jpg,JPG,gif}')
     src('images/*.{png,jpeg,jpg,JPG,gif}')
@@ -132,20 +134,32 @@ exports.tmb = () =>
 exports.html = () =>
     src('public/*.html')
         .pipe(cache('html'))
-        .pipe(htmlmin())
+        .pipe(minify({
+            minify: true,
+            minifyHTML: {
+                collapseWhitespace: true,
+                conservativeCollapse: true
+            }
+        }))
         .pipe(dest('public'))
 exports.css = () =>
     src('stylus/*.styl')
         .pipe(cache('css'))
         .pipe(stylus())
+        .pipe(gcmq())
         .pipe(autoprefixer({
             stats: ['> 3% in JP']
         }))
-        .pipe(gcmq())
-        .pipe(cssmin())
+        .pipe(minify({
+            minify: true,
+            minifyCSS: true
+        }))
         .pipe(dest('static'))
 exports.js = () =>
     src('js/*.js')
         .pipe(cache('js'))
-        .pipe(closure())
+        .pipe(minify({
+            minify: true,
+            minifyJS: {sourceMap: false}
+        }))
         .pipe(dest('static'))

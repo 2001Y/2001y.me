@@ -8,6 +8,7 @@
   <meta name=description content="2001Yのお問い合わせフォームです。なんでもご自由にご連絡ください。">
   {{ partial "head.html" . }}
   <title>お問い合わせ｜2001Y.me</title>
+  <script defer src=/cursor.min.js></script>
   <script async src=/ga-lite.min.js></script>
 </head>
 <body ontouchstart="">
@@ -58,6 +59,7 @@
         <input class=submit type=submit value="&#xe901;">
     </form>
   </body>
+  <div id="cursor"></div>
   <svg style="height:0;width:0;position:fixed">
     <clipPath id="tmb" clipPathUnits="objectBoundingBox">
       <path d="M.8,.7c0,.15-.1,.3-.3,.3S.2,.85,.2,.7c0-.3,.3-.7,.3-.7S.8,.4,.8,.7z"/>
