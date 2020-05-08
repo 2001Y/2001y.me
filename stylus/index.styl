@@ -1,0 +1,459 @@
+dark()
+  @media (prefers-color-scheme dark)
+    block
+
+@font-face
+  font-family 'icon'
+  src url('font/icon.woff2') format('woff2'),
+      url('font/icon.woff') format('woff')
+  font-weight normal
+  font-style normal
+  font-display block
+
+*,::placeholder
+  font-size inherit
+  font-family inherit
+  color inherit
+  margin 0
+  padding 0
+  border 0
+  box-sizing border-box
+  background-repeat no-repeat
+  z-index inherit
+html
+  overflow auto
+ol,ul
+  list-style-type: none
+a
+  text-decoration none
+input,button,textarea
+  outline: none
+  background: none
+  appearance:none
+  border: none
+  resize: none;
+::-webkit-search-cancel-button,::-webkit-search-decoration
+  -webkit-appearance none
+
+body
+  --l #E5E1DC
+  --d #424242
+  --a rgba(218,162,138,.9)
+  --l5 rgba(229, 225, 220, .5)
+  --d5 rgba(66, 66, 66, .5)
+  --l05 #4B4A4A
+  --d05 #DEDAD5
+  --g rgba(217,115,91,.9)
+  --c rgba(219,166,103,.9)
+  --w rgba(151,195,198,.9)
+  --o rgba(127,128,141,.9)
+  font-family icon,Helvetica,-apple-system,Verdana,Meiryo
+  color var(--d)
+  background var(--l)
+  +dark()
+    color var(--l)
+    background var(--d)
+  position relative
+  overflow hidden
+  padding 0 1rem
+  &:before,&:after
+    content ""
+    width 5000px
+    height 100vh
+    transform skewY(-6deg)
+    position absolute
+    right calc(-2500px + 50vw)
+    z-index -1
+  &:before
+    background var(--l)
+    +dark()
+      background var(--d)
+    top 1000px
+    transition .3s top
+    transform-origin top left
+  &:after
+    top 1
+    transform-origin bottom left
+body:after,#category a:hover,#Voting,.top .top,.Gadget .Gadget,.Camera .Camera,.Web .Web,.Other .Other,.active,.chroma,#mail,#form,#submit,#categoryAlert
+  background var(--d05)
+  +dark()
+    background var(--l05) 
+    
+#bar
+  font-size .8rem
+  width 100vw
+  height 1.4rem
+  padding .2rem 1rem
+  background var(--d)
+  margin 0 -1rem
+  display flex
+  align-items center
+  transition opacity .4s
+  will-change opacity
+  a,time
+    color var(--l)
+    display flex
+    align-items center
+    margin 0 1rem .1rem 0
+  h1,h4
+    margin-left 1rem
+  time
+    margin-left auto
+  @media (max-width:500px)
+    display none
+
+header,footer,main
+  position relative
+header,main,#searchResult
+  margin auto
+header,footer
+  min-height 250px
+header
+  height 800px
+  align-items center
+  font-weight bold
+  position relative
+  background url("/index/myphoto.JPG"),rgba(151,195,198,.9)
+  background-repeat:  no-repeat;
+  background-position: right top;
+  background-size: 500px
+  background-attachment: fixed;
+  z-index -2
+  margin 0 -1rem
+  &:before
+    color var(--l)
+    content "\e904"
+    font-size 4rem
+    position absolute
+    top 3rem
+    left 2.5rem
+  &:after
+    position absolute
+    top 0
+    left 0
+    content ""
+    width 100vw
+    height 100vh
+    background linear-gradient(90deg,rgba(151,195,198,1) calc(100vw - 530px),rgba(151,195,198,.3) ),url(/index/dot.png) repeat
+    z-index -1
+footer
+  padding 5rem 4rem 4rem 4rem
+  margin 4rem auto 2rem auto
+  display flex
+h2
+  font-size 4.5em
+main h4,h5
+  font-size 1em
+h3
+  margin 3rem 0 0 5.5rem 
+  font-size 2.5em
+h6
+  font-size 1.2em
+p
+  font-size .95em
+  letter-spacing .1em
+  line-height 1.7em
+ 
+#myphoto
+  height 700px
+  position fixed
+  right 0
+  top 0
+#mymeta
+  height 90%
+  padding 0 0 4rem 5rem
+  display: flex;
+  justify-content flex-end
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index 2
+  
+#lightbox
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url(/load.svg) no-repeat center, var(--l5);
+  +dark()
+    background: url(/load.svg) no-repeat center, var(--d5);
+  backdrop-filter: blur(3px);
+  z-index: 99;
+  transition .3s;
+  cursor pointer
+  iframe
+    width 50vw
+    height 70vh
+    border-radius 1rem
+    overflow hidden
+    position: fixed;
+    top: 0;
+    left: 0;
+    right 0
+    bottom 0
+    margin auto
+    transition .3s;
+    @media (max-width: 870px) 
+      min-width 100vw
+#Top,#Bottom
+  position absolute
+.close
+  opacity: 0;
+  visibility: hidden;
+  source,img
+    transform scale(.5)
+.open
+  opacity: 1;
+  visibility: visible;  
+
+main section
+  transform rotate(-6deg) translateX(-1rem)
+  ul
+    display flex
+    overflow scroll
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
+    scroll-padding: 8rem;
+    padding 0 6rem
+    margin 0 -3rem
+    position relative
+  li
+    min-width 19rem
+    width 19rem
+    padding 1rem 1.5rem
+    scroll-snap-align: start;
+    border-radius 1rem
+    transition .3s background
+    &:hover
+      background var(--d05)
+      +dark()
+        background var(--l05)
+      
+    a
+      display: block;
+      width 100%
+      height 100%
+  li:last-of-type a
+    text-align center
+    display: flex;
+    align-items: center;
+  img
+    width 100%
+    margin-bottom .5rem 
+      
+.Gadget:before
+  color var(--g)
+.Camera:before
+  color var(--c)
+.Web:before
+  color var(--w)
+.Other:before
+  color var(--o)
+
+#left,#center,#right
+  font-size .8rem
+  margin-top 3rem
+  width 50%
+  color rgba(66, 66, 66,.3)
+  +dark()
+    color rgba(229,225,220,.3)
+  transition opacity .4s
+  will-change opacity
+  a
+    transition color .4s
+    will-change color
+  a:hover
+    color var(--d)
+    +dark()
+      color var(--l)
+#right
+  display flex
+  justify-content flex-end
+  text-align right
+  h6
+    margin-bottom .5rem
+#portfolio
+  border-radius 50%
+  margin-left .5rem
+  width 3rem
+  height 3rem
+.twitter,.insta
+  font-size 1.5rem
+  margin-left .3rem
+  
+#breadcrumb
+  font-size 1rem
+  font-weight bold
+  display flex
+  align-items center
+  position absolute
+  top 6rem
+  left 4rem
+  opacity .7
+  li
+    &:not(:first-of-type):before
+      content "\e907"
+      margin 0 .5em
+      font-size .8em
+      font-weight normal
+      opacity .8
+#tag li
+  display inline
+  
+.logo:before
+  content "\e902"
+  font-size 1.3em
+  font-weight normal
+
+.search-box
+  right 4rem
+  position absolute
+.search
+  color var(--d)
+  +dark()
+    color var(--l)
+  width 12rem
+  height 2rem
+  padding 1rem 1.7rem 1rem .7rem
+  position relative
+  border-radius 1rem
+  &:hover+.submit
+    color var(--d)
+    +dark()
+      color var(--l)
+.submit
+  position absolute
+  right .5rem
+  top 0
+  bottom 0
+  margin auto
+  cursor: pointer;
+  transition color .4s
+  will-change color
+
+footer .search-box
+  top 1.5rem
+  .search
+    background var(--l)
+    +dark()
+      background var(--d)
+  .submit
+    color var(--d05)
+    +dark()
+      color var(--l05)
+      
+#fixed
+  color var(--l)
+  font-size 2rem
+  width 7rem
+  height 7rem
+  padding 1.2rem .9rem
+  position fixed
+  top 0
+  left 0
+  background linear-gradient(to top left, rgba(255,255,255,0) 50%, var(--w) 50.5%) no-repeat top left/100% 100%
+  transition .4s
+  opacity 0
+  transform translate(-7rem, -7rem);
+  z-index 9
+.fixed
+  opacity 1 !important
+  transform translate(0) !important
+  
+*
+  cursor none !important
+::selection
+  background rgba(151,195,198,.3)
+  +dark()
+    colour var(--d)
+#cursor
+  position relative
+  will-change transform,width,height
+  position fixed
+  top -.3rem
+  left -.3rem
+  width .6rem
+  height .6rem
+  background rgba(177, 177, 177, .8)
+  filter: drop-shadow(0 0 .3rem var(--l));
+  +dark()
+    filter: drop-shadow(0 0 .3rem var(--d));
+  border-radius 1rem
+  z-index 99999
+  pointer-events: none
+  transition opacity .2s,width .2s,height .2s,top .2s,left .2s,background .2s,border-radius .2s
+  &.zoom
+    top: -.5rem
+    left: -.5rem
+    width: 1rem
+    height: 1rem
+  &.red
+    background var(--w)
+  &.text
+      top -.5rem
+      left -.05rem
+      width .1rem
+      height 1rem
+      border-radius 0
+.click
+    content ""
+    position absolute
+    top -1.7rem
+    left -1.7rem
+    border-radius 9rem
+    background rgba(189, 189, 189, .1)
+    width: 4rem
+    height: 4rem
+    animation drop 1s
+    z-index 9999
+    opacity 0
+@keyframes drop
+  0%
+    opacity 0
+    transform scale(0)
+  50%
+    opacity 1
+  100%
+    opacity 0
+
+@media (max-width: 500px)
+  header
+    margin 0 auto 4em auto
+  header .search-box
+    bottom -2rem
+  footer
+    margin 4rem auto 1rem auto
+  footer .search-box
+    top 1rem
+  #breadcrumb
+    top 4rem
+  #left, #center, #right
+    margin-top 1rem
+          
+@font-face
+  font-family 'M PLUS 1p'
+  font-style normal
+  font-weight normal
+  font-display swap
+  src local('M PLUS 1p Light'), local('MPLUS1p-Light'),
+       url('font/m+r1c-light-sub.woff2') format('woff2'),
+       url('font/m+r1c-light-sub.woff') format('woff')
+@font-face
+  font-family 'M PLUS 1p'
+  font-style bold
+  font-weight bold
+  font-display swap
+  src local('M PLUS 1p Medium'), local('MPLUS1p-Medium'),
+       url('font/m+r1c-medium-sub.woff2') format('woff2'),
+       url('font/m+r1c-medium-sub.woff') format('woff')
+       
+@keyframes quick
+ 0%
+   transform: rotate(0) scale(1);
+ 50%
+   transform: rotate(5deg) scale(1.1);
+ 100%
+   transform: rotate(0) scale(1);
+    

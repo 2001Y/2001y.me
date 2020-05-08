@@ -29,12 +29,12 @@
 </head>
 <body id=body ontouchstart>
   <nav id=bar>
-    <a href=/blog title="2001Y Blog" class=logo><h4>2001Y Blog</h4></a>
+    <a href=/blog title="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ" class=logo><h4>2001Y Blog</h4></a>
     <a href=/ title="2001Y Portfolio">Portfolio</a>
     <a href=/contact title="2001Y Contact">Contact</a>
     <time>{{ .Date.Format "2006.01.02" }}</time>
   </nav>
-  <a href=/blog title="2001Y Blog" id=top>
+  <a href=/blog title="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ" id=top>
     &#xe904;
   </a>
   <header id=header>
@@ -106,7 +106,7 @@
     </aside>
   </main>
   <aside id=fixed>
-    <a href=/blog title="2001Y Blog">
+    <a href=/blog title="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ">
       &#xe904;
     </a>
   </aside>
@@ -120,7 +120,7 @@
   <footer>
     <ol id=breadcrumb>
       <li><a class=logo href=/ title="2001Y Portfolio"></a></li>
-      <li><a href=/blog title="2001Y Blog">Blog</a></li>
+      <li><a href=/blog title="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ">Blog</a></li>
       <li><a href=/blog title="Camera｜2001Y.me">Camera</a></li>
     </ol>
   {{ partial "footer.html" . }}
@@ -156,7 +156,7 @@
     "headline" : "{{ .Title }}",
     "description": {{ .Content | plainify | truncate 200 }},
     "image": [
-      "https://2001y.me/blog/seo/1*1.png"
+      "https://2001y.me/seo/1*1.png"
     ],
     "publisher" : {
         "@type" : "Organization",
@@ -204,7 +204,7 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "url": "http://2001y.me",
-  "logo": "https://2001y.me/blog/seo/1*1.png"
+  "logo": "https://2001y.me/seo/1*1.png"
 }
 </script>
 <script type=application/ld+json>    

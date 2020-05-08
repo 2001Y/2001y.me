@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang=ja>
+<head>
+  <title>{{ .Title }}｜2001Y.me</title>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+</head>
+<body id=body ontouchstart>
+  <img src=/work/{{ .Params.img }}.jpg width=100% decoding=async loading=lazy>
+  <h1>{{ .Title }}</h1>
+      {{ .Content }}
+</body>
+<style>
+body{background:#fff;}  
+</style>
+</html>
