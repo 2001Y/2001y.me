@@ -60,7 +60,9 @@ exports.img = () =>
                 width: 1680,
                 rename: { suffix: '-1680' }
             }]
-        }))
+        }, {
+      errorOnEnlargement: false
+    }))
         .pipe(dest('static/img'));
 exports.tmb = () =>
     src('images/tmb/*.{png,jpeg,jpg,JPG,gif}')
@@ -129,7 +131,9 @@ exports.tmb = () =>
                 width: 2100,
                 rename: { suffix: '-2100' }
             }]
-        }))
+        }, {
+      errorOnEnlargement: false
+    }))
         .pipe(dest('static/img'));
 exports.html = () =>
     src('public/*.html')
