@@ -12,6 +12,8 @@ AdobeFontはAdobeCCを使っていると無制限に使えるので便利なの�
 
 ## ページ内のフォントを一括で開くブックマークレット
 
+![ブラウザにポップアップブロックされる時は許可してあげると開く。](../../../images/popupblock.jpg)
+
 少しでも手間を省こうと、今開いてるページのフォントを全て新規タブで開くブックマークレットを作ったのでメモがわりに載せておきます。
 <a href="javascript:(function()%7Blet%20link%20%3D%20document.querySelectorAll(%22.adobe-fonts-family-card--link%22)%2C%20i%20%3D%20-1%3Bwhile%20(%2B%2Bi%20%3C%20link.length)%20%7Bwindow.open(link%5Bi%5D.href)%3B%7D%7D)()" class=download>AdobeFont｜ページ内のフォントを全て開く</a>
 
@@ -24,5 +26,3 @@ javascript: (function () {
   }
 })()
 ```
-
-![ブラウザにポップアップブロックされる時は許可してあげると開く。](../../../images/popupblock.jpg)
