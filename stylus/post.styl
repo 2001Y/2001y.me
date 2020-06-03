@@ -8,6 +8,10 @@ main
   opacity 0
   z-index 8
 #article a
+  color var(--w)
+  +dark()
+    color var(--a)
+  text-indent 0
   margin 0 .2rem
   transition .5s
   padding .2rem .4rem .1rem .4em
@@ -16,6 +20,8 @@ main
   will-change transform
   &:hover
     background var(--w)
+    +dark()
+      background var(--a)
 h1
   font-size 2rem
   @media (max-width: 810px)
@@ -38,6 +44,11 @@ main picture>img,main picture>source
 h2,h3,main h4
     margin 1.5em 0 .6em 0
     
+.center
+  text-align center
+.download
+  
+
 #tmb>img,#tmb>source
   max-width 100%
   width 100%
@@ -61,7 +72,7 @@ figure
   right 1rem
   padding 1rem
   z-index 1 
-      
+
 #category
   font-size 1.5rem
   position absolute
