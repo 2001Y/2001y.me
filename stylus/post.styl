@@ -7,7 +7,7 @@ main
   will-change opacity
   opacity 0
   z-index 8
-#article a
+#article a:not(.download)
   color var(--w)
   +dark()
     color var(--a)
@@ -20,6 +20,7 @@ main
   will-change transform
   &:hover
     background var(--w)
+    color var(--d)
     +dark()
       background var(--a)
 h1
@@ -40,15 +41,21 @@ main picture>img,main picture>source
     max-width 100%
   margin auto;
   display block
-  margin-bottom .5rem
+  margin-bottom 2rem
 h2,h3,main h4
     margin 1.5em 0 .6em 0
     
 .center
   text-align center
 .download
+  margin 2rem auto
+  background var(--w)
+  color var(--d)
+  padding .5rem 1.5rem
+  display inline-block
+  border-radius 2rem
+  text-indent 0
   
-
 #tmb>img,#tmb>source
   max-width 100%
   width 100%
