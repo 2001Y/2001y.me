@@ -1,5 +1,5 @@
 ---
-title: AdobeFontページ内のフォントを全て開くブックマークレット
+title: AdobeFont一括アクティベートのお手伝いブックマークレット
 date: 2020-06-03T08:00:22+09:00
 img: adobefont-all-activate
 categories: ["Gadget"]
