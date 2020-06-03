@@ -1,5 +1,5 @@
 ---
-title: HDMIキャプチャなしでX-T3をWebカメラ化する！
+title: HDMIキャプチャなしでX-T3をWebカメラ化する
 date: 2020-05-24T08:00:22+09:00
 img: no-hdmicapture-webcam
 categories: ["Gadget"]
