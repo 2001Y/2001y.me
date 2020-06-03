@@ -41,7 +41,7 @@ main picture>img,main picture>source
     max-width 100%
   margin auto;
   display block
-  margin-bottom 2rem
+  margin-bottom .5rem
 h2,h3,main h4
     margin 1.5em 0 .6em 0
     
@@ -55,10 +55,16 @@ h2,h3,main h4
   display inline-block
   border-radius 2rem
   text-indent 0
+  &hover
+    color var(--l)
+    background var(--d)
+    +dark()
+    background var(--l)
   
 #tmb>img,#tmb>source
   max-width 100%
   width 100%
+  margin-bottom 2rem
 #article p
   margin-bottom .6em
   text-indent:1em;
