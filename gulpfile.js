@@ -68,7 +68,7 @@ exports.tmb = () =>
     src('images/tmb/*.{png,jpeg,jpg,JPG,gif}')
         .pipe(changed('static/img'))
         .pipe(imagemin([
-            jpeg({ quality: 80 }),
+            jpeg({ quality: 90 }),
             png(),
             gif()
         ]))
