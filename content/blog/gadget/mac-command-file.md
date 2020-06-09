@@ -7,5 +7,9 @@ tags: ["Mac","ターミナル",""]
 draft: true
 
 ---
+
+
+```
 chmod u+x login.command
+```
 
