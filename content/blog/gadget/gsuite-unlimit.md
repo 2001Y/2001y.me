@@ -10,7 +10,7 @@ GSuiteを使うとGoogleDriveを月額1360円で容量無制限に使うこと�
 
 ## どっち...公式HPにも両方乗っている...
 
-![どっちなんだ...](file:///Users/2001y/Library/Mobile%20Documents/iCloud~com~serpensoft~iwriterpro/Documents/2001Y.me/images/gsuite-unlimit-2.jpg?lastModify=1591612965)
+![どっちなんだ...](file:///Users/2001y/Library/Mobile%20Documents/iCloud~com~serpensoft~iwriterpro/Documents/2001Y.me/images/gsuite-unlimit-cf.jpg)
 
 公式HPの [無料試用の申し込みページ](https://gsuite.google.com/landing/partners/referral/trial.html) では ***無制限*** としか記載がない。しかし、[料金ページ](https://gsuite.google.com/pricing.html) には ***5ユーザー未満の場合は、ユーザー1人あたり上限1TB*** ...。
 
