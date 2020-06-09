@@ -11,7 +11,7 @@ tags: ["iPadOS","JS","CSS","HTML"]
 
 私はこのカーソルがお気に入りで、このブログにも取り込もうとトライしてきました。しかし、Codepenにかなり良く再現れたものが載っていたのでメモしておきたいと思います。
 
-## iPadOS in HTML/CSS/JS by [@cezzre](https://twitter.com/cezzre)
+## iPadOS in HTML/CSS/JS by [@cezzre](https://twitter.com/cezzre/status/1243921695699853315)
 
 カーソルの背景より内部が大きく引きつけられる再現がされています。
 
