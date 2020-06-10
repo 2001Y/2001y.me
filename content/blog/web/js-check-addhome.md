@@ -1,6 +1,6 @@
 ---
 title: JSでホーム画面からの起動を検知
-date: 2020-06-10T01:00:22+09:00
+date: 2020-06-11T01:00:22+09:00
 img: js-check-addhome
 categories: ["Web"]
 tags: ["iOS","iPadOS","JS","JavaScript"]
