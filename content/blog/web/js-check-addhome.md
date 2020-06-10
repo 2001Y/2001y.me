@@ -19,8 +19,6 @@ if(window.navigator.standalone){
 }
 ```
 
-おそらく、何度か試したところ`<meta name=apple-mobile-web-app-capable content=yes>` を指定していないと検知されない。
+おそらく、何度か試したところ `<meta name=apple-mobile-web-app-capable content=yes>` を指定していないと検知されない。
 
-あと、`navigator.standalone`のMDNは404になってた。
-
-![js-check-addhome-mozilla](../../../images/js-check-addhome-mozilla.jpg)
+![あとMDNの個別ページは404になっていた](../../../images/js-check-addhome-mozilla.jpg)
