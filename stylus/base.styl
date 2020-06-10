@@ -33,7 +33,9 @@ input,button,textarea
   resize: none;
 ::-webkit-search-cancel-button,::-webkit-search-decoration
   -webkit-appearance none
-
+html
+  @media (max-width:500px)
+    font-size 12px
 body
   --l #E5E1DC
   --d #424242
@@ -201,7 +203,7 @@ main a:first-child article,aside h4+a article
 
 #left,#center,#right
   font-size .8rem
-  margin-top 3rem
+  padding-top 3rem
   width 50%
   color rgba(66, 66, 66,.3)
   +dark()
@@ -215,6 +217,23 @@ main a:first-child article,aside h4+a article
     color var(--d)
     +dark()
       color var(--l)
+#center
+  max-height 9.5rem
+  overflow scroll
+  &:before,&:after
+    content ""
+    width 50%
+    height 3rem
+    position absolute
+    left 30%
+    background linear-gradient(to top,rgba(229,225,220,0) 0%, var(--l) 50%,var(--l) 100%)
+    +dark()
+      background linear-gradient(to bottom,rgba(75,74,74,0) 0%,#4B4A4A 80%,#4B4A4A 100%)
+  &:before
+    bottom 8rem
+    transform rotate(180deg)
+  &:after
+    bottom .5rem
 #right
   display flex
   justify-content flex-end
@@ -246,13 +265,11 @@ main a:first-child article,aside h4+a article
       font-size .8em
       font-weight normal
       opacity .8
-#tag
-  max-height 5rem
-  overflow scroll
-  li
-    display inline-block
-    &:after
-      content ", "
+#tag li
+  display inline-block
+  &:after
+    content ","
+    margin-left -.3rem
 .logo:before
   content "\e902"
   font-size 1.3em
