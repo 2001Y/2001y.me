@@ -1,28 +1,29 @@
+
 <nav id="pagenation">
 {{ if eq .Paginator.TotalPages 1 }}
-  <a href="page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
+  <a href="/blog/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
 {{ end }}
 {{ if eq .Paginator.TotalPages 2 }}
-  <a href="page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
-  <a href="page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
+  <a href="/blog/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
+  <a href="/blog/page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
 {{ end }}
 {{ if eq .Paginator.TotalPages 3 }}
-  <a href="page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
-  <a href="page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
-  <a href="page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
+  <a href="/blog/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
+  <a href="/blog/page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
+  <a href="/blog/page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
 {{ end }}
 {{ if eq .Paginator.TotalPages 4 }}
-  <a href="page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
-  <a href="page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
-  <a href="page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
-  <a href="page/3" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
+  <a href="/blog/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
+  <a href="/blog/page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
+  <a href="/blog/page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
+  <a href="/blog/page/3" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
 {{ end }}
 {{ if eq .Paginator.TotalPages 5 }}
-  <a href="page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
-  <a href="page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
-  <a href="page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
-  <a href="page/3" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
-  <a href="page/3" class="{{ if eq .Paginator.PageNumber 5}}page-active{{ else }}page{{ end }}">5</a>
+  <a href="/blog/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
+  <a href="/blog/page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
+  <a href="/blog/page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
+  <a href="/blog/page/3" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
+  <a href="/blog/page/3" class="{{ if eq .Paginator.PageNumber 5}}page-active{{ else }}page{{ end }}">5</a>
 {{ end }}
 
 
