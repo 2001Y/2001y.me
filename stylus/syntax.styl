@@ -1,9 +1,13 @@
 dark()
   @media (prefers-color-scheme dark)
     block
-    
-.chroma
+
+code,.chroma
   font-family: Menlo, "Courier New", Consolas, monospace;
+code
+  word-wrap normal
+
+.chroma
   color var(--d)
   +dark()
     color var(--l)
@@ -40,8 +44,6 @@ dark()
   color #696969
   +dark()
     color #c3baae
-code
-  word-wrap normal
 .cs, .ge
   font-style: italic
 .err
