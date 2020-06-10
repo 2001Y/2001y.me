@@ -246,9 +246,13 @@ main a:first-child article,aside h4+a article
       font-size .8em
       font-weight normal
       opacity .8
-#tag li
-  display inline-block
-  
+#tag
+  max-height 5rem
+  overflow scroll
+  li
+    display inline-block
+    &:after
+      content ", "
 .logo:before
   content "\e902"
   font-size 1.3em

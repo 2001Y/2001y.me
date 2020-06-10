@@ -49,10 +49,19 @@
   <footer>
     <ol id=breadcrumb>
       <li><a class=logo href="/" title="2001Y Portfolio"></a></li>
-      <li><a href="/blog" title="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ">Blog</a></li>
       <li><a href="/connect" title="お問い合わせ｜2001Y.me">Contact</a></li>
     </ol>
-    {{ partial "footer.html" . }}
+    <div id=left></div>
+    <div id=center></div>
+    <div id=right>
+      <div>
+        <h6>2001Y</h6>
+        <a href=//21y.in/twitter title=2001Y(@Y20010920T)｜Twitter><span class=twitter>&#xea96;</span></a>
+        <a href=//21y.in/insta title=2001Y(@Y20010920T)｜Instagram><span class=insta>&#xea92;</span></a>
+      </div>
+      <img id=portfolio src=/profile-48.jpg
+                        srcset="/profile-96.jpg 2x,/profile-144.jpg 3x" width=48px height=48px alt="2001Y" decoding=async loading=lazy>
+    </div>
     <form class=search-box action="/blog/" method="get">
         <input class=search name=s type=search>
         <input class=submit type=submit value="&#xe901;">
