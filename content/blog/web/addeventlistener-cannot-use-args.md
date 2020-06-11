@@ -12,6 +12,7 @@ tags: ["Blog","JavaScript","JS"]
 ```js
 //OK 引数にはMouseEventが入る
 document.addEventListener("mousedown", mousedown);
+
 //NG
 document.addEventListener("mousedown", mousedown());
 document.addEventListener("mousedown", mousedown("test"));
