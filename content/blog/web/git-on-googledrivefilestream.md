@@ -1,5 +1,5 @@
 ---
-title: addEventListenerは引数が使えない
+title: GoogleDriveFileStreamにnode_modulesを置く
 date: 2020-02-05T08:00:22+09:00
 img: 
 categories: ["Web"]
@@ -8,38 +8,15 @@ draft: true
 
 ---
 
-addEventListenerで因数が使えなくて、調べてみたところ、
+Google Drive File Stream
 
-## 
+ローカルにpackage.jsonを移してnpm install --no-bin-links
 
-```js
-//間違え
-document.addEventListener('mousedown', mousedown("アラート"));
-function mousemove(e){
-  alert(e);
-}
-```
+--no-bin-linksはシンボリックリンクを作らなくなる
 
-
-
-## addEventListenerの引数は固定。
-
-因数を表記するのは最低限で良いらしい。
-
-```js
-document.addEventListener('mousedown', function (e){
-  alert();
-});
-
-//関数を別にする場合
-document.addEventListener('mousedown', mousedown);
-function mousemove(e){
-  alert();
-}
-```
-
-
+GDFSでnpm install --no-bin-linksをしても動作しない
 
 ### 参考文献
 
-[JavaScript addEventListenerで引数を設定する方法](https://zukucode.com/2017/05/javascript-addeventlistener-parameter.html)
+[WindowsのDocker環境でnpm install実行時にエラーが出た場合の対処法メモ](https://qiita.com/Y-Kanoh/items/58815aafb7346930f370)
+
