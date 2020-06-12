@@ -13,7 +13,7 @@
         {{ if lt 0 (len .Site.Taxonomies.tags) }}
           {{ range .Site.Taxonomies.tags.ByCount }}
             <li>
-              <a href="/blog/tags/{{ .Name }}">
+              <a href="/tags/{{ .Name }}">
                 {{ .Name }}<span>({{ .Count }})</span>
               </a>
             </li>
