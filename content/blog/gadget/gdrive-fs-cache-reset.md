@@ -1,9 +1,9 @@
 ---
-title: GoogleDriveFileStreamがマウントされない時
+title: [Mac]GoogleDriveFileStreamがマウントされない時
 date: 2020-06-12T08:00:22+09:00
 img: gdrive-fs-cache-reset
 categories: ["Gadget"]
-tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google"]
+tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 GSuiteの Googleドライブ ファイル ストリーム （以下GDriveFS）を使っていて、気づいたたらドライブがマウントされていなくて、GDriveFSを再起動したり、WiFiの再接続、Macの再起動なんかを試しても治らないことが何度か続きました。
 
