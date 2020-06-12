@@ -11,7 +11,7 @@ GSuiteの Googleドライブ ファイル ストリーム （以下GDriveFS）�
 
 ## キャッシュを消去する
 
-![この中にログイン情報も含まれてるみたい](../../../images/ drive-fs-cache-reset-1.jpg)
+![この中にログイン情報も含まれてるみたい](../../../images/drive-fs-cache-reset-1.jpg)
 
 ```
 /Users/[ユーザー名]/Library/Application Support/Google/DriveFS
