@@ -16,7 +16,7 @@ Error: Error building site:
  "記事パス": failed to unmarshal YAML: yaml: found character that cannot start any token
 ```
 
-おそらく、タグの複数指定するときに使う配列と認識されてしまったのかな...？
+おそらく、タグの複数指定するときに使う配列と認識されてしまったのかな...。
 
 ## タイトルを " でくくる
 

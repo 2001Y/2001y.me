@@ -1,13 +1,11 @@
 ---
-title: JSでホーム画面からの起動を検知
+title: JavaScriptでホーム画面からの起動を検知
 date: 2020-06-11T00:00:22+09:00
 img: js-check-addhome
 categories: ["Web"]
 tags: ["iOS","iPadOS","JS","JavaScript"]
 
 ---
-
-
 
 PWAとは言えないが、iOSのSafariにもホーム画面に追加することで別アプリとして起動することができる。
 
