@@ -13,13 +13,13 @@ GSuiteの Googleドライブ ファイル ストリーム （以下GDriveFS）�
 
 ![この中にログイン情報も含まれてるみたい](../../../images/drive-fs-cache-reset-1.jpg)
 
-```
+このパスのフォルダを消すことでキャッシュを消去することができました。（GDriveFSの設定からキャッシュ場所は指定できる）
+
+```sh
 /Users/[ユーザー名]/Library/Application Support/Google/DriveFS
 ```
 
-上記のパスのフォルダを消すことでキャッシュを消去することができました。（GDriveFSの設定からキャッシュ場所は指定できる）
-
-約800GBのGDriveFS容量で、ローカルキャッシュは15GBほどでした。ホントに助かる...。
+約800GBの容量で、ローカルキャッシュは15GBほどでした。GDriveFSはホントに助かる...。
 
 ### 参考
 

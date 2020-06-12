@@ -3,7 +3,7 @@ title: 【2020年】GSuiteは1ユーザーでも容量無制限っぽい
 date: 2020-06-09T08:00:22+09:00
 img: gsuite-unlimit
 categories: ["Gadget"]
-tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google"]
+tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 GSuiteを使うとGoogleDriveを月額1360円で容量無制限に使うことができますが、5人未満は上限1TBとと書かれていることが多い。そこで、GSuite Businessに加入して1人でも実際に無制限なのか試してみました。
 

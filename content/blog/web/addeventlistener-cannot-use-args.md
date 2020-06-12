@@ -3,7 +3,7 @@ title: addEventListenerで引数が使えない
 date: 2020-06-11T08:00:22+09:00
 img: addeventlistener-cannot-use-args
 categories: ["Web"]
-tags: ["Blog","JavaScript","JS"]
+tags: ["JavaScript","JS","ブログ"]
 
 ---
 
@@ -12,7 +12,9 @@ tags: ["Blog","JavaScript","JS"]
 ```js
 //OK 引数にはMouseEventが入る
 document.addEventListener("mousedown", mousedown);
+```
 
+```js
 //NG
 document.addEventListener("mousedown", mousedown());
 document.addEventListener("mousedown", mousedown("hello"));
@@ -21,6 +23,8 @@ function mousedown(e){
   alert(e);
 }
 ```
+
+
 
 ## 引数を指定したい場合は第2引数に
 

@@ -3,7 +3,7 @@ title: AdobeFont一括アクティベートのお手伝いブックマークレ�
 date: 2020-06-03T08:00:22+09:00
 img: adobefont-all-activate
 categories: ["Gadget"]
-tags: ["Adobe","AdobeFont","フォント","ブックマークレット"]
+tags: ["Adobe","AdobeFont","フォント","ブックマークレット","Mac"]
 
 ---
 AdobeFontはAdobeCCを使っていると無制限に使えるので便利なのですが、1つずつ（フォントパックもあるけど）アクティベートにしなければ利用できません。
