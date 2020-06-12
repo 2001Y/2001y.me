@@ -20,7 +20,7 @@ SIGMA fpがUSB-Cのケーブル1本でWebカメラ化するのが流行ってい
 
 このCameraLiveがカメラのテザー撮影用の映像(?)を取得してくれます。基本的にはCanonしか対応してないようなのですが、他社製カメラも多くが使えSONYのα7なども利用できるようです。
 
-![Camera Live](../../../images/Capture_2020-05-25 1.47.16.jpg)
+![Camera Live](../../../images/no-hdmicapture-webcam-1.jpg)
 
 ## CamTwist
 
@@ -28,4 +28,4 @@ SIGMA fpがUSB-Cのケーブル1本でWebカメラ化するのが流行ってい
 
 CamTwistではCameraLiveで読み込んだ映像(?)を仮想カメラとして出力します。これによってZoomなどでCamTwistを選択することができるようになる！
 
-![CamTwist](../../../images/Capture_2020-05-25_1_47_14.jpg)
+![CamTwist](../../../images/no-hdmicapture-webcam-2.jpg)
