@@ -15,7 +15,7 @@ document.addEventListener("mousedown", mousedown);
 
 //NG
 document.addEventListener("mousedown", mousedown());
-document.addEventListener("mousedown", mousedown("test"));
+document.addEventListener("mousedown", mousedown("hello"));
 
 function mousedown(e){
   alert(e);
