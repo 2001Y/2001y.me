@@ -1,5 +1,5 @@
 ---
-title: 新しいAdobe illustratorのロゴ,アイコンのベクター(svg)を取得する
+title: "新しいAdobe illustratorのロゴ,アイコンのベクター(svg)を取得する"
 date: 2020-02-05T08:00:22+09:00
 img: get-new-illustrator-logo
 categories: ["Gadget"]
