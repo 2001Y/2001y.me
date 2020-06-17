@@ -1,9 +1,10 @@
 ---
-title: [Netlify]自動でサイトマップをGoogle,Bingに通知(Ping送信)
+title: "[Netlify]自動でサイトマップをGoogle,Bingに通知(Ping送信)"
 date: 2020-06-11T00:00:22+09:00
 img: netlify-auto-ping
 categories: ["Web"]
 tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
+draft: true
 
 ---
 
