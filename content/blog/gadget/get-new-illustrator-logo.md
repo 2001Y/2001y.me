@@ -26,7 +26,7 @@ Macのアプリは.appの **パッケージの内容を表示** でアプリに�
 
 Webからsvgを持ってくる。僕は[イラレ の個別サイト](https://www.adobe.com/jp/products/illustrator.html)からとってみるとここみたい。この方法だとイラレを持ってない人でもできる。
 
-```
+```html
 https://www.adobe.com/content/dam/cc/icons/illustrator.svg
 ```
 
