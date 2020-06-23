@@ -1,11 +1,9 @@
 ---
-title: "[VSCode]保存時にタスク(GulpでStylusなど)実行"
-date: 2020-06-24T00:00:22+09:00
+title: "[VSCode]保存時にタスク(GulpでStylusコンパイル)を実行"
+date: 2020-06-24T01:00:22+09:00
 img: vscode-save-run-gulp
 categories: ["Web"]
 tags: ["ブログ","Web","Blog","VSCode","Stylus","Gulp"]
-draft: true
-
 ---
 
 今までAtomを使ってきて、Macが古くなりスペック不足でSublimeに移行していたが、新しいMacも来たことだし、なんとなくVSCodeをトライ中。
@@ -14,7 +12,7 @@ draft: true
 
 なので、もっといい方法があるかも...。
 
-## とりあえず引き続きGulpでコンパイル
+## とりあえずGulpでStylusコンパイル
 
 AtomとSublimeの間に、高校生の学割を使ってWebStormを使っていた時期があって、その時にGulpを導入したのかな...？でも、サクッと試したい時は面倒だからCodepenを使いがち。
 
@@ -22,15 +20,30 @@ VSCodeには "Live Sass Compiler" があるので、Sassならサクッとコン
 
 なので今回はひとまずGulpで済ませる。
 
-##  拡張機能：Run on Save
+###  拡張機能：Run on Save
 
-Sublimeでいう "SublimeOnSaveBuild" のVSCode版。
+tasks.jsonだけでなんとかなるかと思ったけど、逆にこの方法だとtasks.jsonは不要っぽい。
 
 <iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave" frameborder="0" scrolling="no"></iframe>
 
+### settings.jsonに拡張子,コマンドを指定
 
+参考＞ [[VSCode]settings.jsonの開き方](https://2001y.me/blog/web/vscode-settingsjson/)
 
-## Stylus on Gulp
+![vscode-save-run-gulp-1](../../../images/vscode-save-run-gulp-1.jpg)
+
+```json
+"emeraldwalk.runonsave": {
+    "commands": [
+        {
+        "match": ".styl$", // 拡張子
+        "cmd": "gulp css" // 実行コマンド
+        }
+    ]
+}
+```
+
+#### Stylus on Gulp
 
 一応、メモ。
 
@@ -56,3 +69,6 @@ exports.css = () =>
         .pipe(dest('static'))
 ```
 
+## さいごに
+
+言い切りにしたり、"メモ"って書いちゃうことで自分でメモ感を出すけど、やっぱり慣れない...
