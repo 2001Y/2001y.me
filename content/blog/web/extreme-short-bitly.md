@@ -21,7 +21,7 @@ tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConso
 
 でも、j.mpがもし本当にbit.lyならなかなか安心して使えそう。
 
-## いつ終わるかわからないけど、使えそう
+## 結論：いつ終わるかわからないけど、使えそう
 
 ![http://free.arinco.org/url/](../../../images/extreme-short-bitly-5.jpg)
 
