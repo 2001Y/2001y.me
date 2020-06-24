@@ -1,5 +1,5 @@
 ---
-title: "[Mac]HDMIキャプチャボードなしでX-T3をWebカメラ化する"
+title: "[Mac]HDMIキャプチャボードなしでFujiFilmのX-T3をWebカメラ化"
 date: 2020-05-24T08:00:22+09:00
 img: no-hdmicapture-webcam
 categories: ["Camera"]
