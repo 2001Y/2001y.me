@@ -4,6 +4,7 @@ date: 2020-06-11T00:00:22+09:00
 img: ios-all-site-pwa
 categories: ["Web"]
 tags: ["Web","PWA","サイト","iOS"]
+draft: true
 
 ---
 
