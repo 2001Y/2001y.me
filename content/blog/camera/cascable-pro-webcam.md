@@ -1,6 +1,6 @@
 ---
 title: "[Mac]WiFi/USB経由でHDMIキャプチャなしでカメラをWebカメラ化できるCascableProWebcam"
-date: 2020-05-24T08:00:22+09:00
+date: 2020-06-24T08:00:22+09:00
 img: cascable-pro-webcam
 categories: ["Camera"]
 tag: ["Camera","Mac","アプリ","FUJIFILM","Webカメラ"]
