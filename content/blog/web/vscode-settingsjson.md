@@ -1,13 +1,19 @@
 ---
-title: "[Mac]CascableProWebcam：HDMIキャプチャなしでカメラをWebカメラ化"
+title: "[VSCode]settings.jsonの開き方"
 date: 2020-06-24T00:00:22+09:00
 img: vscode-settingsjson
 categories: ["Web"]
 tags: ["ブログ","Web","Blog","VSCode"]
 ---
 
-## 
+## 1. 設定を開き
 
-## X-T3・では動作せず
+ショートカットでも、メニューバーからでも設定を開く。
 
-手持ちの
+![vscode-settingsjson-1](../../../images/vscode-settingsjson-1.jpg)
+
+## 2. JSONを開く
+
+右上のファイルマークからsettings.jsonを開く。
+
+![vscode-settingsjson-2](../../../images/vscode-settingsjson-2.jpg)
