@@ -1,5 +1,5 @@
 ---
-title: [JavaScript]addEventListenerで引数が使えない
+title: "[JavaScript]addEventListenerで引数が使えない"
 date: 2020-06-11T08:00:22+09:00
 img: addeventlistener-cannot-use-args
 categories: ["Web"]
