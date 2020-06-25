@@ -12,10 +12,6 @@ tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConso
 
 [SearchConsoleヘルプ](https://support.google.com/webmasters/answer/183668?hl=ja#addsitemap)によると、Googleにサイトマップを送るには3種類あります。
 
-1. Search Console
-2. robots.txt
-3. Ping
-
 ### Search Console
 
 サイトマップ レポートを利用して、Google へのサイトマップの送信することで更新を通知することができますが、毎回やるのは面倒。　▶︎[参考](https://support.google.com/webmasters/answer/7451001)
