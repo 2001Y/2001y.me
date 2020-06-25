@@ -10,6 +10,8 @@ Chromeには再生スピードを変える拡張機能がありますが、そ�
 
 ## 好きなスピードで動画を再生するブックマークレット
 
+下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
+
 <a href="javascript:document.querySelector(%22video%22).playbackRate=window.prompt(%22倍速%22,%22 %22);" class=download>動画倍速ブックマークレット</a>
 
 ### 対応サイト
