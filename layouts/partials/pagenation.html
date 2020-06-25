@@ -17,14 +17,14 @@
       <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
       <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
       <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
-      <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/3" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
+      <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/4" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
     {{ end }}
     {{ if eq .Paginator.TotalPages 5 }}
       <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/1" class="{{ if eq .Paginator.PageNumber 1}}page-active{{ else }}page{{ end }}">1</a>
       <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/2" class="{{ if eq .Paginator.PageNumber 2}}page-active{{ else }}page{{ end }}">2</a>
       <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/3" class="{{ if eq .Paginator.PageNumber 3}}page-active{{ else }}page{{ end }}">3</a>
-      <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/3" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
-      <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/3" class="{{ if eq .Paginator.PageNumber 5}}page-active{{ else }}page{{ end }}">5</a>
+      <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/4" class="{{ if eq .Paginator.PageNumber 4}}page-active{{ else }}page{{ end }}">4</a>
+      <a href="/blog/{{ range .Params.categories }}{{ . | urlize }}{{ end }}/page/5" class="{{ if eq .Paginator.PageNumber 5}}page-active{{ else }}page{{ end }}">5</a>
     {{ end }}
   {{ else }}
     {{ if eq .Paginator.TotalPages 1 }}
