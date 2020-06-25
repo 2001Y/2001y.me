@@ -1,5 +1,5 @@
 ---
-title: "[YouTube/Temas等]ブラウザのみで2倍速以上の好きに倍速するブックマークレット"
+title: "[YouTube/Temas等]ブラウザのみで好きなスピードで動画を再生する（2倍速以上など）ブックマークレット"
 date: 2020-06-25T01:00:22+09:00
 img: html5-video-fast‐forwarding
 categories: ["Web"]
