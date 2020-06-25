@@ -3,7 +3,7 @@ title: "怪しいと思ったけど普通だったbit.lyのさらに短いj.mp"
 date: 2020-06-24T02:00:22+09:00
 img: extreme-short-bitly
 categories: ["Web"]
-tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
+tags: ["ブログ","WebTopic",Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
 
 ---
 

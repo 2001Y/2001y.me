@@ -15,5 +15,7 @@
             <img src="/img/{{ $name }}.jpg" srcset="/img/{{ $name }}-1120.jpg 2x,/img/{{ $name }}-1680.jpg 3x" width={{ $imgData.Width }} height={{ $imgData.Height }} decoding=async loading=lazy type=image/webp>
         {{ end }}
     </picture>
-    <figcaption>{{ if .Title }}{{ with .Title}}{{ . }}{{ end }}{{ else }}{{ $alt }}{{ end }}</figcaption>
+    {{ if .Title }}
+    <figcaption>{{ with .Title}}{{ . }}{{ end }}{{ else }}{{ $alt }}</figcaption>
+    {{ end }}
 </figure>

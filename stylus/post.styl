@@ -15,9 +15,11 @@ main
   font-weight bold
   letter-spacing 0
   background: linear-gradient(var(--w), var(--w)) 0 100%/0 .1em no-repeat;
-  transition: background .4s;
+  transition: .3s;
+  background-size: 100% .1em;
   &:hover
-    background-size: 100% .1em;
+    color var(--l)
+    background-size: 100% 100%;
 h1
   font-size 2rem
   @media (max-width: 810px)
@@ -76,6 +78,7 @@ figure
   margin-bottom .6rem
   img
     margin-bottom .3rem
+    border-radius: 6px
 #top
   color var(--l)
   font-size 3rem
