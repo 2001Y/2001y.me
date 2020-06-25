@@ -15,9 +15,6 @@
 
     Link: </font/icon.woff2>; rel=preload; as=font; type=font/woff2;
     
-/blog/*/*
-    Link: </post.css>; rel=preload; as=style;
-    
 /contact
     Link: </contact.css>; rel=preload; as=style;
     Link: </font/athens-regular-italic-sub.woff2>; rel=preload; as=font; type=font/woff2;
@@ -45,3 +42,6 @@
     Link: </font/athens-regular-italic-sub.woff2>; rel=preload; as=font; type=font/woff2;
     Link: </search.min.js>; rel=preload; as=script;
     Link: </data.min.js>; rel=preload; as=script;
+
+/blog/*/*
+    Link: </post.css>; rel=preload; as=style;
