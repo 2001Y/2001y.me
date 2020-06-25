@@ -25,6 +25,5 @@ HTML5 Videoを使ってるサイト（YouTube,Teamsは確認済）
 ### 仕組み
 
 ```js
-javascript:
-document.querySelector("video").playbackRate=window.prompt("倍速"," ");
+javascript:document.querySelector("video").playbackRate=window.prompt("倍速"," ");
 ```
