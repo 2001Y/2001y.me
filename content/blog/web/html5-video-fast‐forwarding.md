@@ -1,20 +1,23 @@
 ---
-title: "[YouTube/Temas等]ブラウザのみで2倍速以上の好きに倍速する魔法のコード（ブックマークレット）"
+title: "[YouTube/Temas等]ブラウザのみで2倍速以上の好きに倍速するブックマークレット"
 date: 2020-06-25T01:00:22+09:00
 img: html5-video-fast‐forwarding
 categories: ["Web"]
 tags: ["ブックマークレット","WebTopic"]
-draft: true
 
 ---
 
+Chromeには再生スピードを変える拡張機能がありますが、そんなに使う回数も多くないし、手軽にブックマークレットで済ませたかったので作ってメモ。
 
+## 好きなスピードで動画を再生するブックマークレット
 
-javascript:document.querySelector("video").playbackRate=window.prompt("倍速","");
+<a href="javascript:document.querySelector(%22video%22).playbackRate=window.prompt(%22倍速%22,%22 %22);" class=download>動画倍速ブックマークレット</a>
 
-## ブックマークレット
+### 対応サイト
 
-<a href="javascript%3Adocument.querySelector%28%22video%22%29.playbackRate%3Dwindow.prompt%28%22%E5%80%8D%E9%80%9F%22%2C%22%22%29%3B" class=download>動画倍速ブックマークレット</a>
+HTML5 Videoを使ってるサイト（YouTube,Teamsは確認済）
 
+### 使い方
 
+![html5-video-fast‐forwarding-1](../../../images/html5-video-fast‐forwarding-1.jpg)
 

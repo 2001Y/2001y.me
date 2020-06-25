@@ -56,10 +56,13 @@ h2,h3,main h4
   display inline-block
   border-radius 2rem
   text-indent 0
-  &hover
+  font-weight bold
+  transition: .3s
+  &:hover
     color var(--l)
     background var(--d)
     +dark()
+      color var(--d)
       background var(--l)
   
 #tmb>img,#tmb>source
