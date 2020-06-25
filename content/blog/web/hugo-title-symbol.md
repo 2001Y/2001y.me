@@ -1,5 +1,5 @@
 ---
-title: Hugoでタイトルに記号（[）が使えない時
+title: "[Hugo]タイトルに記号（[）が使えない時"
 date: 2020-06-12T10:00:22+09:00
 img: hugo-title-symbol
 categories: ["Web"]

@@ -30,6 +30,16 @@ exports.img = () =>
         ]))
         .pipe(responsive({
             // '*.{png,gif}': [{}],
+            '*.{gif}': [{}, {
+                width: 560,
+                rename: { suffix: '-560' }
+            },{
+                width: 1120,
+                rename: { suffix: '-1120' }
+            },{
+                width: 1680,
+                rename: { suffix: '-1680' }
+            }],
             '*.{jpeg,jpg,JPG}': [{
                 format: 'jpg'
             },{
