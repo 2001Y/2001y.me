@@ -157,8 +157,12 @@
     })(window,document,"galite","script","/ga-lite.min.js");
     galite('create', 'UA-68964193-14', 'auto');
     galite('send', 'pageview');
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    window.onload = setTimeout(
+      function() {   
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      },1000 //1秒間遅延
+    );
   </script>
 {{ end }}
 <script type=application/ld+json>
