@@ -12,7 +12,7 @@ Automatorでシェルスクリプトをタイムアウトさせたくて、調�
 
 ## Coreutilsを追加して、gtimeout
 
-### [Homebrew](https://brew.sh/index_ja) インストール（一応
+### [Homebrew](https://brew.sh/index_ja) インストール<span> （一応</span>
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -32,10 +32,10 @@ gtimeout 秒数 コマンド
 
 ***
 
-```
+しっかり10秒で止まってる。
+
+```shell
 gtimeout 10 ping google.com
 ```
 
 ![](../../../images/mac-shell-timeout-1.jpg)
-
-しっかり10秒で止まってる。
