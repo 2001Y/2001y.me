@@ -1,5 +1,5 @@
 ---
-title: ".command起動時にターミナルウィンドウを自動的に閉じる2つの方法"
+title: "[Mac].command起動時にターミナルウィンドウを自動的に閉じる2つの方法"
 date: 2020-06-27T02:00:30+09:00
 img: mac-auto-close-terminal
 categories: ["Gadget"]
