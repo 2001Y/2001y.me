@@ -1,5 +1,5 @@
 ---
-title: "[Mac]Automator等のシェルスクリプトでタイムアウトするgtimeout"
+title: "[Mac]Automator等のシェルスクリプトでタイムアウトさせるgtimeout"
 date: 2020-06-26T08:00:22+09:00
 img: mac-gtimeout
 categories: ["Gadget"]
