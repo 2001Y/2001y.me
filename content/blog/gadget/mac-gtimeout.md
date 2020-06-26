@@ -1,9 +1,9 @@
 ---
-title: "[Mac]Automator等のシェルスクリプトでタイムアウトするCoreutils"
+title: "[Mac]Automator等のシェルスクリプトでタイムアウトするgtimeout"
 date: 2020-06-26T08:00:22+09:00
-img: mac-shell-timeout
+img: mac-gtimeout
 categories: ["Gadget"]
-tags: ["Mac","ターミナル","Automator","Homebrew","Shell"]
+tags: ["Mac","ターミナル","Automator","Homebrew","シェルスクリプト"]
 ---
 
 Automatorでシェルスクリプトをタイムアウトさせたくて、調べてみたらHomebrewでパッケージを追加する必要があったのでメモ。
@@ -38,4 +38,4 @@ gtimeout 秒数 コマンド
 gtimeout 10 ping google.com
 ```
 
-![](../../../images/mac-shell-timeout-1.jpg)
+![](../../../images/mac-gtimeout-1.jpg)

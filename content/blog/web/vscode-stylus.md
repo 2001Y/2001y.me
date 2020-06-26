@@ -1,12 +1,12 @@
 ---
-title: "[VSCode拡張機能]Stylusを使えるように（コロン:有無など）｜language-stylus"
+title: "[VSCode拡張機能]Stylusを使えるように（コロン:有無など） - language-stylus"
 date: 2020-06-26T08:00:22+09:00
 img: vscode-stylus
 categories: ["Web"]
 tags: ["ブログ","Web","Blog","VSCode"]
 ---
 
-SublimeからVSVodeに移行しているので、VSCodeでStylusを使うためメモ。せっかくStylusを使っているのでコロン(:)使わない方向性です。
+SublimeからVSVodeに移行しているので、VSCodeでStylusを使うためメモ。あと、せっかくStylusを使っているのでコロン(:)使わない方向性です。
 
 ## 基本的に language-stylus だけで完結
 
@@ -23,8 +23,7 @@ VSCodeを使っているうちにSublimeがエラーが出るようになって�
 ```json
 // プロパティと値の間の区切りに':'の使用
 "languageStylus.useSeparator": false,
-// 自動補完のStylus内蔵機能の一致を切り替える
-  // EN: Toggle matches for Stylus Builtin Functions on autocomplete
+// 自動補完のStylus内蔵機能の一致を切り替える・EN: Toggle matches for Stylus Builtin Functions on autocomplete
 "languageStylus.useBuiltinFunctions": true,
 // カラープレビューの表示
 "editor.colorDecorators": true,
