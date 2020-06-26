@@ -12,7 +12,7 @@ tags: ["Mac","ターミナル","Shell"]
 
 ## 1. 設定から自動的に閉じるように
 
-![mac-auto-close-terminal-2](../../../images/mac-auto-close-terminal-2.jpg)
+![](../../../images/mac-auto-close-terminal-2.jpg)
 
 ターミナルの環境設定から **プロファイル ＞ シェル** の **シェルの終了時** を変更します。
 
@@ -26,4 +26,4 @@ osascript -e 'tell application "Terminal" to close first window'
 
 また、この方法を使うと "AppleScript(osascript)実行中に終了する" という形になり、確認画面を表示させることができます。キャンセルすれば実行記録が見れます。
 
-![mac-auto-close-terminal-3](../../../images/mac-auto-close-terminal-3.jpg)
+![](../../../images/mac-auto-close-terminal-3.jpg)
