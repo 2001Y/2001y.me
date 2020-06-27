@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="/post.css">
   <title>{{ .Title }}｜2001Y.me</title>
   {{ partial "head.html" . }}
+  <link rel="canonical" href="https://2001y.me{{ .Permalink }}">
   <meta name="description" content="{{ .Content | plainify | truncate 200 }}"> 
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://2001y.me{{ .Permalink }}" />
