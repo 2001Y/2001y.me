@@ -30,12 +30,12 @@
 </head>
 <body id=body ontouchstart>
   <nav id=bar>
-    <a href=/blog title="2001Y.me｜2001YのMacだったり、Webデザインだったり、カメラだったり。" class=logo><h4>2001Y Blog</h4></a>
+    <a href=/blog title="2001Y.me｜Macだったり、Webデザインだったり、カメラだったり。" class=logo><h4>2001Y Blog</h4></a>
     <a href=/ title="2001Y Portfolio">Portfolio</a>
     <a href=/contact title="2001Y Contact">Contact</a>
     <time>{{ .Date.Format "2006.01.02" }}</time>
   </nav>
-  <a href=/blog title="2001Y.me｜2001YのMacだったり、Webデザインだったり、カメラだったり。" id=top>
+  <a href=/blog title="2001Y.me｜Macだったり、Webデザインだったり、カメラだったり。" id=top>
     &#xe904;
   </a>
   <header id=header>
@@ -115,7 +115,7 @@
     </aside>
   </main>
   <aside id=fixed>
-    <a href=/blog title="2001Y.me｜2001YのMacだったり、Webデザインだったり、カメラだったり。">
+    <a href=/blog title="2001Y.me｜Macだったり、Webデザインだったり、カメラだったり。">
       &#xe904;
     </a>
   </aside>
@@ -129,7 +129,7 @@
   <footer>
     <ol id=breadcrumb>
       <li><a class=logo href=/ title="2001Y Portfolio"></a></li>
-      <li><a href=/blog title="2001Y.me｜2001YのMacだったり、Webデザインだったり、カメラだったり。">Blog</a></li>
+      <li><a href=/blog title="2001Y.me｜Macだったり、Webデザインだったり、カメラだったり。">Blog</a></li>
       <li><a href=/blog/{{ range .Params.categories }}{{ .| urlize }}{{ end }} title="Camera｜2001Y.me">{{ range .Params.categories }}{{ . }}{{ end }}</a></li>
     </ol>
   {{ partial "footer.html" . }}
