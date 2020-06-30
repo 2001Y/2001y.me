@@ -1,7 +1,7 @@
 ---
-title: "[Netlify]サイトマップの更新を自動的にGoogle,Bingに通知(Ping送信)"
+title: "[Netlify]サイトマップの更新を自動的にPing送信（Google,Bing,ブログ村など）"
 date: 2020-06-25T9:00:22+09:00
-img: netlify-auto-google-bing-ping
+img: netlify-auto-ping
 categories: ["Web"]
 tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
 ---
@@ -38,16 +38,20 @@ Netlifyにはビルドに成功・失敗した時にSlackやメールなどで�
 
 ![](../../../images/netlify-auto-ping-2.jpg)
 
-### ❻Deploy succeeded を選び、❼PingURLを入力
+### ❻Deploy succeeded を選び、❼PingURL を入力
 
 ![](../../../images/netlify-auto-ping-3.jpg)
 
-```html
-http://www.google.com/ping?sitemap=サイトマップURL
-```
-
-```html
-http://www.bing.com/ping?sitemap=サイトマップURL
-```
-
 それぞれ、[GoogleSearchConsole](https://search.google.com/search-console/)や[BingWebマスターツール](https://www.bing.com/webmaster/)に登録していないと機能しない とされていた気がします。
+
+```html
+<!-- Google -->
+http://www.google.com/ping?sitemap=サイトマップURL
+<!-- Bing -->
+http://www.bing.com/ping?sitemap=サイトマップURL
+<!-- ブログ村（https://mypage.blogmura.com/ping） -->
+https://ping.blogmura.com/ユーザーID
+<!-- 人気ブログランキング（https://blog.with2.net/my/ping） -->
+http://blog.with2.net/ping.php/ユーザーID
+```
+

@@ -1,7 +1,7 @@
 ---
 title: "[CSS]vertical-alignの効かない別要素同士のベースラインを揃える"
 date: 2020-06-18T00:00:22+09:00
-img: another-block-baseline
+img: css-another-block-baseline
 categories: ["Web"]
 tags: ["CSS","Web"]
 ---
