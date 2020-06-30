@@ -2,7 +2,7 @@
 title: "[MacApp]Safari13でもカスタムCSS(UserStylu)が使える拡張機能Tamperish"
 date: 2020-06-30T08:00:22+09:00
 img: mac-tamperish
-categories: ["Web"]
+categories: ["Gadget"]
 tags: ["Safari拡張機能","MacApp"]
 ---
 
@@ -30,4 +30,4 @@ URLやドメイン指定によるカスタムCSSの追加ができませんで�
 
 ***
 
-WWDC20でChromeなどの拡張機能をSafariに移行できるようになるようで、非常に楽しみなですね。
+WWDC20でChromeなどの拡張機能をSafariに移行できるようになるようで、非常に楽しみ。いろいろ試しても結局、Safariメインになってる。
