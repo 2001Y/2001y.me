@@ -3,7 +3,7 @@ title: "[MacApp]Safari13でもカスタムCSS(UserStylu)が使える拡張機能
 date: 2020-06-30T08:00:22+09:00
 img: mac-tamperish
 categories: ["Gadget"]
-tags: ["Safari拡張機能","MacApp"]
+tags: ["Safari拡張機能","MacApp","Mac"]
 ---
 
 Safari12,13から .safariextz が利用できなくなり、広告ブロックなどはAppStoreにもいくつかあるのですが、UserScriptにしてTampermonkeyで読み込むことはできますが、カスタムCSSが使えなくて困っていました。

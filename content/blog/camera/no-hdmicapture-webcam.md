@@ -3,7 +3,7 @@ title: "[Mac]HDMIキャプチャボードなしでFujiFilmのX-T3をWebカメラ
 date: 2020-05-24T08:00:22+09:00
 img: no-hdmicapture-webcam
 categories: ["Camera"]
-tag: ["FUJIFILM","X-T3","Camera","Mac","アプリ"]
+tag: ["Camera","MacApp","FUJIFILM"]
 ---
 
 SIGMA fpがUSB-Cのケーブル1本でWebカメラ化するのが流行っています。確かに、せっかくカメラがあるんだから、ビデオ通話でもカメラを使いたい！
