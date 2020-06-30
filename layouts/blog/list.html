@@ -49,8 +49,8 @@
       <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
         <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
           <picture class=post-tmb>
-            <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
-            <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me">
+            <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+            <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
           </picture>
           <div class=post-data>
             <h2>{{ .Title }}</h2>
@@ -70,8 +70,8 @@
       <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
         <article class="post {{ if .Params.tags }}{{ range .Params.tags }}{{ . }}{{ end }}{{ end }}">
           <picture class=post-tmb>
-            <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
-            <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me">
+            <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+            <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
           </picture>
           <div class=post-data>
             <h2>{{ .Title }}</h2>
@@ -97,8 +97,8 @@
         <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
           <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
             <picture class=post-tmb>
-              <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
-              <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me">
+              <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+              <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
             </picture>
             <div class=post-data>
               <h2>{{ .Title }}</h2>

@@ -89,10 +89,10 @@ footer
   padding-top 5rem
 main,#searchResult
   max-width 700px
-h1,h2,h3,main h4,h5,h6,#bar,#submit
+h1,h2,h3,#article h4,h5,h6,#bar,#submit
   font-family icon,Helvetica,"游ゴシック Medium","Yu Gothic",YuGothic,-apple-system,Verdana,Meiryo
   font-feature-settings: "palt";
-h3,main h4
+h3,#article h4
   font-size 1.2em
 h5,h6
   font-size 1.2em
@@ -153,7 +153,7 @@ p
     overflow: hidden;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical
-    @media (max-width: 500px)
+    @media (max-width: 600px)
       display none
   &:before
     opacity  .6
@@ -163,6 +163,8 @@ p
     left .5rem
     transition transform .4s
     will-change transform
+    @media (max-width: 600px)
+      display none
   &:hover
     background var(--d05)
     +dark()
@@ -184,6 +186,8 @@ p
   width 7.5rem
   height 7.5rem
   will-change: transform
+  @media (max-width: 600px)
+    display none
 main a:first-child article,aside h4+a article
   position relative
   &:after
@@ -397,7 +401,7 @@ footer .search-box
   100%
     opacity 0
 
-@media (max-width: 500px)
+@media (max-width: 600px)
   header
     margin 0 auto 4em auto
   header .search-box
