@@ -30,4 +30,6 @@ osascript -e 'tell application "Terminal" to close first window'
 
 ***
 
+#### 追記
+
 この2つは併用することもできるので、**1.** の設定はしておいて、確認が欲しい時だけ **2.** を追加するという方法でぼくは使ってます。
