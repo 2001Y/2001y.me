@@ -27,3 +27,7 @@ osascript -e 'tell application "Terminal" to close first window'
 また、この方法を使うと "AppleScript(osascript)実行中に終了する" という形になり、確認画面を表示させることができます。キャンセルすれば実行記録が見れます。
 
 ![](../../../images/mac-auto-close-terminal-3.jpg)
+
+***
+
+この2つは併用することもできるので、**1.** の設定はしておいて、確認が欲しい時だけ **2.** を追加するという方法でぼくは使ってます。

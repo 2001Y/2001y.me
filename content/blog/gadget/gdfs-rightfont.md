@@ -6,7 +6,9 @@ categories: ["Gadget"]
 tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 
-RightFontはクラウド同期を売りにしていて、Dropboxなどの任意のクラウド経由でフォントを同期することができます。なので折角GSuite加入したんだから、RightFontもGoogleDriveFileStreamで同期したい。
+RightFontはクラウド同期を売りにしていて、Dropboxなどの任意のクラウド経由でフォントを同期することができます。
+
+折角GSuite加入したんだから、RightFontもGoogleDriveFileStreamで同期したい。
 
 しかし、うまく動かなかった。もちろん、GoogleDriveFileStreamではなく、**"バックアップと同期"** を使えば同期はできました。
 
