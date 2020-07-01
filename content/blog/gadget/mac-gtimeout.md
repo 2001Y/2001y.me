@@ -3,7 +3,7 @@ title: "[Mac]Automator等のシェルスクリプトでタイムアウトさせ�
 date: 2020-06-26T08:00:22+09:00
 img: mac-gtimeout
 categories: ["Gadget"]
-tags: ["Mac","ターミナル","Automator","Homebrew","シェルスクリプト"]
+tags: ["MacCommand","Mac","Automator","Homebrew"]
 ---
 
 Automatorでシェルスクリプトをタイムアウトさせたくて、調べてみたらHomebrewでパッケージを追加する必要があったのでメモ。

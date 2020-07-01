@@ -3,7 +3,7 @@ title: "[Mac]ファイルに実行権限を与えるコマンドchmod"
 date: 2020-06-27T00:00:22+09:00
 img: mac-chmod
 categories: ["Gadget"]
-tags: ["Mac","ターミナル","シェルスクリプト"]
+tags: ["MacCommand","Mac","ターミナル","シェルスクリプト"]
 ---
 
 .commandファイルを実行するためには、実行権限を与えないとコマンドを実行することができない。すぐ忘れるのでメモ。

@@ -3,7 +3,7 @@ title: iPadOSのカーソルをWebで再現したJS,CSS
 date: 2020-06-10T01:00:22+09:00
 img: ipados-cursor-webd
 categories: ["Web"]
-tags: ["iPadOS","JS","CSS","HTML"]
+tags: ["JS","CSS","HTML"]
 
 ---
 
