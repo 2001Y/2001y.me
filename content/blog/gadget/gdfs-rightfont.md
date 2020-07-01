@@ -16,9 +16,9 @@ RightFontはクラウド同期を売りにしていて、Dropboxなどの任意�
 
 ![](../../../images/gdfs-rightfont-1.jpg)
 
-何かの拍子に[RightFontのアップデート履歴](https://rightfontapp.com/updates#:~:text=Google Drive File Stream app)を開いていて（なぜかは忘れた）、そこでGoogleDriveFileStreamを検索したら、**修正している？！**
+何かの拍子に[RightFontのアップデート履歴](https%3A%2F%2Frightfontapp.com%2Fupdates%23%3A~%3Atext%3DGoogle%20Drive%20File%20Stream%20app)を開いていて（なぜかは忘れた）、そこでGoogleDriveFileStreamを検索したら、**バグ修正している？！**
 
-修正しているということは対応している...。GoogleDriveFileStreamを終了している時にクラッシュするなんてどうでもいいから、RightFontでGDriveFS使えるの？！
+修正しているということはGoogleDriveFileStreamに対応しているということ...。
 
 ### RightFont内でライブラリを移動させれば普通にできた...
 
