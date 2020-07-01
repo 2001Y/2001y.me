@@ -11,13 +11,13 @@ tags: ["MacApp"]
 
 ## Youka - 手軽にYouTubeカラオケができるアプリ
 
-{{<blogcard url="https://www.youka.club">}}
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/401471507" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ボーカル除去はよくありますが、このアプリはYouTubeから検索をしてサクッとカラオケ化することができます。なかなか精度が高かった。
 
-<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/401471507" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
 このデモ映像が分かりにくいんですが、実際に使ってみるとなかなかの精度です。処理に少し時間がかかることもありますが、 **YouTube検索→カラオケ化** がスムーズにできます。
+
+{{<blogcard url="https://www.youka.club">}}
 
 ### 一応、歌詞表示にも対応
 
@@ -33,4 +33,5 @@ Electronで作られているようで、クロスプラットフォーム対応
 
 仕組みについては書かれていませんが、YouTubeを使っているところから考えるとグレーの可能性もあるので、自己判断が十分に必要。
 
+[▶︎ Youka Karaoke Maker](https://www.youka.club)
 [▶︎ GitHub - youkaclub/youka-desktop: The Best Karaoke Maker](https://github.com/youkaclub/youka-desktop)
