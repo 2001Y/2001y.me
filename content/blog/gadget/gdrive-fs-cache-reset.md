@@ -1,5 +1,5 @@
 ---
-title: "[Mac]≈がマウントされない時"
+title: "[Mac]GoogleDriveFileStreamがマウントされない時"
 date: 2020-06-12T08:00:22+09:00
 img: gdrive-fs-cache-reset
 categories: ["Gadget"]
