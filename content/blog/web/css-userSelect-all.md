@@ -24,7 +24,7 @@ pre {
 
 ### ブラウザ対応状況
 
-{{<caniuse id="mdn-css__properties__user-select">}}
+{{<caniuse id="mdn-css__properties__user-select__all">}}
 
 ***
 
