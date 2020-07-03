@@ -3,7 +3,7 @@ title: "[CSS]vertical-alignの効かない別要素同士のベースライン�
 date: 2020-06-18T00:00:22+09:00
 img: css-another-block-baseline
 categories: ["Web"]
-tags: ["CSS","Web"]
+tags: ["CSS"]
 ---
 
 ![another-block-baseline-1](../../../images/another-block-baseline-1.jpg)
