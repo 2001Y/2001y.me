@@ -2,6 +2,10 @@ dark()
   @media (prefers-color-scheme dark)
     block
 
+@media (max-width: 600px)
+  :root
+    font-size 12px
+
 @font-face
   font-family 'icon'
   src url('font/icon.woff2') format('woff2'),
@@ -163,8 +167,6 @@ p
     left .5rem
     transition transform .4s
     will-change transform
-    @media (max-width: 600px)
-      display none
   &:hover
     background var(--d05)
     +dark()
@@ -186,8 +188,9 @@ p
   width 7.5rem
   height 7.5rem
   will-change: transform
-  @media (max-width: 600px)
-    display none
+  img
+    width 100%
+    height 100%
 main a:first-child article,#related+a article
   position relative
   &:after

@@ -2,6 +2,10 @@ dark()
   @media (prefers-color-scheme dark)
     block
 
+@media (max-width: 600px)
+  :root
+    font-size 12px
+
 @font-face
   font-family 'icon'
   src url('font/icon.woff2') format('woff2'),
@@ -103,8 +107,6 @@ body:after,#category a:hover,#Voting,.top .top,.Gadget .Gadget,.Camera .Camera,.
     margin-left 1rem
   time
     margin-left auto
-  @media (max-width:500px)
-    display none
 
 header,footer,main
   position relative
