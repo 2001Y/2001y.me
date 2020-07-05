@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang=ja>
 <head>
-  <link rel="stylesheet" href="/base.css">
-  <link rel="stylesheet" href="/post.css">
+  <link rel="stylesheet" href="/base.css?20200705">
+  <link rel="stylesheet" href="/post.css?20200705">
   <title>{{ .Title }}｜2001Y.me</title>
   {{ partial "head.html" . }}
   <link rel="canonical" href="https://2001y.me{{ .Permalink }}">
@@ -18,9 +18,9 @@
   <link rel="dns-prefetch" href="//adservice.google.com">
   <link rel="prerender" href="{{ with .Site.RegularPages.Related . | first 1 }}{{ range . }}{{ .Permalink }}{{ end }}{{ end }}">
   <script defer>let title ="{{ .File.TranslationBaseName }}";</script>
-  <script defer src=/script.min.js></script>
-  <script defer src=/cursor.min.js></script>
-  <script defer src=/quicklink.min.js></script>
+  <script defer src=/script.min.js?20200705></script>
+  <script defer src=/cursor.min.js?20200705></script>
+  <script defer src=/quicklink.min.js?20200705></script>
   {{ if findRE "twitter-tweet" .Content }}
     <script async src=//platform.twitter.com/widgets.js></script>
   {{ end }}
