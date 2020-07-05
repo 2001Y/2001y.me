@@ -19,7 +19,7 @@ JSを使わずに、CSSに一行加えるだけでimgの画像の切り替えを
 
 ### Demo
 
-<iframe height="168" width="100%" scrolling="no" src="https://mineditor.github.io/?h=%253Cimg%2520class%3D%2522toggleImg%2522%2520src%3D%2522https%3A%2F%2F2001y.me%2Fimg%2Fcss-userSelect-all-120.jpg%2522%253E&c=.toggleImg%3Ahover%2520%257B%250A%2520%2520%2520%2520content%3A%2520url%28%2522https%3A%2F%2F2001y.me%2Fimg%2Fmac-pp-command%2Bd-120.jpg%2522%29%3B%250A%257D&j="></iframe>
+<iframe height="168" width="100%" scrolling="no" src="https://mineditor.github.io/?h=%253Cimg%2520class%3D%2522toggleImg%2522%2520src%3D%2522https%3A%2F%2F2001y.me%2Fimg%2Fcss-userSelect-all-120.jpg%2522%253E&c=.toggleImg%3Ahover%2520%257B%250A%2520%2520%2520%2520content%3A%2520url%28%2522https%3A%2F%2F2001y.me%2Fimg%2Fmac-pp-command%2Bd-120.jpg%2522%29%3B%250A%257D&j=" loading="lazy"></iframe>
 
 ### ブラウザ対応状況
 
