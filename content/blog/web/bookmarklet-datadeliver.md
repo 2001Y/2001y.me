@@ -1,6 +1,6 @@
 ---
 title: "データ便を一括ダウンロードできるブックマークレット"
-date: 202007-09T05:00:22+09:00
+date: 2020-07-09T05:00:22+09:00
 img: bookmarklet-datadeliver
 categories: ["Web"]
 tags: ["ブックマークレット","WebTopic"]
@@ -18,7 +18,7 @@ tags: ["ブックマークレット","WebTopic"]
 
 ### 対応サイト
 
-データ便：https://www.datadeliver.net/
+データ便：[https://www.datadeliver.net/](https://www.datadeliver.net/)
 
 ### 使い方
 
@@ -31,7 +31,6 @@ tags: ["ブックマークレット","WebTopic"]
 本当にただ新規タブで開いてるだけ。
 
 ```js
-javascript:
 let el = document.querySelectorAll(".tbl_wd_full td:first-of-type a");
 for(let i=0; i<el.length; i++){
   window.open(el[i].href);
