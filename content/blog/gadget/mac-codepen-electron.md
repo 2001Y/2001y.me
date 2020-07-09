@@ -4,6 +4,7 @@ date: 2020-06-26T08:00:22+09:00
 img: codepen-electron
 categories: ["Gadget"]
 tags: ["MacApp"]
+draft: true
 ---
 
 HTMLやCSS,JSを手軽にプレビューできる[Codepen](https://codepen.io)。PugやLess,Sass,Stylusなどに対応してて、完全にWeb上で完結するCodepenをElectron
