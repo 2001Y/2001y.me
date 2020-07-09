@@ -3,7 +3,7 @@ title: "[illustrator]連結できないパスを“連結ツール”を使え�
 date: 2020-07-10T00:00:30+09:00
 img: illustrator-jointool
 categories: ["Gadget"]
-tags: ["Adobe","illustrator"]
+tags: ["Adobe","illustrator","Mac"]
 ---
 
 illustratorでパスをいじっていると、パスの連結を行いたくなります。
