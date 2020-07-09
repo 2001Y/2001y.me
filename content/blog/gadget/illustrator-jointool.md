@@ -1,6 +1,6 @@
 ---
-title: "[illustrator]連結できないパスを"連結ツール"を使えば繋げられた！"
-date: 2020-07-10T02:00:30+09:00
+title: "[illustrator]連結できないパスを“連結ツール”を使えば繋げられた！"
+date: 2020-07-10T00:00:30+09:00
 img: illustrator-jointool
 categories: ["Gadget"]
 tags: ["Adobe","illustrator"]
@@ -28,7 +28,7 @@ illustratorでパスをいじっていると、パスの連結を行いたくな
 
 ### 連結！！
 
-![](../../../images/Capture 2020-07-10 2.05.12.jpg)
+![](../../../images/illustrator-jointool-5.jpg)
 
 ***
 
