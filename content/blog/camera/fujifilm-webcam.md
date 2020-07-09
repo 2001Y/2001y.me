@@ -1,6 +1,6 @@
 ---
 title: "Mac対応のFujiFilm公式のWebカメラ化ツールが出た！！"
-date: 2020-05-24T08:00:22+09:00
+date: 2020-07-09T08:00:22+09:00
 img: fujifilm-webcam
 categories: ["Camera"]
 tag: ["Camera","MacApp","FUJIFILM"]
@@ -18,17 +18,9 @@ tag: ["Camera","MacApp","FUJIFILM"]
 
 Google Meet、Teams、Skype、Zoom、Messenger Rooms、LINE、OBS Studio
 
-## カメラ側の設定
+### カメラ側の設定
 
-設定を変更しても、認識されない場合が多々あるので、ケーブルを挿し直したり、カメラを再起動してあげると良さそう。
-
-### 接続モードはテザー
-
-![セットアップ(レンチマーク) ＞ 接続設定 ＞ 接続モード](../../../images/no-hdmicapture-webcam-3.jpg)
-
-### AFさせるためには
-
-![フォーカス設定(AF/MF) ＞ プリAF](../../../images/no-hdmicapture-webcam-4.jpg)
+[CameraLiveとCamTwistの時](https://2001y.me/blog/camera/no-hdmicapture-webcam/)と同じく、テザーでプリAFをONにしてあげると良さそう？
 
 ***
 
@@ -36,10 +28,16 @@ Google Meet、Teams、Skype、Zoom、Messenger Rooms、LINE、OBS Studio
 
 ![FujiのXなカッコよさ](../../../images/fujifilm-webcam-1.jpg)
 
-アプリが入るわけではなく、
+アプリが入るわけではなく、カメラの入力デバイスとして選択肢が追加される。
 
 ![](../../../images/fujifilm-webcam-2.jpg)
 
-フィルムシミュレーションも使えて、流石純正とっても安定する気がする！
+もちろんフィルムシミュレーションも使える！設定を変えるときは一回ケーブルを外してあげる必要がありそう？
 
-![](../../../images/fujifilm-webcam-3.jpg)
+![黒いのはなんだろう。。](../../../images/fujifilm-webcam-3.jpg)
+
+***
+
+## いい！！
+
+けど、ビデオ必須な通話少ないし、大抵寝起きだからONにしたくはない。うん。
