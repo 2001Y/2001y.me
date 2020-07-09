@@ -1,6 +1,6 @@
 ---
 title: "Mac対応のFujiFilm公式のWebカメラ化ツールが出た！！"
-date: 2020-07-09T08:00:22+09:00
+date: 2020-07-09T03:00:22+09:00
 img: fujifilm-webcam
 categories: ["Camera"]
 tag: ["Camera","MacApp","FUJIFILM"]
@@ -40,4 +40,4 @@ Google Meet、Teams、Skype、Zoom、Messenger Rooms、LINE、OBS Studio
 
 ## いい！！
 
-けど、ビデオ必須な通話少ないし、大抵寝起きだからONにしたくはない。うん。
+けど、ビデオ必須な通話少ないし、大抵寝起きだしONにしたくはない。うん。
