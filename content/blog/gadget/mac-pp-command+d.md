@@ -3,7 +3,7 @@ title: "[Mac]PowerPointで普通に背景ごとコピペできた..."
 date: 2020-07-03T03:00:22+09:00
 img: mac-pp-command+d
 categories: ["Gadget"]
-tags: ["Office","PowerPoint","Mac"]
+tags: ["Office","PowerPoint","MacApp"]
 ---
 いつからか追加された、PowerPointの画面切り替えの「変形」が便利すぎて感動...1/3ぐらいの労力で動きをつけられるようになった。Keynoteには昔からあった気がするけど。
 
