@@ -1,6 +1,6 @@
 ---
 title: "[Mac]他のフォルダにエイリアスを作るショートカット"
-date: 2020-06-27T10:00:30+09:00
+date: 2020-07-11T00:00:30+09:00
 img: mac-finder-command+option
 categories: ["Gadget"]
 tags: ["ショートカット","Mac"]
@@ -10,14 +10,12 @@ tags: ["ショートカット","Mac"]
 
 ![](../../../images/mac-finder-command+option-1.jpg)
 
-## ⌘+option+ドラッグでエリアス作成
+## ⌘+option+ドラッグ でエリアスを作成
 
-⌘+option押しながらドラッグすると別のフォルダにエリアスを作ることができる。
+`⌘`と`option` を押しながらドラッグすることで、別のフォルダにエリアスを作ることができる。
 
 ![](../../../images/mac-finder-command+option-2.jpg)
 
 ***
-
-
 
 [▶︎ Macでエイリアスを作成する/削除する｜macOSユーザガイド](https://support.apple.com/ja-jp/guide/mac-help/mchlp1046/mac)
