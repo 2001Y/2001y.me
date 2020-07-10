@@ -2,7 +2,7 @@
 title: "[Mac]GoogleDriveFileStreamでファイルをコピーではなく移動させる"
 date: 2020-07-10T08:00:22+09:00
 img: mac-gdfs-move-file
-categories: ["Web"]
+categories: ["Gadget"]
 tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 
