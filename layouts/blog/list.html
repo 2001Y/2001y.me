@@ -11,6 +11,11 @@
     <title>{{ .Title }}｜2001Y.me</title>
     <meta property="og:title" content="{{ .Title }}｜2001Y.me" />
   {{ end }}
+  {{ if .Params.categories }}
+    <meta name="robots" content="noindex,nofollow,noarchive">
+  {{ else }}
+    <meta name="robots" content="index,follow,archive">
+  {{ end }}
   {{ partial "head.html" . }}
   <meta name="description" content="2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログです。"> 
   <meta property="og:type" content="website">

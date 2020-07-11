@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="/base.css?2020070508">
   <link rel="stylesheet" href="/post.css?2020070508">
   <title>{{ .Title }}｜2001Y.me</title>
+  <meta name="robots" content="index,follow,archive">
   {{ partial "head.html" . }}
   <link rel="canonical" href="https://2001y.me{{ .Permalink }}">
   <meta name="description" content="{{ .Content | plainify | truncate 200 }}"> 
