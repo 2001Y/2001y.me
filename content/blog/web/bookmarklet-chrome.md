@@ -22,4 +22,4 @@ Chromeは[Safariと違い](https://2001y.me/blog/web/bookmarklet-mac-safari/#ブ
 
 ***
 
-Safariをメインに使っているとChromeの無駄な余白になれなくて、Vivaldi使おうとしていた時期もあります。でもやっぱり、Chromiumの中ではChromeがメインになりがちです。
+Safariをメインに使っているとChromeの無駄な余白になれなくて、Vivaldiを使おうとしていた時期もあります。でもやっぱり、Chromiumの中ではChromeがメインになりがちです。
