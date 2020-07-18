@@ -1,7 +1,7 @@
 ---
-title: "[MacChrome]ブックマークレットの登録方法"
+title: "[Chrome]ブックマークレットの登録方法"
 date: 2020-07-18T03:00:22+09:00
-img: bookmarklet-mac-chrome
+img: bookmarklet-chrome
 categories: ["Web"]
 tags: ["ブックマークレット","WebTopic","Chrome"]
 ---
