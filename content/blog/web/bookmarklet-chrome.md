@@ -18,7 +18,7 @@ tags: ["ブックマークレット","WebTopic","Chrome"]
 
 Chromeは[Safariと違い](https://2001y.me/blog/web/bookmarklet-mac-safari/#ブックマークバーお気に入りバーを表示する方法)、ブックマークが全て表示されるためブックマークレットフォルダなどを作った方が良いかもしれません。
 
-![Safariメニューバー：表示＞ブックマーク バーを表示](../../../images/bookmarklet-mac-chrome-4.jpg)
+![Chromeメニューバー：表示＞ブックマーク バーを常に表示](../../../images/bookmarklet-mac-chrome-4.jpg)
 
 ***
 
