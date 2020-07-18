@@ -8,7 +8,7 @@ draft: true
 
 ---
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://easings.co" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://easings.co">}}
 
 ## アニメーション曲線のデモが見れるサイト
 

@@ -39,9 +39,9 @@ https://bit.ly/2VchlJr
 https://j.mp/2VchlJr
 ```
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://www.itmedia.co.jp/news/articles/0909/07/news027.html" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://www.itmedia.co.jp/news/articles/0909/07/news027.html">}}
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftumblr.yabu.jp%2Fpost%2F180475779%2F%E4%B8%96%E7%95%8C%E6%9C%80%E7%9F%AD%E3%81%AE%E7%9F%AD%E7%B8%AEurljmp%E3%81%AE%E8%A3%8F%E6%8A%80%E7%99%BA%E8%A6%8B" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://tumblr.yabu.jp/post/180475779/世界最短の短縮urljmpの裏技発見">}}
 
 ## 調べてみる
 
@@ -49,13 +49,13 @@ https://j.mp/2VchlJr
 
 ### j.mp自体、bit.lyにリダイレクトされる
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://blog.osoe.jp/2009/09/url-jmp-powered-by-bitly.html" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://blog.osoe.jp/2009/09/url-jmp-powered-by-bitly.html">}}
 
 j.mp自体、bit.lyにリダイレクトされるし、日本語の記事もあり、+や/info/によるアクセス分析も可能。
 
 ### 海外の質問サイトには質問が残ってる
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.quora.com%2FWhat-is-the-difference-between-bit.ly-and-j.mp" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://www.quora.com/What-is-the-difference-between-bit.ly-and-j.mp">}}
 
 やはり、bit.lyのものらしい。
 

@@ -24,7 +24,7 @@ VSCodeには "Live Sass Compiler" があるので、Sassならサクッとコン
 
 tasks.jsonだけでなんとかなるかと思ったけど、逆にこの方法だとtasks.jsonは不要っぽい。
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">}}
 
 ### settings.jsonに拡張子,コマンドを指定
 

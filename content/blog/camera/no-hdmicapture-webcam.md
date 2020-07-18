@@ -52,8 +52,15 @@ Settings の `SyphonServer` は `CameraLive` に設定（❸）。
 
 ![フォーカス設定(AF/MF) ＞ プリAF](../../../images/no-hdmicapture-webcam-4.jpg)
 
-## 追記：Windowsは公式でツールが公開されました
-
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://fujifilm-x.com/ja-jp/support/download/software/x-webcam/" frameborder="0" scrolling="no"></iframe>
+## 追記1：Windowsは公式でツールが公開されました
 
 Windowsようには公式からツールが公開されました。（Mac版も2020年7月後半に公開されるという記事をどこかで見たきがする...？）
+
+{{<blogcard url="https://fujifilm-x.com/ja-jp/support/download/software/x-webcam/">}}
+
+## 追記2：Mac版の公式ツールもついに出ました
+
+やっと公式のMac対応のツールが公開されました。流石安定の極み。
+
+{{<blogcard url="https://2001y.me/blog/camera/fujifilm-webcam/">}}
+

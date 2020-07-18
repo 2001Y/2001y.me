@@ -8,7 +8,7 @@ tags: ["MacCommand","Mac","Automator","Homebrew"]
 
 Automatorでシェルスクリプトをタイムアウトさせたくて、調べてみたらHomebrewでパッケージを追加する必要があったのでメモ。
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://stackoverflow.com/questions/3504945/timeout-command-on-mac-os-x" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://stackoverflow.com/questions/3504945/timeout-command-on-mac-os-x">}}
 
 ## Coreutilsを追加して、gtimeout
 

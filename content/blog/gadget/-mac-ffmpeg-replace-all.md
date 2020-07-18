@@ -4,7 +4,7 @@ date: 2020-06-27T00:00:22+09:00
 img: mac-ffmpeg-replace-all
 categories: ["Gadget"]
 tags: ["MacCommand","Mac","ターミナル","シェルスクリプト"]
-draft: true＾
+draft: true
 ---
 
 

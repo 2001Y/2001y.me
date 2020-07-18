@@ -20,4 +20,4 @@ chmod u+x ファイルパス
 
 u+x で "所有者に実行権限" を与えている。他のユーザーや権限は以下の記事が参考になりそう。
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://qiita.com/ntkgcj/items/6450e25c5564ccaa1b95" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://qiita.com/ntkgcj/items/6450e25c5564ccaa1b95">}}

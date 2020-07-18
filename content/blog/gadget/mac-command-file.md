@@ -24,4 +24,4 @@ tags: ["MacCommand","Mac"]
 
 "実行権限の付与"の項目がなければ、chmod コマンドを使う。
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://2001y.me/blog/gadget/mac-chmod/" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://2001y.me/blog/gadget/mac-chmod/">}}

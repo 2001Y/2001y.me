@@ -12,7 +12,7 @@ SublimeからVSVodeに移行しているので、VSCodeでStylusを使うため�
 
 VSCodeを使っているうちにSublimeがエラーが出るようになって、使えなくなってしまったので、忘れましたが基本的に、VSCodeでStylusを使うためには **language-stylus** を入れるだけで良さそう。
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus">}}
 
 他にもStylusの拡張機能もあるけど、ダウンロード数や更新数的に **language-stylus** が良さそう。[live-stylus](https://marketplace.visualstudio.com/items?itemName=ajanuw.live-stylus)という拡張機能もあり、コンパイルまでできるかと思いきや、うまく動かなそう。
 
@@ -31,4 +31,4 @@ VSCodeを使っているうちにSublimeがエラーが出るようになって�
 
 #### setting.jsonの開き方
 
-<iframe style="width:100%;height:155px;margin:15px 0;max-width:680px;" src="https://hatenablog-parts.com/embed?url=https://2001y.me/blog/web/vscode-settingsjson/" frameborder="0" scrolling="no"></iframe>
+{{<blogcard url="https://2001y.me/blog/web/vscode-settingsjson/">}}
