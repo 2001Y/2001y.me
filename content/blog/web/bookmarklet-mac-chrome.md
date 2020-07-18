@@ -1,18 +1,14 @@
 ---
-title: "[MacSafari]ブックマークレットの登録方法"
-date: 2020-07-18T01:00:22+09:00
-img: bookmarklet-mac-safari
+title: "[MacChrome]ブックマークレットの登録方法"
+date: 2020-07-18T02:00:22+09:00
+img: bookmarklet-mac-chrome
 categories: ["Web"]
-tags: ["ブックマークレット","WebTopic","Safari"]
+tags: ["ブックマークレット","WebTopic","Chrome"]
 ---
 
 ## ブックマークバー（お気に入りバー）にドラッグ&ドロップする
 
-![](../../../images/bookmarklet-mac-safari-1.jpg)
 
-![](../../../images/bookmarklet-mac-safari-2.jpg)
-
-![](../../../images/bookmarklet-mac-safari-3.jpg)
 
 ### ブックマークバー（お気に入りバー）を表示する方法
 
