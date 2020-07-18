@@ -4,6 +4,7 @@ date: 2020-07-18T02:00:22+09:00
 img: bookmarklet-mac-chrome
 categories: ["Web"]
 tags: ["ブックマークレット","WebTopic","Chrome"]
+draft: true
 ---
 
 ## ブックマークバー（お気に入りバー）にドラッグ&ドロップする
