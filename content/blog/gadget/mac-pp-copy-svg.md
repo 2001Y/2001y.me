@@ -5,13 +5,11 @@ img: mac-pp-copy-svg
 categories: ["Gadget"]
 tags: ["Office","PowerPoint","MacApp"]
 ---
-PowerPointがSVGに対応してパワポ上で色などの変更できるようになりました。illustratorで作成したオブジェクトをコピペすることでSVGオブジェクト化できるはずなんですが。。。
-
 ## 左が個別にSVG出力したもの、右がコピペしたもの
 
+PowerPointがSVGに対応してパワポ上で色などの変更できるようになりました。illustratorで作成したオブジェクトをコピペすることでSVGオブジェクト化できるはずなんですが。。。
+
 ![](../../../images/mac-pp-copy-svg-1.jpg)
-
-
 
 ## まず、個別にSVG出力したもの
 
