@@ -1,5 +1,5 @@
 ---
-title: "[Mac]PowerPointでillustratorからコピペできない（未解決"
+title: "[Mac]PowerPointでillustratorからコピペできない"
 date: 2020-07-19T03:00:22+09:00
 img: mac-pp-copy-svg
 categories: ["Gadget"]
@@ -13,13 +13,13 @@ PowerPointがSVGに対応してパワポ上で色などの変更できるよう�
 
 
 
-## まず、個別にSVG出力したもの。
+## まず、個別にSVG出力したもの
 
 もちろんちゃんと色の変更をすることができます。SVGのおかげで`画面切り替え`の`変形`を非常に有効活用できるのでありがたい機能。
 
 ![](../../../images/mac-pp-copy-svg-2.jpg)
 
-## コピペ、、、
+## コピペ...
 
 背景色がついただけ...。画像です。
 
