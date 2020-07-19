@@ -23,9 +23,9 @@ tags: ["ブログ","WebTopic",Web","サイトマップ","Google","Bing","GoogleS
 
 ## 結論：いつ終わるかわからないけど、使えそう
 
-![http://free.arinco.org/url/](../../../images/extreme-short-bitly-5.jpg)
-
 **追記：釣り記事みたいになるので、結論を先に持ってきました。**
+
+![http://free.arinco.org/url/](../../../images/extreme-short-bitly-5.jpg)
 
 普通に『j.mp bit.ly』で調べたらたくさん記事も出てきて、普通に新規作成が終わったbit.lyのサービス。
 
@@ -49,28 +49,32 @@ https://j.mp/2VchlJr
 
 ### j.mp自体、bit.lyにリダイレクトされる
 
-{{<blogcard url="https://blog.osoe.jp/2009/09/url-jmp-powered-by-bitly.html">}}
-
 j.mp自体、bit.lyにリダイレクトされるし、日本語の記事もあり、+や/info/によるアクセス分析も可能。
+
+{{<blogcard url="https://blog.osoe.jp/2009/09/url-jmp-powered-by-bitly.html">}}
 
 ### 海外の質問サイトには質問が残ってる
 
-{{<blogcard url="https://www.quora.com/What-is-the-difference-between-bit.ly-and-j.mp">}}
-
 やはり、bit.lyのものらしい。
 
-### Bit.lyもアナウンスしていた...？
+{{<blogcard url="https://www.quora.com/What-is-the-difference-between-bit.ly-and-j.mp">}}
 
-![ログイン状態だと管理画面へ移動する](../../../images/extreme-short-bitly-3.jpg)
+### Bit.lyもアナウンスしていた...？
 
 https://bitly.com/post/179664996/go-ahead-and-j-mp
 
 先ほどのQuoraにurl載っていて、何かしら書かれている可能性がありますが、今は閲覧不可能。
 
-### 昔はBufferにも書かれていたらしい。
+![ログイン状態だと管理画面へ移動する](../../../images/extreme-short-bitly-3.jpg)
 
-!["ツイートするときに "bit.ly "と "j.mp "のリンクを使うのは何が違うのでしょうか？" ](../../../images/extreme-short-bitly-2.jpg)
+### 昔はBufferにも書かれていたらしい。
 
 https://buffer.com/resources/bitly-jmp-difference/
 
 今はアクセス不可能だけど、Googleにはクロールされているみたい。
+
+!["ツイートするときに "bit.ly "と "j.mp "のリンクを使うのは何が違うのでしょうか？" ](../../../images/extreme-short-bitly-2.jpg)
+
+***
+
+なんとなく面白くなって調べてみましたが、今は普通に使えるサービスみたい。QRコードにする時なんかには便利かも。中身はbit.lyで安心できるし。
