@@ -1,5 +1,5 @@
 ---
-title: "[Mac]PowerPointでillustratorからコピペできない"
+title: "[Mac]PowerPointでillustratorからSVGコピペできない"
 date: 2020-07-19T03:00:22+09:00
 img: mac-pp-copy-svg
 categories: ["Gadget"]
