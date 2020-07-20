@@ -16,7 +16,7 @@ BBEditは1992年からあったそうで、2019年からAppStoreでの配布が[
 
 ### 複数ファイルから検索
 
-メニューバーから`Search`＞`Multi-File Search...`。ショートカット は`⌘`+`Shift`+`F`。
+メニューバーから`Search`＞`Multi-File Search`。ショートカット は`⌘`+`Shift`+`F`。
 
 ![BBEditメニューバー：Search＞Multi-File Search...](../../../images/mac-bbeditor-multifile-1.jpg)
 
