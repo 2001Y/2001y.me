@@ -1,5 +1,5 @@
 ---
-title: "[Mac/Win/Linux]ボーカル,歌詞を消してYouTubeをカラオケ化できるアプリYouka"
+title: "[Mac,Win,Linux]ボーカル,歌詞を消してYouTubeをカラオケ化できるアプリYouka"
 date: 2020-07-01T08:00:22+09:00
 img: youka
 categories: ["Gadget"]
