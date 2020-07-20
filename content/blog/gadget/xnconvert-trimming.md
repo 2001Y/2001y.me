@@ -14,7 +14,7 @@ MacはAppStoreからダウンロードすることができ、クロスプラッ
 
 {{<blogcard url="https://apps.apple.com/jp/app/xnconvert/id436203431">}}
 
-その他のOS：https://www.xnview.com/en/xnconvert/#downloads
+その他のOS：[https://www.xnview.com/en/xnconvert](https://www.xnview.com/en/xnconvert/#downloads)
 
 ### ファイルを指定する
 
