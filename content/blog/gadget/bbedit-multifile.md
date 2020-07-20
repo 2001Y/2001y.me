@@ -14,19 +14,19 @@ BBEditは1992年からあったそうで、2019年からAppStoreでの配布が[
 
 {{<blogcard url="https://apps.apple.com/jp/app/bbedit/id404009241">}}
 
-### 複数ファイル検索する
+### 複数ファイルから検索
 
 メニューバーから`Search`＞`Multi-File Search...`。ショートカット は`⌘`+`Shift`+`F`。
 
 ![BBEditメニューバー：Search＞Multi-File Search...](../../../images/mac-bbeditor-multifile-1.jpg)
 
-### 一括ワード置き換え
+### 一括ワードを置き換え
 
 `Find`に検索ワードを入れて、`Replace`に置き換えたいワードを入力。忘れずに`Projects`にチェックを入れて、`ReplaceAll`。
 
 ![](../../../images/mac-bbeditor-multifile-2.jpg)
 
-#### 確認アラートをオフにして実行
+### 確認アラートをオフにして実行
 
 このままではファイル毎に確認アラートが出るので、`Confirm before saving`をOFFにして`Proceed`。
 
