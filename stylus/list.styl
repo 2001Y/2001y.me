@@ -39,9 +39,16 @@ header
 #category
   display flex
   overflow-y scroll
-  &:before,&:after
-    content ""
-    min-width 1.2em
+  padding 0 1.2em
+  @media (max-width: 456px)
+    animation bound .5s forwards
+@keyframes bound
+  0%
+    margin-left 0
+  50%
+    margin-left -1em
+  100%
+    margin-left 0
 .category
   font-family icon,Athens
   margin .3rem

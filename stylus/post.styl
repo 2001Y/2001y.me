@@ -39,7 +39,7 @@ h1
     background-size: 100% .05em;
     &:hover
       color var(--d)
-      background-size: 100% 100%;
+      background-size 100% 100%;
   img,source
     cursor pointer
     max-width 80%
@@ -55,6 +55,12 @@ h1
     margin auto
     display block
     margin-bottom .5rem
+.codepen
+  width 80%
+  @media (max-width: 600px)
+    width 100%
+  margin 0 auto .8em auto
+  display block
 ins
   margin 1rem auto
 .last-ad
