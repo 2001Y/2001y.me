@@ -70,9 +70,9 @@ body {
 
 親要素に指定するためには、paddingで指定することもできますが、paddingはマイナスの指定ができないので、逆の動きにすることになります。
 
-試しにデモを載せてみたけど、どちらでも動きがあるだけで注目はしてもらえる気がする。
-
 <iframe height=170px class=codepen src="https://mineditor.github.io/?h=%253Cdiv%2520class%3Dtarget%253E%250A%2520%2520%253Cspan%253E%253C%2Fspan%253E%250A%2520%2520%253Cspan%253E%253C%2Fspan%253E%250A%2520%2520%253Cspan%253E%253C%2Fspan%253E%250A%2520%2520%253Cspan%253E%253C%2Fspan%253E%250A%2520%2520%253Cspan%253E%253C%2Fspan%253E%250A%253C%2Fdiv%253E%250A%253Cbutton%2520onclick%3D%2522window.location.reload%28%29%3B%2522%253EReload%253C%2Fbutton%253E&c=.target%2520%257B%250A%2520%2520animation%3A%2520bound%2520.5s%2520forwards%3B%250A%257D%250A%40keyframes%2520bound%2520%257B%250A%2520%25200%2525%2520%257B%250A%2520%2520%2520%2520padding-left%3A%25200%3B%250A%2520%2520%257D%250A%2520%252050%2525%2520%257B%250A%2520%2520%2520%2520padding-left%3A%252010vw%3B%250A%2520%2520%257D%250A%2520%2520100%2525%2520%257B%250A%2520%2520%2520%2520padding-left%3A%25200%3B%250A%2520%2520%257D%250A%257D%250A%250A%250A.target%2520%257B%250A%2520%2520height%3A%252030vh%3B%250A%2520%2520overflow%3A%2520scroll%3B%250A%2520%2520display%3A%2520flex%3B%250A%257D%250Abody%2Csection%2520%257B%250A%2520%2520display%3A%2520flex%3B%250A%2520%2520flex-direction%3A%2520column%3B%250A%2520%2520justify-content%3A%2520center%3B%250A%257D%250Aspan%2520%257B%250A%2520%2520min-width%3A%252030vw%3B%250A%2520%2520min-height%3A%25203vh%3B%250A%2520%2520background%3A%2520skyblue%3B%250A%2520%2520margin-right%3A%25201vw%3B%250A%257D%250A%250Abutton%2520%257B%250A%2520%2520padding%3A%252010px%3B%250A%2520%2520position%3A%2520fixed%3B%250A%2520%2520bottom%3A%252020px%3B%250A%2520%2520right%3A%252020px%3B%250A%257D&j="></iframe>
+
+試しにデモを載せてみたけど、どちらでも動きがあるだけで注目はしてもらえる気がする。
 
 ***
 
