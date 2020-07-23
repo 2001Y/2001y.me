@@ -8,15 +8,15 @@ tags: ["CSS"]
 
 このブログのリストページはカテゴリを4色に分類して横に並べたナビがあります。
 
-![PC表示](/Users/2001y/Desktop/css-scroll-bound-1.jpg)
+![PC表示](../../../images/css-scroll-bound-1.jpg)
 
 スマートフォンなどでは横幅が足りないため横スクロールさせています。その時、スクロール可能がどうか判別が難しいのでグラデーションによる表現をしていました。
 
-![](/Users/2001y/Desktop/css-scroll-bound-2.jpg)
+![before,afterでグラデをかけてます](../../../images/css-scroll-bound-2.jpg)
 
 しかし、iPhone11Proの解像度で見るとちょうどいい感じになってしまって、3つしかカテゴリがないように見えることに気がつきました。
 
-![](/Users/2001y/Desktop/css-scroll-bound-3.jpg)
+![iPhone11Proではスクロールできるように見えない笑](../../../images/css-scroll-bound-3.jpg)
 
 そこで、スクロールを促すためにバウンドアニメーションを[取り入れました](https://2001y.me/blog)。
 
