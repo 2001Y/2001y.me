@@ -2,7 +2,7 @@
 title: "[Mac]展開できないZipを無理やり展開するコマンドunzip"
 date: 2020-07-24T08:00:22+09:00
 img: mac-unzip
-categories: ["Web"]
+categories: ["Gadget"]
 tags: ["MacCommand","Mac","ターミナル","シェルスクリプト"]
 ---
 
@@ -15,16 +15,16 @@ Zipを展開すると以下のようなアラートが表示される場合が�
 unzipに続けて半角スペースを開けて対象のzipファイルのパスを指定して、次に展開先のフォルダを指定します。
 
 ```sh
-unzip 必要であればオプション ZIPファイル 展開先のフォルダ
+unzip 必要であればオプション ZIPファイル -d 展開先のフォルダ
 ```
 
 展開先には中身が全てぶちまけられるので、Zip内にフォルダがないことも考えて**展開先のフォルダ**を新しく作っておくのが良さそう。
 
 オプションの設定は[この記事](https://www.atmarkit.co.jp/ait/articles/1607/26/news014.html)が参考になりそう。
 
-### フォルダ指定がうまくいかない場合
+### エラー：caution: filename not matched:
 
-上記のコマンドで`caution: filename not matched:`というエラーが出る場合、`cd`コマンドで移動した後に`unzip`してあげると良さそう。
+上記のコマンドで`caution: filename not matched:`というエラーが出る場合、は`-d`を忘れてることが多い。`cd`で別々に指定しても良い。
 
 ```sh
 cd 展開先のフォルダ
@@ -33,3 +33,4 @@ unzip ZIPファイル
 
 ***
 
+`-d`オプションを本当に毎回忘れてしまう。。
