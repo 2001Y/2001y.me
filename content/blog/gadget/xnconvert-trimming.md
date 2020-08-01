@@ -1,5 +1,5 @@
 ---
-title: "[Mac,Win,Linux]XnConvertで複数画像を一括トリミング"
+title: "[Mac,Win,Linux]複数画像の一括トリミングをXnConvertで"
 date: 2020-07-20T00:00:22+09:00
 img: xnconvert-trimming
 categories: ["Gadget"]
