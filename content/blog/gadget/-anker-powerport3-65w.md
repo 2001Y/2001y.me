@@ -58,20 +58,18 @@ PowerPortIII 65wは、[USB PDとQC 3.0に対応していることを示す Power
 
 ## 本当は Aukey OMNIA 61w  がいい。
 
-![](../../../images/anker-powerport3-65w-6.jpg)
-
 今回、Ankerの PowerPortIII 65w を購入しましたが、本当はAukeyの OMNIA 61w (PA-B2) が欲しい。OMNIA 61w は現在日本でが取り扱われていないが、すでに発売済みの商品。
 
-OMNIA 61w は PowerPortIII 65w の`66 × 29 × 45mm`よりもさらに小さい、`45 x 45 x 30mm`という超コンパクトサイズ。で、重さも92gと
+OMNIA 61w は PowerPortIII 65w の`66 × 29 × 45mm`よりもさらに小さい、`45 x 45 x 30mm`という超コンパクトサイズ。で、重さも 92g と PowerPortIII 65w よりも軽い。
 
-https://shop.aukey.com/products/omnia-61w-pd-charger
+![https://shop.aukey.com/products/omnia-61w-pd-charger](../../../images/anker-powerport3-65w-6.jpg)
 
 ## でも、 Innergie 60C Pro もいい。
 
-https://myinnergie.jp/ja/product/60c-pro
-
 30.4 x 30.4 x 60 mm
 85g
+
+![https://myinnergie.jp/ja/product/60c-pro](../../../images/anker-powerport3-65w-7.jpg)
 
 ***
 
