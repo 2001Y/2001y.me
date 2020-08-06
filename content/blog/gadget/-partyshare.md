@@ -7,17 +7,17 @@ tags: ["XnConvert","MacApp","Mac"]
 draft: true
 ---
 
-[GSuiteを個人でも無制限に利用できる](https://2001y.me/blog/gadget/gsuite-unlimit/)ことがわかったので、GoogleDriveをメインに使っています。[GoogleDriveFileStream](https://2001y.me/blog?s=GoogleDriveFileStream)を使っているので本体容量も気にしないで使えるので、簡単なファイル共有でもGoogleDriveを使っています。
 
-でも、大きなファイルを扱うときなどはGoogleDriveにアップロードするのも時間がかかってしまうので、大容量のファイルを共有する時などに使えそうです。
 
 ## Partyshare
 
 {{<blogcard url="https://busterlabs.github.io/Partyshare/">}}
 
-[IPFS](https://ipfs.io)というを使っているらしく、P2Pのプロトコルの1つみたい...？
+[IPFS](https://ipfs.io)というを使っているらしく、P2Pプロトコルの1つみたい...？
 
 > IPFSは同じファイルシステムである全てのコンピューターへの接続を試みるP2P分散ファイルシステムである。複数の点で、IPFSはWebと共通点があるが、IPFSは単一のBitTorrentスウォームのように1つのGitリポジトリの中でオブジェクトを交換することが出来る。　ー [Wikipedia](https://ja.wikipedia.org/wiki/InterPlanetary_File_System)
+
+よくわかりませんが、
 
 ### Partyshareの使い方
 
@@ -35,7 +35,7 @@ Partyshareはメニューバーのみで動作する常駐アプリ。
 https://gateway.ipfs.io/ipfs/固有ID/ファイル名
 ```
 
-ファイルはフォルダから消去すれば共有は解除される。しかし、キャッシュの問題なのか手元のファイルでは、消去後もアクセスすることは可能だった。
+ファイルはフォルダから消去すれば共有は解除されるはずだけど、キャッシュの問題なのか手元のファイルでは、消去後もアクセスすることは可能だった。
 
 ***
 
