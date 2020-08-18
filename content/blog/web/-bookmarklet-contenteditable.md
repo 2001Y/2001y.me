@@ -1,5 +1,5 @@
 ---
-title: "サイト上のテキストを書き換えるブックマークレット"
+title: "サイト上のテキストを書き換えるcontentEditableのブックマークレット"
 date: 2020-06-11T00:00:22+09:00
 img: bookmarklet-contenteditable
 categories: ["Web"]

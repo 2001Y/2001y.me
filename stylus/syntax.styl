@@ -44,7 +44,9 @@ dark()
 .cs, .ge
   font-style: italic
 .err
-  color: #a61717;
+  color var(--d)
+  +dark()
+    color var(--l)
 .lntd
   vertical-align: top;
   padding: 0;
