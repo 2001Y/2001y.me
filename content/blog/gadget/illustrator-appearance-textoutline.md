@@ -1,5 +1,5 @@
 ---
-title: "[illustrator]"プレビュー境界を使用"で終わらない、テキストの見た目通りに整列"
+title: "[illustrator]プレビュー境界を使用 で終わらない、テキストの見た目通りに整列"
 date: 2020-08-19T01:00:30+09:00
 img: illustrator-appearance-textoutline
 categories: ["Gadget"]
