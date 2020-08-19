@@ -1,0 +1,39 @@
+---
+title: "[illustrator]"プレビュー境界を使用"で終わらない、テキストの見た目通りに整列"
+date: 2020-08-19T01:00:30+09:00
+img: illustrator-appearance-textoutline
+categories: ["Gadget"]
+tags: ["Adobe","illustrator","Mac"]
+---
+
+illustratorでテキストを扱っていると、テキストボックス？バウンディングボックス？の余白のせいで思ったように整列できないことがよくあります。
+
+![](../../../images/illustrator-appearance-textoutline-1.jpg)
+
+そこで活用するのが **プレビュー境界を使用** と **アピアランスのアウトライン化** です。これによって、編集可能なまま余白をなくすことができます。
+
+## 1. "プレビュー境界を使用" を有効にする
+
+![整列ウィンドウはメニューバーから『ウィンドウ＞整列』で表示](../../../images/illustrator-appearance-textoutline-2.jpg)
+
+整列のウィンドウから、右上3本線から **プレビュー境界を使用** を有効にします。この **プレビュー境界を使用**   は、CSSでいう`box-sizing: border-box;`のような**線の幅を含めた**整列方法になります。
+
+![illustrator-appearance-textoutline-3](../../../images/illustrator-appearance-textoutline-3.jpg)
+
+でも、これだけはテキストには変化がないので、次にアピアランスのアウトラインをかけます。
+
+## 2. アピアランスでアウトライン化（テキスト編集不可にならない）
+
+![アピアランスウィンドウはメニューバーから『ウィンドウ＞アピアランス』で表示](../../../images/illustrator-appearance-textoutline-4.jpg)
+
+有効にしたいテキストを選択した状態で、アピアランスウィンドウの左下から3つ目の `fx` から`パスのアウトライン`を有効にします。
+
+このアウトライン化はテキスト右クリックからの`アウトラインを作成`とは違い、編集不可能になりません。
+
+![](../../../images/illustrator-appearance-textoutline-5.jpg)
+
+***
+
+アピアランスのアウトライン化は便利だけど、グループの外とか他ファイルにコピペした時にアウトライン化されたデータがペーストされるのが気になる。。
+
+今のところの対処法はタブにドラッグでコピペする方法。
