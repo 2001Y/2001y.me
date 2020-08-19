@@ -11,19 +11,15 @@ Twitterから公式で予約ツイートができるようになりました。�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">えぇ。。<br>手脚5箇所ぐらい蚊に刺されてた。。。<br>かゆい。。。</p>&mdash; 2001Y (@Y20010920T) <a href="https://twitter.com/Y20010920T/status/1284635059543257089?ref_src=twsrc%5Etfw">July 18, 2020</a></blockquote>
 
-
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あつい...</p>&mdash; 2001Y (@Y20010920T) <a href="https://twitter.com/Y20010920T/status/1290857812931665920?ref_src=twsrc%5Etfw">August 5, 2020</a></blockquote>
-
 特に予約ツイートなどの表記はなさそう。パッとみで予約ツイートと悟られることはなさそう...？
 
-## ばれポイント1：ツイート元表示が Twitter Web App になる
+## ばれポイント1： ツイート元表示が"Twitter Web App"になる
 
 ![](../../../images/twitter-schedule-leak-1.jpg)
 
 現在、予約ツイートはWebからしかできないため、ツイート元の表示は **Twitter Web App** になる。普段、Web版を全く使わないと気になるかも？
 
-## ばれポイント2：ツイート時間がぴったりになる
+## ばれポイント2： ツイート時間がぴったりになる
 
 ![](../../../images/twitter-schedule-leak-2.jpg)
 
