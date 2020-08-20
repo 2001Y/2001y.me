@@ -53,7 +53,21 @@
             <img src=/img/{{ .Params.img }}-700.jpg srcset="/img/{{ .Params.img }}-1400.jpg 2x,/img/{{ .Params.img }}-2100.jpg 3x" width=700 height=368 alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
         </picture>
       {{ end }}
-      {{ .Content }}
+      {{ $p_tag := findRE "<h2>(.|\n)+?</h2>" .Content }}
+      {{ $position := div (len $p_tag) 2 }}
+      {{ $contents := split .Content "\n" }}
+      {{ $.Scratch.Set "Content" "" }}
+      {{ $.Scratch.Set "Counter" 0 }}
+      {{ range $contents }}
+          {{ if hasPrefix . "<h2>" }}
+              {{ $.Scratch.Add "Counter" 1 }}
+              {{ if eq ($.Scratch.Get "Counter") $position }}
+                  {{ $.Scratch.Add "Content" (partial "ad.html") }}
+              {{ end }}
+          {{ end }}
+          {{ $.Scratch.Add "Content" (print . "\n") }}
+      {{ end }}
+      {{ $.Scratch.Get "Content" | safeHTML }}
       <!-- .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" "${1}&nbsp;<a class=\"headline-hash\" href=\"#${2}\">#</a> ${3}" | safeHTML  -->
       <div id=Voting class=normal>
         <button onclick="block();" id="Close" aria-label=閉じる></button>
@@ -65,7 +79,7 @@
       </div>
     </article>
     <aside>
-      <div class=last-ad>
+      <div class=ad>
         <ins class="adsbygoogle" style="display:block;width:200px;height:200px" data-ad-client="ca-pub-3750999099107987" data-ad-slot="3114303912"></ins>
         <ins class="adsbygoogle" style="display:block;width:200px;height:200px" data-ad-client="ca-pub-3750999099107987" data-ad-slot="3114303912"></ins>
       </div>
@@ -161,6 +175,8 @@
     galite('send', 'pageview');
     window.onload = setTimeout(
       function() {   
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
         (adsbygoogle = window.adsbygoogle || []).push({});
         (adsbygoogle = window.adsbygoogle || []).push({});
       },3000

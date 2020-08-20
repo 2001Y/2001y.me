@@ -18,7 +18,7 @@ illustratorでテキストを扱っていると、テキストボックス？バ
 
 整列のウィンドウから、右上3本線から **プレビュー境界を使用** を有効にします。この **プレビュー境界を使用**   は、CSSでいう`box-sizing: border-box;`のような**線の幅を含めた**整列方法になります。
 
-![illustrator-appearance-textoutline-3](../../../images/illustrator-appearance-textoutline-3.jpg)
+![](../../../images/illustrator-appearance-textoutline-3.jpg)
 
 でも、これだけはテキストには変化がないので、次にアピアランスのアウトラインをかけます。
 
