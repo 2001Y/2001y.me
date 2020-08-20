@@ -3,7 +3,7 @@ title: "[illustrator]プレビュー境界を使用 で終わらない、テキ�
 date: 2020-08-19T01:00:30+09:00
 img: illustrator-appearance-textoutline
 categories: ["Gadget"]
-tags: ["Adobe","illustrator","Mac"]
+tags: ["Topic","Adobe","illustrator","Mac"]
 ---
 
 illustratorでテキストを扱っていると、テキストボックス？バウンディングボックス？の余白のせいで思ったように整列できないことがよくあります。
