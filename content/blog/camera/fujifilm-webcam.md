@@ -10,6 +10,8 @@ tag: ["Camera","MacApp","FUJIFILM"]
 
 が、やっとFujiFilm公式のMac対応のWebカメラ化ツールが出ました。
 
+{{<ad>}}
+
 ## 公式のMac対応のWebカメラ化ツール
 
 {{<blogcard url="https://fujifilm-x.com/ja-jp/support/download/software/x-webcam/">}}

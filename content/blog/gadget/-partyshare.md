@@ -7,7 +7,7 @@ tags: ["XnConvert","MacApp","Mac"]
 draft: true
 ---
 
-
+{{<ad>}}
 
 ## Partyshare
 

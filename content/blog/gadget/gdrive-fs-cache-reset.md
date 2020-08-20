@@ -9,6 +9,8 @@ GSuiteの Googleドライブ ファイル ストリーム （以下GDriveFS）�
 
 [AppCleaner](https://freemacsoft.net/appcleaner/) でアプリの関連ファイル一式を消して、[再インストール](https://support.google.com/a/answer/7491144?hl=ja#windows)してもなおりませんでした。Googleログインも残ったまま。
 
+{{<ad>}}
+
 ## キャッシュを消去する
 
 ![この中にログイン情報も含まれてるみたい](../../../images/drive-fs-cache-reset-1.jpg)

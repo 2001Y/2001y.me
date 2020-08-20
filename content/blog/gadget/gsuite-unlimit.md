@@ -7,6 +7,8 @@ tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 GSuiteを使うとGoogleDriveを月額1360円で容量無制限に使うことができますが、5人未満は上限1TBとと書かれていることが多い。そこで、GSuite Businessに加入して1人でも実際に無制限なのか試してみました。
 
+{{<ad>}}
+
 ## どっち...公式HPにも両方乗っている...
 
 ![どっちなんだ...](../../../images/gsuite-unlimit-cf.jpg)

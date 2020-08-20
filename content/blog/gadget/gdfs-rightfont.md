@@ -14,6 +14,8 @@ RightFontはクラウド同期を売りにしていて、Dropboxなどの任意�
 
 でも、GSuiteに入ったのは本体容量が少なくて、GoogleDriveFileStreamを使いたいから。なんとかして、GoogleDriveFileStreamで同期したかった。
 
+{{<ad>}}
+
 ## 多分、GoogleDriveFileStreamでRightFontが使える！
 
 ![](../../../images/gdfs-rightfont-1.jpg)

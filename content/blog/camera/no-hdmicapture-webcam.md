@@ -10,6 +10,8 @@ SIGMA fpがUSB-Cのケーブル1本でWebカメラ化するのが流行ってい
 
 しかし、ぼくのカメラはFUJIFILMのX-T3です。X-T3をWebカメラ化できないかと調べると、やはり[HDMIキャプチャ](https://amzn.to/2YXLpK8)を買うしかない模様...。
 
+{{<ad>}}
+
 ## FUJIFILMのカメラでもWebカメラ化できた！
 
 と思っていたところ、**CamTwist**と**Camera Live**を使うことでMacとX-T3をUSB-Cで繋ぐだけでWebカメラ化できました。

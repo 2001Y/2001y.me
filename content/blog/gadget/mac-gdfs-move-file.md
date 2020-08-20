@@ -8,6 +8,8 @@ tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 
 Macで外部ドライブにドラッグ&ドロップすると移動ではなくコピーされます。普段は便利な機能だけど、ファイル管理のメインにGoogleDriveFileStreamに使っていると邪魔な機能。
 
+{{<ad>}}
+
 ## commandを押しながら移動させる
 
 解決策は簡単でドラッグ時にコマンドキーを押しながら移動させることで、コピーではなく移動させることができるみたいです。GoogleDriveFileStreamに限らず、外部ドライブでも同じ。

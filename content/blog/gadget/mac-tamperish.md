@@ -10,6 +10,8 @@ Safari12,13から .safariextz が利用できなくなり、広告ブロック�
 
 この前、AppStoreからインストールできるカスタムCSS拡張機能ががあったのでメモ。
 
+{{<ad>}}
+
 ## カスタムCSS,JSを使えるTamperish
 
 説明欄によるとUserScriptも使うことができるようなのですが、UserScriptはインストール時に自動推移してくれるTampermonkeyの方が良さそう。

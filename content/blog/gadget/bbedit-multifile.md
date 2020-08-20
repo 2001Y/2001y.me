@@ -8,6 +8,8 @@ tags: ["BBEdit","MacApp","Mac"]
 
 複数ファイルの一括置き換えについて調べるとTextWranglerが出てきましたが、現在TextWranglerは非公開中。代替案としてBBEditを推奨しています。そこで、BBEditを使って複数ファイルの一括置き換えをしてみました。
 
+{{<ad>}}
+
 ## BBEditで複数ファイル一括検索&置換
 
 BBEditは1992年からあったそうで、2019年からAppStoreでの配布が[再開されたらしい](https://twitter.com/pschiller/status/1113838263842693120?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1113838715133149186%7Ctwgr%5E&ref_url=https%3A%2F%2Fapplech2.com%2Farchives%2F20190405-bbedit-return-to-mac-app-store-since-2014.html)。料金設定は記事最後に少し。

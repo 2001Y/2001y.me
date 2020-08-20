@@ -6,6 +6,8 @@ categories: ["Gadget"]
 tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 
+{{<ad>}}
+
 ## GoogleDriveFileStreamでも一応Gitは使えそう。
 
 ![](../../../images/gdfs-git-1.jpg)
