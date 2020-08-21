@@ -174,11 +174,11 @@
     galite('create', 'UA-68964193-14', 'auto');
     galite('send', 'pageview');
     window.onload = setTimeout(
-      function() {   
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        (adsbygoogle = window.adsbygoogle || []).push({});
+      function() {
+        let ads = document.querySelectorAll(".adsbygoogle");
+        ads.forEach(function(){
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        });
       },3000
     );
   </script>
