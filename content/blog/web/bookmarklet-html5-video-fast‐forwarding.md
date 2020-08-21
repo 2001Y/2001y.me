@@ -8,6 +8,8 @@ tags: ["ブックマークレット","WebTopic"]
 
 Chromeには再生スピードを変える拡張機能がありますが、そんなに使う回数も多くないし、手軽にブックマークレットで済ませたかったので作ってメモ。
 
+{{<ad>}}
+
 ## 好きなスピードで動画を再生するブックマークレット
 
 下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。

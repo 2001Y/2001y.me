@@ -8,6 +8,8 @@ tags: ["ブログ","Web","Blog","VSCode"]
 
 SublimeからVSVodeに移行しているので、VSCodeでStylusを使うためメモ。あと、せっかくStylusを使っているのでコロン(:)使わない方向性です。
 
+{{<ad>}}
+
 ## 基本的に language-stylus だけで完結
 
 VSCodeを使っているうちにSublimeがエラーが出るようになって、使えなくなってしまったので、忘れましたが基本的に、VSCodeでStylusを使うためには **language-stylus** を入れるだけで良さそう。

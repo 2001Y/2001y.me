@@ -8,6 +8,8 @@ tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConso
 
 現在、Github経由でNetlifyでHugoを使ってこのブログを作っています。そこで、記事を追加するたびにサイトマップをGoogleやBingに手動で通知するのも面倒で自動化の手順をメモしておきます。
 
+{{<ad>}}
+
 ## サイトの更新を伝える手段
 
 [SearchConsoleヘルプ](https://support.google.com/webmasters/answer/183668?hl=ja#addsitemap)によると、Googleにサイトマップを送るには3種類あります。

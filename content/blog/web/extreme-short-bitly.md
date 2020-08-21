@@ -9,6 +9,8 @@ tags: ["ブログ","Topic",Web","サイトマップ","Google","Bing","GoogleSear
 
 あるときに、j.mpのリンクに触れる機会があって、調べた感じ今でも裏でbit.lyが動いているようで、メモ。
 
+{{<ad>}}
+
 ## 数少ない3文字短縮URL
 
 1文字+2文字ドメインは珍しく、weiboのt.cnやv.gdぐらい...？
@@ -42,6 +44,8 @@ https://j.mp/2VchlJr
 {{<blogcard url="https://www.itmedia.co.jp/news/articles/0909/07/news027.html">}}
 
 {{<blogcard url="https://tumblr.yabu.jp/post/180475779/世界最短の短縮urljmpの裏技発見">}}
+
+{{<ad>}}
 
 ## 調べてみる
 

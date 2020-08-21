@@ -12,6 +12,8 @@ tags: ["ブログ","Web","Blog","VSCode","Stylus","Gulp"]
 
 なので、もっといい方法があるかも...。
 
+{{<ad>}}
+
 ## とりあえずGulpでStylusコンパイル
 
 AtomとSublimeの間に、高校生の学割を使ってWebStormを使っていた時期があって、その時にGulpを導入したのかな...？でも、サクッと試したい時は面倒だからCodepenを使いがち。

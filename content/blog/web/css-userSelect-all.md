@@ -9,6 +9,8 @@ tags: ["CSS"]
 
 [mdnのuser-select](https://developer.mozilla.org/ja/docs/Web/CSS/user-select)を見ていたら、user-selectを使えばCSSだけで1クリックで全選択肢できることに気がついたのでメモ。
 
+{{<ad>}}
+
 ## user-select: all;
 
 これを加えるだけで、1クリックで全選択ができるようになります。

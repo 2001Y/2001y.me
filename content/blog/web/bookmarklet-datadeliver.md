@@ -10,6 +10,8 @@ tags: ["ブックマークレット","WebTopic"]
 
 と言っても、リンクを全部新規タブで開いてるだけです。。
 
+{{<ad>}}
+
 ## データ便を一括ダウンロードできるブックマークレット
 
 下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
