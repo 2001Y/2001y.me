@@ -42,9 +42,13 @@ Twitterで有名、イラレ職人のコロさまのnote。アピアランスを
 
 jQyeryに依存しない軽量なJSライブラリなどをデモサイトを含めて、多く紹介してくれています。jQyery使えない自分にとってググるとよく行き着くサイト。
 
-## 普通に情報手に入る、[Qiita](https://qiita.com/tags/css)
+## やはり共有サービスは強い、[Qiita](https://qiita.com/tags/css)
 
-## 脱WordPressや軽量化など、[q-Az](https://q-az.net)
+技術情報共有サービスなので、対応幅が広い。日本語の情報が少なめのHugoなどの情報もあり、GulpやGitエラーなどの小さな不具合の対応礼も多い。
+
+## 脱jQueryや軽量化など、[q-Az](https://q-az.net)
+
+[脱jQuery](https://q-az.net/none-jquery-addclass-has-remove-toggle/)や[mousedownだけでリンク遷移](https://q-az.net/quick-link-javascript/)するjsなど軽量化系も多め...？最近、脱WordPressしてサイトデザインが変わった。ねこちゃんのロゴが可愛い。
 
 ## WordPressやジェネレーターなど、[NxWorls](https://www.nxworld.net)
 
@@ -52,17 +56,17 @@ jQyeryに依存しない軽量なJSライブラリなどをデモサイトを含
 
 言わずも知れたLIGのブログ。Webデザインに限らずマーケティング？ビジネス的な記事も多い。リンクはLIGブログノWeb制作カテゴリ。
 
-## メディア系に強いしっかり者、[baglee](https://bagelee.com)
-
-小ネタというより、しっかりとした記事が多い。WebARや動画などメディア系に強い印象。
-
-## jQueryやCSSなど基本的なデモなど、[Webpark](http://weboook.blog22.fc2.com)
-
-
-
 ## 個人的に好き、[CatKnows](https://catnose99.com)
 
 超個人的なサイトまとめのなかで、さらに個人的なお気に入りブログ。絵文字をアイキャッチにしたり、Instagramのスートーリーのようなデザインでカテゴリ分けしているのがとても斬新で好き。とても好き。
+
+## 基本的なjQueryやCSSなどデモなど、[Webpark](http://weboook.blog22.fc2.com)
+
+完成系のサンプルコードが多い？Webを触り始めた時によくコピペさせていただいてた。最後の2つは最近はあんまりみてないかも...。
+
+## メディア系に強いしっかり者、[baglee](https://bagelee.com)
+
+小ネタというより、しっかりとした記事が多いイメージ...？WebARや動画などメディア系に強い印象。
 
 {{<ad>}}
 
@@ -84,4 +88,4 @@ Flex：[https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet](https://www.
 
 ***
 
-Codepenなども活用したいが、
+Codepenとかも見たいんだけど、Penの読み込みとかが必要だからちょっとハードルが上がっちゃう...。iPhoneを買ってから、すぐTwitter見ちゃうからRSSの情報収集とかしなくなったなぁ
