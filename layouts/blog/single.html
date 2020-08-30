@@ -79,6 +79,11 @@
       </div>
     </article>
     <aside>
+      {{ if .Params.bgm }}
+        <div id=bgm>
+          <button id=bgmB onclick=bgmF();>BGM</button>
+        </div>
+      {{ end }}
       <div class=ad>
         <ins class="adsbygoogle" style="display:block;width:200px;height:200px" data-ad-client="ca-pub-3750999099107987" data-ad-slot="6726245863"></ins>
         <ins class="adsbygoogle" style="display:block;width:200px;height:200px" data-ad-client="ca-pub-3750999099107987" data-ad-slot="3114303912"></ins>
@@ -182,6 +187,14 @@
       },3000
     );
   </script>
+{{ end }}
+{{ if .Params.bgm }}
+<script>
+  function bgmF() {
+    bgm.innerHTML = "<iframe src=//www.youtube.com/embed/{{ .Params.bgm }}?playlist={{ .Params.bgm }}&loop=1&autoplay=1&controls=0&showinfo=0 allow=autoplay></iframe>";
+    bgmB.remove();
+  }
+</script>
 {{ end }}
 <script type=application/ld+json>
 {

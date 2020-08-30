@@ -4,6 +4,7 @@ date: 2020-02-05T08:00:22+09:00
 img: hello
 categories: ["Other"]
 tags: ["ブログ"]
+bgm: "YH1aOeTX7Vs"
 ---
 はじめまして！2001Yです。
 
