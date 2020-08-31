@@ -1,5 +1,5 @@
 ---
-title: "[Zoom]ステレオを有効にする方法"
+title: "[Zoom]高音質化？ステレオを有効にする方法"
 date: 2020-08-31T00:00:22+09:00
 img: zoom-stereo-mic
 categories: ["Gadget"]
@@ -25,6 +25,11 @@ tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 
 ### 2. クライアント設定
 
+次にクライアント、アプリ側の設定を開きステレオを有効にします。
 
+![メニューバー＞zoom.us＞設定＞オーディオ](../../../images/zoom-stereo-mic-2.jpg)
 
-![](../../../images/zoom-stereo-mic-2.jpg)
+#### これはあくまで
+
+***
+
