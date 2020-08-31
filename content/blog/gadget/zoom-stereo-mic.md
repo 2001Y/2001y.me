@@ -3,7 +3,7 @@ title: "[Zoom高音質化]ステレオ音声を有効にする方法"
 date: 2020-08-31T00:00:22+09:00
 img: zoom-stereo-mic
 categories: ["Gadget"]
-tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
+tags: ["Zoom","MacApp"]
 
 ---
 
