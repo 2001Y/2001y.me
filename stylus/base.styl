@@ -35,6 +35,28 @@ input,button,textarea
   appearance:none
   border: none
   resize: none
+input
+  &[type="text"],&[type="search"]
+    line-height 1
+    overflow-y visible
+    overflow-x scroll
+    padding 1rem 1.7rem 1rem .7rem
+    border-radius 2rem
+    color var(--d)      
+    background var(--d05)
+    +dark()
+      color var(--l)
+      background var(--l05)
+    &::placeholder
+      line-height 1
+      overflow-y visible
+      overflow-x scroll
+      color var(--d5)
+      +dark()
+        color var(--l5)
+  &[readonly=""]
+    -webkit-user-select: all;
+    user-select: all;
 ::-webkit-search-cancel-button,::-webkit-search-decoration
   -webkit-appearance none
 body
@@ -285,14 +307,9 @@ main a:first-child article,#related+a article
   right 0
   position absolute
 .search
-  color var(--d)
-  +dark()
-    color var(--l)
   width 12rem
   height 2rem
-  padding 1rem 1.7rem 1rem .7rem
   position relative
-  border-radius 1rem
   &:hover+.submit
     color var(--d)
     +dark()
@@ -306,13 +323,8 @@ main a:first-child article,#related+a article
   cursor: pointer;
   transition color .4s
   will-change color
-
 header .search-box
   bottom -1.5rem
-  .search
-    background var(--d05)
-    +dark()
-      background var(--l05)
   .submit
     color var(--l)
     +dark()

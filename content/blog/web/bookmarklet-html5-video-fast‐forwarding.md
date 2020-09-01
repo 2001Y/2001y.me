@@ -3,7 +3,7 @@ title: "[YouTube/Temas等]ブラウザのみで好きなスピードで動画を
 date: 2020-06-25T01:00:22+09:00
 img: bookmarklet-html5-video-fast‐forwarding
 categories: ["Web"]
-tags: ["ブックマークレット","WebTopic"]
+tags: ["自作ツール","ブックマークレット","WebTopic"]
 ---
 
 Chromeには再生スピードを変える拡張機能がありますが、そんなに使う回数も多くないし、手軽にブックマークレットで済ませたかったので作ってメモ。

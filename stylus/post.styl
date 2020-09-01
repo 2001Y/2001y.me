@@ -59,6 +59,13 @@ h1
       max-width 100vw
       margin 0 -1rem .3rem -1rem
       border-radius 0
+  input[type="text"]
+    max-width 40rem
+    width 100%
+    height 2.5rem
+    margin auto
+    display block
+
 #tmb>img,#tmb>source
   max-width 100%
   width 100%
@@ -95,7 +102,8 @@ hr
     background: var(--l05)
   margin 3rem auto
   border-radius .15rem
-code,.chroma
+code,.chroma,input[readonly=""]
+  font-size .8rem
   font-family Menlo, "Courier New", Consolas, monospace
 p code
   word-wrap normal
@@ -373,10 +381,6 @@ tr:first-of-type
     opacity 1 !important
 .done
   pointer-events: none;
-  
-.twitter-tweet
-  margin -1.2rem auto -1rem auto !important
-  transform scale(.8) !important
 
 #bgm
   position fixed
@@ -386,6 +390,33 @@ tr:first-of-type
   iframe 
     width 16vw
     height 9vw
+
+.twitter-tweet
+  margin -1.2rem auto -1rem auto !important
+  transform scale(.8) !important
+
+.youtube
+  position relative
+  width 80%
+  background var(--d05)
+  margin auto
+  @media (max-width: 560px)
+    width 100vw
+    margin 0 -1rem
+  &:before
+    content ""
+    display block
+    padding-top 56.25%
+  iframe
+    +dark()
+      background var(--l05)
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
   
 @media (max-width: 500px)
   header
