@@ -14,6 +14,8 @@ tags: ["自作ツール","WebTopic"]
 
 ## YouTube Loop
 
+使い方は簡単で、下の項目にURLか動画IDを入力すればループ再生される。
+
 ### ループさせたいURL、または動画ID
 
 {{<html>}}<input type=text id=input placeholder="https://youtu.be/XXXX OR https://www.youtube.com/watch?v=XXXX" onkeyup="youtube();" autofocus>{{</html>}}
@@ -69,11 +71,13 @@ function youtube(){
 
 ## 仕組み
 
+同じ曲を2曲、プレイリストを埋め込んで、そのプレイリストをループ再生させています。詳細はYouTubeの[埋め込みリファレンス](https://developers.google.com/youtube/player_parameters?hl=ja#loop)へ。
+
 ```html
 https://www.youtube.com/embed/XXXX?playlist=XXXX&loop=1&autoplay=1
 ```
 
-同じ曲を2曲、プレイリストを埋め込んで、そのプレイリストをループ再生させています。詳細はYouTubeの[埋め込みリファレンス](https://developers.google.com/youtube/player_parameters?hl=ja#loop)へ。
+本当は、Enterを押さなくても自動再生するようにしたいけど、ブラウザの制約でどうも難しそう...？
 
 あと、**ループURL** のidパラメータは関数を実行してるだけなので、サイト同様、2種類のURLでも直接動画IDを指定しても動く。
 
