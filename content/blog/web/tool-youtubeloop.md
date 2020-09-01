@@ -83,7 +83,7 @@ https://www.youtube.com/embed/XXXX?playlist=XXXX&loop=1&autoplay=1
 
 ### コード
 
-`https://youtu.be/XXXX` と `https://www.youtube.com/watch?v=XXXX`の2種類のURLに対応していて、`vのパラメータ`で取得できなかったら、[.pathname](https://developer.mozilla.org/ja/docs/Web/API/URL/pathname)で動画IDを取得するようになってます。エラー処理などは入ってません（笑
+ `https://www.youtube.com/watch?v=XXXX`と`https://youtu.be/XXXX` の2種類のURLに対応していて、`vのパラメータ`で取得できなかったら、[.pathname](https://developer.mozilla.org/ja/docs/Web/API/URL/pathname)で動画IDを取得するようになってます。エラー処理などは入ってません（笑
 
 ```js
 function youtube(){
