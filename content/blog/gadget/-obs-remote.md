@@ -42,7 +42,7 @@ OBSを起動しているパソコンのプライベートIPを取得します。
 
 ### スマホやタブレットからIPを指定して遠隔する
 
-
+スマホやタブレットから[OBS Remote Tablet](http://t2t2.github.io/obs-tablet-remote/#!auto)にアクセスし、`HOSTの欄`に先ほどのOBSを起動しているパソコンのIPを入力し、接続します。
 
 ![](../../../images/obs-remote-tablet-ipad.jpg)
 
