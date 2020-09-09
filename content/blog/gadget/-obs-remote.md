@@ -4,6 +4,7 @@ date: 2020-09-09T00:00:22+09:00
 img: obs-remote
 categories: ["Gadget"]
 tags: ["OBS","MacApp","Mac"]
+draft: true
 ---
 
 {{<ad>}}
