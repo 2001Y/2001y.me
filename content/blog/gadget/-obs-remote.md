@@ -20,11 +20,15 @@ tags: ["OBS","MacApp","Mac"]
 
 ![](../../../images/obs-remote-websocket-download.jpg)
 
-### OBS Remote Tabletにアクセスして設定する
+### OBS Remote Tabletから遠隔操作する
+
+![メニューバー＞WebSockets Server Settings](../../../images/obs-websocket.jpg)
 
 {{<blogcard url="http://t2t2.github.io/obs-tablet-remote/#!auto">}}
 
-#### スマホから遠隔する
+同じパソコンでは上記のサイトにアクセスするだけで、
+
+#### スマホ・タブレットから遠隔する
 
 ![シンプルなUIで割と使いやすい](../../../images/obs-remote-ios.jpg)
 
@@ -32,7 +36,7 @@ tags: ["OBS","MacApp","Mac"]
 
 #### httpsでは動作しないので注意
 
-なんとなくhttpが気になってhttpsに書き換えたのですが、`obs-websocket`が対応してないらしくhttpで
+なんとなくhttpが気になってhttpsに書き換えたのですが、`obs-websocket`が対応してないらしくhttpでアクセスする必要がありそう。
 
 ![Warning: HTTPS Detected](../../../images/obs-remote-https.jpg)
 
