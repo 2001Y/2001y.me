@@ -6,21 +6,27 @@ categories: ["Gadget"]
 tags: ["OBS","MacApp","Mac"]
 ---
 
-
+`OBS Remote Tablet`は同じWiFi環境下のOBSを遠隔操作することができるようになるWebサイトです。
 
 {{<ad>}}
 
-## OBS Remote Tablet
+## OBSにWebSocketプラグインを導入する
 
-`OBS Remote Tablet`は同じWiFi環境下のOBSを遠隔操作することができるようになるWebサイトです。
+`OBS Remote Tablet`はWebSockets経由で操作するため、`obs-websocket`をインストールする必要があります。
 
-### WebSocketプラグインをインストール
+### ダウンロード
 
-`OBS Remote Tablet`はWebSockets経由で操作するため、[Github](https://github.com/Palakis/obs-websocket/releases/)からOSにあった最新のものを`obs-websocket`をインストールする必要があります。
+[Githubから](https://github.com/Palakis/obs-websocket/releases/)自分のOSにあったものをダウンロードします。
 
-![](../../../images/obs-remote-websocket-download.jpg)
+![](../../../images/obs-websocket-download.jpg)
 
-### OBS Remote Tabletから遠隔操作する
+### インストール
+
+ダウンロードフォルダから、`obs-websocket`をインストールします。
+
+![](../../../images/obs-websocket-install.jpg)
+
+### 確認
 
 OBSを起動し、`obs-websocket`がインストールできてることを確認します。
 
