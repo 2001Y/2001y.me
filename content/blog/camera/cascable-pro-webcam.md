@@ -3,7 +3,7 @@ title: "[Mac]WiFi/USB経由でHDMIキャプチャなしでカメラをWebカメ�
 date: 2020-06-24T08:00:22+09:00
 img: cascable-pro-webcam
 categories: ["Camera"]
-tag: ["Camera","MacApp","FUJIFILM"]
+tag: ["WebCam","MacApp","FUJIFILM"]
 ---
 
 ## CascableProWebcam

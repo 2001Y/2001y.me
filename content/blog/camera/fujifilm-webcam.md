@@ -3,7 +3,7 @@ title: "Mac対応のFujiFilm公式のWebカメラ化ツールが出た！！"
 date: 2020-07-09T03:00:22+09:00
 img: fujifilm-webcam
 categories: ["Camera"]
-tag: ["Camera","MacApp","FUJIFILM"]
+tag: ["WebCam","MacApp","FUJIFILM"]
 ---
 
 今まで[CameraLiveとCamTwistを使ってX-T3をWebカメラ化](https://2001y.me/blog/camera/no-hdmicapture-webcam/)してました。その後、Windows用の公式Webカメラ化ツールは出ましたがMacはありませんでした。
