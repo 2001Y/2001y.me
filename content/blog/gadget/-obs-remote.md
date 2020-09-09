@@ -16,6 +16,12 @@ tags: ["OBS","MacApp","Mac"]
 
 {{<blogcard url="https://github.com/Palakis/obs-websocket/releases/">}}
 
+最新の`obs-websocket`を
+
+![](../../../images/obs-remote-websocket-download.jpg)
+
+
+
 ![](../../../images/obs-remote-websocket.jpg)
 
 ![シンプルなUIで割と使いやすい](../../../images/obs-remote-ios.jpg)
