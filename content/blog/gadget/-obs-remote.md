@@ -12,7 +12,7 @@ tags: ["OBS","MacApp","Mac"]
 
 {{<ad>}}
 
-## OBSにWebSocketプラグインを導入する
+## 事前準備：WebSocketプラグインを導入
 
 `OBS Remote Tablet`はWebSockets経由で操作するため、`obs-websocket`をインストールする必要があります。
 
@@ -48,7 +48,13 @@ OBSを起動しているパソコンのプライベートIPを取得します。
 
 ![](../../../images/obs-remote-tablet-ipad.jpg)
 
+***
 
+### シーン切り替え以外にも音量の調整など様々な遠隔操作が可能
+
+右上のペンマークから、シーン切り替え以外のボリュームの調整などの操作ができます。
+
+![](../../../images/obs-remote-panellist.jpg)
 
 #### httpsでは動作しないので注意
 
