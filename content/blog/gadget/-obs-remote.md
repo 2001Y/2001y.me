@@ -1,18 +1,26 @@
 ---
-title: "OBSをWebから遠隔操作でシーン切り替え"
+title: "[OBS]Web遠隔操作でスマホなどからシーン切り替え、OBS Remote Tablet"
 date: 2020-09-09T00:00:22+09:00
 img: obs-remote
 categories: ["Gadget"]
 tags: ["OBS","MacApp","Mac"]
-draft: true
 ---
+
+
 
 {{<ad>}}
 
+## OBS Remote Tablet
 
+### WebSocketプラグインをインストール
 
-![](../../../images/obs-remote-ios.jpg)
+{{<blogcard url="https://github.com/Palakis/obs-websocket/releases/">}}
+
+![](../../../images/obs-remote-websocket.jpg)
+
+![シンプルなUIで割と使いやすい](../../../images/obs-remote-ios.jpg)
 
 
 
 ***
+
