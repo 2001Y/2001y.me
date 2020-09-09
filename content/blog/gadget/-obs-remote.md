@@ -8,6 +8,8 @@ tags: ["OBS","MacApp","Mac"]
 
 `OBS Remote Tablet`は同じWiFi環境下のOBSを遠隔操作することができるようになるWebサイトです。
 
+![obs-remote-tablet-web](../../../images/obs-remote-tablet-web.jpg)
+
 {{<ad>}}
 
 ## OBSにWebSocketプラグインを導入する
@@ -45,6 +47,8 @@ OBSを起動しているパソコンのプライベートIPを取得します。
 スマホやタブレットから[OBS Remote Tablet](http://t2t2.github.io/obs-tablet-remote/#!auto)にアクセスし、`HOSTの欄`に先ほどのOBSを起動しているパソコンのIPを入力し、接続します。
 
 ![](../../../images/obs-remote-tablet-ipad.jpg)
+
+
 
 #### httpsでは動作しないので注意
 
