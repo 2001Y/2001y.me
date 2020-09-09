@@ -1,6 +1,6 @@
 ---
-title: "[OBS]Web遠隔操作でスマホなどからシーン切り替え、OBS Remote Tablet"
-date: 2020-09-09T00:00:22+09:00
+title: "[OBS]スマホやタブレットからWebサイト上で遠隔操作、OBS Remote Tablet"
+date: 2020-09-10T00:00:22+09:00
 img: obs-remote
 categories: ["Gadget"]
 tags: ["OBS","MacApp","Mac"]
@@ -22,15 +22,17 @@ tags: ["OBS","MacApp","Mac"]
 
 ### OBS Remote Tabletから遠隔操作する
 
+OBSを起動し、`obs-websocket`がインストールできてることを確認します。
+
 ![メニューバー＞WebSockets Server Settings](../../../images/obs-websocket.jpg)
 
-{{<blogcard url="http://t2t2.github.io/obs-tablet-remote/#!auto">}}
+## スマホ・タブレットから遠隔する
 
-同じパソコンでは上記のサイトにアクセスするだけで、
+### そのパソコンのIPを取得する
 
-#### スマホ・タブレットから遠隔する
+OBSを起動しているパソコンのプライベートIPを取得します。Macの場合は、システム環境設定のネットワーク項目から確認することができます。
 
-![シンプルなUIで割と使いやすい](../../../images/obs-remote-ios.jpg)
+![システム環境設定＞ネットワーク](../../../images/mac-setting-ip.jpg)
 
 
 
