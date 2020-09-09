@@ -4,7 +4,7 @@ hasCJKLanguage = true
 pygmentsUseClasses = true
 pygmentsCodefences = true
 pygmentsStyle = "monokai"
-paginate = 5
+paginate = 7
 canonifyURLs = true
 # UglyURLs = true
 
