@@ -40,7 +40,9 @@ OBSを起動しているパソコンのプライベートIPを取得します。
 
 ![システム環境設定＞ネットワーク](../../../images/mac-check-privateip.jpg)
 
+### スマホやタブレットからIPを指定して遠隔する
 
+![](../../../images/obs-remote-tablet-ipad.jpg)
 
 #### httpsでは動作しないので注意
 
