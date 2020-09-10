@@ -2,7 +2,7 @@
 title: "[iPhone]80%以上でも省電力モードを常時有効にする方法"
 date: 2020-09-11T00:00:22+09:00
 img: ios-shortcut-anytimelowbatterymode
-categories: ["Web"]
+categories: ["Gadget"]
 tags: ["iOSトピック","ショートカット","Topic"]
 ---
 
