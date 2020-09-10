@@ -28,16 +28,19 @@ h1
     text-indent 1em
     text-align justify
     max-width 43em
+  b
+    background: linear-gradient(transparent 70%, rgba(151,195,198,.3) 0%);
+  a:not(.download),b
+    font-weight bold
+    margin -.2em .1em
+    padding .2em .1em
+    letter-spacing 0
   a:not(.download)
     color var(--w)
     text-indent 0
-    margin -.2em .1em
-    padding .2em .1em
-    font-weight bold
-    letter-spacing 0
     background: linear-gradient(var(--w), var(--w)) 0 100%/0 .1em no-repeat;
-    transition: .3s;
     background-size: 100% .05em;
+    transition: .3s;
     &:hover
       color var(--d)
       background-size 100% 100%;
@@ -56,7 +59,7 @@ h1
       transform scale(1.1)
       box-shadow 0rem 0rem 1rem 0rem rgba(0,0,0,.5)
     @media (max-width: 560px)
-      max-width 100vw
+      max-width 100%
       // margin 0 -1rem .3rem -1rem
       border-radius 0
   input[type="text"]
@@ -402,7 +405,7 @@ tr:first-of-type
   background var(--d05)
   margin auto
   @media (max-width: 560px)
-    width 100vw
+    width 100%
     margin 0 -1rem
   &:before
     content ""
