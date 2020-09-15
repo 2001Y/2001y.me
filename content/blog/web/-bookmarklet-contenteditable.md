@@ -1,20 +1,20 @@
 ---
-title: "サイト上のテキストを書き換えるcontentEditableのブックマークレット"
+title: "サイト上のテキストを書き換えるcontentEditableのBookmarklet"
 date: 2020-06-11T00:00:22+09:00
 img: bookmarklet-contenteditable
 categories: ["Web"]
-tags: ["ブックマークレット","WebTopic"]
+tags: ["Bookmarklet","WebTopic"]
 draft: true
 
 ---
 
 
 
-## サイト上のテキストを書き換えるブックマークレット
+## サイト上のテキストを書き換えるBookmarklet
 
 
 
-<a href="javascript:(function(b)%7Bb.contentEditable=!b.isContentEditable;%7D)(document.body);" class=download>サイト改変ブックマークレット</a>
+<a href="javascript:(function(b)%7Bb.contentEditable=!b.isContentEditable;%7D)(document.body);" class=download>サイト改変Bookmarklet</a>
 
 下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
 

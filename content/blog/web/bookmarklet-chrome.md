@@ -3,7 +3,7 @@ title: "[Chrome]ブックマークレットの登録方法"
 date: 2020-07-18T03:00:22+09:00
 img: bookmarklet-chrome
 categories: ["Web"]
-tags: ["ブックマークレット","WebTopic","Chrome"]
+tags: ["Bookmarklet","WebTopic","Chrome"]
 ---
 
 ## ブックマークバーにドラッグ&ドロップする

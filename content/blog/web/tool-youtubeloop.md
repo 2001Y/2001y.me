@@ -3,7 +3,7 @@ title: "URL指定でYouTubeをループ再生させるサイトを作ってみ�
 date: 2020-09-01T03:00:22+09:00
 img: tool-youtubeloop
 categories: ["Web"]
-tags: ["自作ツール","WebTopic"]
+tags: ["Tool","WebTopic"]
 ---
 
 **追記1：スマホだとブラウザの規制なのか、うまく動かないみたい。まぁ、バックグラウンド再生できないから普通にYouTubeMusic使うか**

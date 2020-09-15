@@ -3,7 +3,7 @@ title: "[MacSafari]ブックマークレットの登録方法"
 date: 2020-07-18T01:00:22+09:00
 img: bookmarklet-mac-safari
 categories: ["Web"]
-tags: ["ブックマークレット","WebTopic","Safari"]
+tags: ["Bookmarklet","WebTopic","Safari"]
 ---
 
 ## ブックマークバー（お気に入りバー）にドラッグ&ドロップする

@@ -3,7 +3,7 @@ title: "データ便を一括ダウンロードできるブックマークレッ
 date: 2020-07-09T05:00:22+09:00
 img: bookmarklet-datadeliver
 categories: ["Web"]
-tags: ["自作ツール","ブックマークレット","WebTopic"]
+tags: ["Tool","Bookmarklet","WebTopic"]
 ---
 
 [データ便](https://www.datadeliver.net/)というサービスで少し多めのファイルを送られたらしく、「一つ一つリンクを開くのがめんどうだから、一括でダウンロードできないのか」と聞かれたので、リンクを一括で展開するブックマークレットをメモ。
@@ -12,7 +12,7 @@ tags: ["自作ツール","ブックマークレット","WebTopic"]
 
 {{<ad>}}
 
-## データ便を一括ダウンロードできるブックマークレット
+## データ便を一括ダウンロードできるBookmarklet
 
 下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
 
