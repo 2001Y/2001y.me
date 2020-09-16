@@ -7,11 +7,9 @@ js: "tool-optimization&gtranslate-en&jp-txt"
 css: "tool-optimization-en&jp-txt"
 ---
 
-英語の課題をするときに、英文の下に日本語訳を手動で組み直すのがめんどくさいなというところから、英文と和文を交互に並び替えるツールを作りました。
+英語の課題をするときに、英文の下に日本語訳を手動で組み直すのがめんどくさいなというところから、[英文と和文を交互に並び替えるツール](https://2001y.me/blog/web/tool-optimization-enjp-txt/)を作りました。
 
-{{<blogcard url="https://2001y.me/blog/web/tool-optimization-enjp-txt/">}}
-
-でも、せっかく自動化したんだから、<b>そもそもGoogle翻訳にかければよくない...？</b>そんな悪魔の囁きから作ってしまいました。本当はDeepLでやりたかったけど、お金かかるのでやめました。
+でも、せっかく自動化したんだから、<b>そもそもGoogle翻訳にかければよくない...？</b>そんな悪魔の囁きから作ってしまいました。本当は[DeepL](https://www.deepl.com/translator)でやりたかったけど、お金かかるのでやめました。
 
 {{<ad>}}
 
@@ -170,4 +168,6 @@ if (!String.prototype.trim) {
 
 ***
 
-`placeholder`内で改行できないの辛い。あと、`.trim()`便利。これに翻訳まで内臓しちゃおうかな...。
+翻訳的には[DeepL](https://www.deepl.com/translator)の方が精度高いだろうし、時間がある時はこの前のツールで整形だけするのが良いかも。
+
+{{<blogcard url="https://2001y.me/blog/web/tool-optimization-enjp-txt/">}}
