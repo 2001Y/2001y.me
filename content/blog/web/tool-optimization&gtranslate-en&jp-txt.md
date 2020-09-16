@@ -79,6 +79,8 @@ Google翻訳の性質上、翻訳のみの表示では改行がなくなる。
 
 ### 1クリックで結果を選択できます
 
+結果を1回クリックすれば全選択されます。
+
 ![](../../../images/tool-optimization&gtranslate-en&jp-txt-３.jpg)
 
 {{<ad>}}
