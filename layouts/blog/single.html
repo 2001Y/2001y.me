@@ -75,6 +75,8 @@
       {{ end }}
       {{ $.Scratch.Get "Content" | safeHTML }}
       <!-- .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" "${1}&nbsp;<a class=\"headline-hash\" href=\"#${2}\">#</a> ${3}" | safeHTML  -->
+    </article>
+    <aside>
       <div id=Voting class=normal>
         <button onclick="block();" id="Close" aria-label=閉じる></button>
         <span id=votingText>記事への評価をおねがいします！</span>
@@ -83,8 +85,6 @@
           <button onclick="voting('bad');" id=badElem aria-label=イマイチ>イマイチ</button>
         </div>
       </div>
-    </article>
-    <aside>
       {{ if .Params.bgm }}
         <div id=bgm>
           <button id=bgmB onclick=bgmF();>BGM</button>

@@ -295,7 +295,6 @@ tr:first-of-type {
   text-align: center;
   padding: 3em;
   border-radius: 3rem;
-  margin: 0 -1rem;
   transition: 0.3s;
   z-index: 8;
 }
@@ -334,6 +333,7 @@ tr:first-of-type {
 #Close {
   cursor: pointer;
   width: 100%;
+  background: transparent;
 }
 
 #Close:after {
