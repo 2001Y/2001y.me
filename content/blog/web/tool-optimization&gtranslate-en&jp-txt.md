@@ -69,6 +69,8 @@ Google翻訳の性質上、翻訳のみの表示では改行がなくなる。
 
 ![](../../../images/tool-optimization&gtranslate-en&jp-txt-1.jpg)
 
+![](../../../images/tool-optimization&gtranslate-en&jp-txt-2.jpg)
+
 {{<ad>}}
 
 ## コード
