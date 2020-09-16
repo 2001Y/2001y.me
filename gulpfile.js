@@ -1,6 +1,7 @@
 let {src, dest}  = require('gulp'),
     changed      = require('gulp-changed'),
-    cache        = require('gulp-cached');
+    cache        = require('gulp-cached'),
+    rename       = require('gulp-rename');
 
 let responsive   = require('gulp-responsive'),
     imagemin     = require('gulp-imagemin'),
@@ -154,16 +155,20 @@ exports.css = () =>
         .pipe(autoprefixer({
             stats: ['> 3% in JP']
         }))
+        .pipe(dest('static'))
         .pipe(minify({
             minify: true,
             minifyCSS: true
         }))
+        .pipe(rename({extname: '.min.css'}))
         .pipe(dest('static'))
 exports.js = () =>
     src('js/*.js')
         .pipe(cache('js'))
+        .pipe(dest('static'))
         .pipe(minify({
             minify: true,
             minifyJS: {sourceMap: false}
         }))
+        .pipe(rename({extname: '.min.js'}))
         .pipe(dest('static'))

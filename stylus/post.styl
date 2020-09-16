@@ -72,9 +72,12 @@ h1
     border-radius 1.3rem
     color var(--d)      
     background var(--d05)
+    transition box-shadow .3s
     +dark()
       color var(--l)
       background var(--l05)
+    &:focus
+      box-shadow: 0 0 0 .2rem var(--w)
   textarea
     padding 1rem
   button,input[type="button"],input[type="search"],input[type="text"]
@@ -131,10 +134,11 @@ p code
   +dark()
     background: var(--l05)
 .blogcard
-  width 85%
+  width 80%
   height 155px
   margin auto
   display block
+  opacity .7
   @media (max-width: 600px)
     width 100%
 

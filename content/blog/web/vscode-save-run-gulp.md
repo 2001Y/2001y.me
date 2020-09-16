@@ -56,7 +56,7 @@ let {src, dest}  = require('gulp'),
     gcmq         = require('gulp-group-css-media-queries'),
     autoprefixer = require('gulp-autoprefixer'),
     minify = require('gulp-minifier');
-exports.css = () =>
+exports.min.min.css = () =>
     src('stylus/*.styl')
         .pipe(cache('css'))
         .pipe(stylus())

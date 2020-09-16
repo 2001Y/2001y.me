@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <link rel=stylesheet href=/base.css>
-  <link rel=stylesheet href=/list.css>
+  <link rel=stylesheet href=/base.min.css>
+  <link rel=stylesheet href=/list.min.css>
   {{ if eq .Title "Blogs" }}
     <title>2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ</title>
     <meta property="og:title" content="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ" />
@@ -16,7 +16,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://2001y.me{{ .Permalink }}" />
   <meta property="og:description" content="2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログです。">
-  <meta property="og:image" content="https://2001y.me/blog/tmb/{{ .Params.img }}.jpeg" />
+  <meta property="og:image" content="https://2001y.me/blog/tmb/{{ .File.BaseFileName }}.jpeg" />
   <script defer src=/cursor.min.js></script>
   <script defer src=/quicklink.min.js></script>
 </head>
@@ -55,8 +55,8 @@
       <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
         <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
           <picture class=post-tmb>
-            <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" type=image/webp>
-            <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me">
+            <source srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" type=image/webp>
+            <img src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me">
           </picture>
           <div class=post-data>
             <h2>{{ .Title }}</h2>

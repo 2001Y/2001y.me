@@ -1,8 +1,8 @@
 let CACHE_NAME = 'cache-v1',
     cacheList = [
-      '/base.css',
-      '/post.css',
-      '/list.css',
+      '/base.min.css',
+      '/post.min.css',
+      '/list.min.css',
       '/font/icon.woff2',
       '/font/athens-regular-italic-sub.woff2',
       '/font/m+r1c-light-sub.woff2',

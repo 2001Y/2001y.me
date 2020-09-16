@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang=ja>
 <head>
-  <link rel="stylesheet" href="/base.css?20200901">
-  <link rel="stylesheet" href="/post.css?20200901">
+  <link rel="stylesheet" href="/base.min.css?20200901">
+  <link rel="stylesheet" href="/post.min.css?20200901">
   <title>{{ .Title }}｜2001Y.me</title>
   <meta name="robots" content="index,follow,archive">
   {{ partial "head.html" . }}
@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://2001y.me{{ .Permalink }}" />
   <meta property="og:title" content="{{ .Title }}｜2001Y.me" />
   <meta property="og:description" content="{{ .Content | plainify | truncate 200 }}">
-  <meta property="og:image" content="https://2001y.me/img/{{ .Params.img }}.jpg" />
+  <meta property="og:image" content="https://2001y.me/img/{{ .File.BaseFileName }}.jpg" />
   <link rel="dns-prefetch" href="//www.googletagservices.com">
   <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
   <link rel="dns-prefetch" href="//adservice.google.co.jp">
@@ -27,6 +27,12 @@
   {{ end }}
   {{ if not .Site.IsServer }}
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {{ end }}
+  {{ if .Params.js }}
+    <script async src="/{{ .Params.js }}.min.js"></script>
+  {{ end }}
+  {{ if .Params.css }}
+    <link rel="stylesheet" href="/{{ .Params.css }}.min.css">
   {{ end }}
 </head>
 <body id=body ontouchstart>
@@ -47,10 +53,10 @@
   </header>
   <main id=main>
     <article id=article>
-      {{ if .Params.img }}
-        <picture id=tmb data-original=/img/{{ .Params.img }} data-figcaption="{{ .Title }}｜2001Y.me">
-            <source srcset="/img/{{ .Params.img }}-700.webp, /img/{{ .Params.img }}-1400.webp 2x,/img/{{ .Params.img }}-2100.webp 3x" width=700 height=368 decoding=async loading=lazy type=image/webp>
-            <img src=/img/{{ .Params.img }}-700.jpg srcset="/img/{{ .Params.img }}-1400.jpg 2x,/img/{{ .Params.img }}-2100.jpg 3x" width=700 height=368 alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+      {{ if .File.BaseFileName }}
+        <picture id=tmb data-original=/img/{{ .File.BaseFileName }} data-figcaption="{{ .Title }}｜2001Y.me">
+            <source srcset="/img/{{ .File.BaseFileName }}-700.webp, /img/{{ .File.BaseFileName }}-1400.webp 2x,/img/{{ .File.BaseFileName }}-2100.webp 3x" width=700 height=368 decoding=async loading=lazy type=image/webp>
+            <img src=/img/{{ .File.BaseFileName }}-700.jpg srcset="/img/{{ .File.BaseFileName }}-1400.jpg 2x,/img/{{ .File.BaseFileName }}-2100.jpg 3x" width=700 height=368 alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
         </picture>
       {{ end }}
       {{ $p_tag := findRE "<h2>(.|\n)+?</h2>" .Content }}
@@ -95,8 +101,8 @@
           <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
             <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
               <picture class=post-tmb>
-                <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-                <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+                <source srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+                <img src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
               </picture>
               <div class=post-data>
                 <h2>{{ .Title }}</h2>
@@ -116,8 +122,8 @@
           <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
             <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
               <picture class=post-tmb>
-                <source srcset="/img/{{ .Params.img }}-120.webp, /img/{{ .Params.img }}-240.webp 2x,/img/{{ .Params.img }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-                <img src=/img/{{ .Params.img }}-120.jpg srcset="/img/{{ .Params.img }}-240.jpg 2x,/img/{{ .Params.img }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+                <source srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+                <img src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
               </picture>
               <div class=post-data>
                 <h2>{{ .Title }}</h2>
@@ -168,7 +174,7 @@
   </clipPath>
 </svg>
 {{ if findRE "highlight" .Content }}
-  <link rel="stylesheet" href="/syntax.css">
+  <link rel="stylesheet" href="/syntax.min.css">
 {{ end }}
 {{ if not .Site.IsServer }}
   <script>
