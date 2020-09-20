@@ -85,8 +85,6 @@ textarea {
           appearance: none;
   border: none;
   resize: none;
-  color: var(--d);
-  background: var(--d05);
 }
 
 input[readonly=""],
@@ -773,29 +771,18 @@ footer .search-box .submit {
 }
 
 @media (prefers-color-scheme: dark) {
-  input,
-  button,
-  textarea {
-    color: var(--l);
-    background: var(--l05);
-  }
-
   input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: var(--l5);
   }
-
   input::-moz-placeholder, textarea::-moz-placeholder {
     color: var(--l5);
   }
-
   input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     color: var(--l5);
   }
-
   input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     color: var(--l5);
   }
-
   input::placeholder,
   textarea::placeholder {
     color: var(--l5);

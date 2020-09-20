@@ -412,8 +412,8 @@ tr:first-of-type
     height 9vw
 
 .twitter-tweet
-  margin -1.2rem auto -1rem auto !important
-  transform scale(.8) !important
+  margin -9.5rem auto !important
+  transform scale(.6) !important
 
 .youtube
   position relative
@@ -437,6 +437,18 @@ tr:first-of-type
     left: 0;
     bottom: 0;
     right: 0;
+
+.noIndent
+  text-indent 0!important
+
+@media (min-width: 600px)
+  .flex
+    display: flex;
+    margin: auto;
+    &>*
+      width: 50%;
+      &:first-child
+        margin-right: 1em;
   
 @media (max-width: 500px)
   header

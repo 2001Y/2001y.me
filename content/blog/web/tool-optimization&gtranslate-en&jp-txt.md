@@ -15,7 +15,7 @@ css: "tool-optimization-en&jp-txt"
 
 ## 英語の次の行にGoogle翻訳の日本語訳を追加するツール
 
-<div id=textarea-flex>
+<div class=flex>
   <div>
     <h3>英語</h3>
 		<textarea id=enInput oninput="en();" placeholder="Hello. This is Demo." autofocus></textarea>

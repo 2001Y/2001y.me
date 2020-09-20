@@ -1,5 +1,5 @@
 ---
-title: "[MacSafari]ブックマークレットの登録方法"
+title: "[Safari]ブックマークレットの登録方法"
 date: 2020-07-18T01:00:22+09:00
 img: bookmarklet-mac-safari
 categories: ["Web"]

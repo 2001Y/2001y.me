@@ -13,16 +13,17 @@ css: "tool-optimization-en&jp-txt"
 
 ## 英語と日本語訳を交互に改行して並び替えるツール
 
-<div id=textarea-flex>
+<div class=flex>
   <div>
     <h3>英語</h3>
-		<textarea id=enInput onchange="f();" onkeydown="f();" placeholder="Hello. This is Demo." autofocus></textarea>
+		<textarea id=english onchange="encode();" onkeydown="encode();" placeholder="Hello. " autofocus></textarea>
   </div>
   <div>
-    <h3>日本語</h3>
-		<textarea id=jpInput onchange="f();" onkeydown="f();" placeholder="こんにちは。これはデモです。"></textarea>
+    <h3>モールス信号</h3>
+		<textarea id=morse onchange="decode();" onkeydown="decode();" placeholder=".... . .-.. .-.. --- .-.-.- "></textarea>
   </div>
 </div>
+
 
 ### 結果
 

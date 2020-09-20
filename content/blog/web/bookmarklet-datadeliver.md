@@ -3,7 +3,7 @@ title: "データ便を一括ダウンロードできるブックマークレッ
 date: 2020-07-09T05:00:22+09:00
 img: bookmarklet-datadeliver
 categories: ["Web"]
-tags: ["Tool","Bookmarklet","WebTopic"]
+tags: ["Bookmarklet","WebTopic"]
 ---
 
 [データ便](https://www.datadeliver.net/)というサービスで少し多めのファイルを送られたらしく、「一つ一つリンクを開くのがめんどうだから、一括でダウンロードできないのか」と聞かれたので、リンクを一括で展開するブックマークレットをメモ。
@@ -14,13 +14,21 @@ tags: ["Tool","Bookmarklet","WebTopic"]
 
 ## データ便を一括ダウンロードできるBookmarklet
 
-下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
-
-<a href="javascript:(function()%7Blet%20el%20%3D%20document.querySelectorAll(%22.tbl_wd_full%20td%3Afirst-of-type%20a%22)%3Bfor(let%20i%3D0%3B%20i%3Cel.length%3B%20i%2B%2B)%7Bwindow.open(el%5Bi%5D.href)%3B%7D%7D)()" class=download>データ便一括ダウンロード</a>
+<p class=noIndent>
+  <a href="javascript:(function()%7Blet%20el%20%3D%20document.querySelectorAll(%22.tbl_wd_full%20td%3Afirst-of-type%20a%22)%3Bfor(let%20i%3D0%3B%20i%3Cel.length%3B%20i%2B%2B)%7Bwindow.open(el%5Bi%5D.href)%3B%7D%7D)()" class=download>データ便一括ダウンロード</a>
+</p>
 
 ### 対応サイト
 
 データ便：[https://www.datadeliver.net/](https://www.datadeliver.net/)
+
+### 登録方法
+
+下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
+
+{{<blogcard url="https://2001y.me/blog/web/bookmarklet-chrome/">}}
+
+{{<blogcard url="https://2001y.me/blog/web/bookmarklet-mac-safari/">}}
 
 ### 使い方
 

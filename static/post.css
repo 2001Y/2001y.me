@@ -503,8 +503,8 @@ tr:first-of-type {
 }
 
 .twitter-tweet {
-  margin: -1.2rem auto -1rem auto !important;
-  transform: scale(0.8) !important;
+  margin: -9.5rem auto !important;
+  transform: scale(0.6) !important;
 }
 
 .youtube {
@@ -528,6 +528,10 @@ tr:first-of-type {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.noIndent {
+  text-indent: 0 !important;
 }
 
 @-webkit-keyframes category {
@@ -581,6 +585,21 @@ tr:first-of-type {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .flex {
+    display: flex;
+    margin: auto;
+  }
+
+  .flex>* {
+    width: 50%;
+  }
+
+  .flex>*:first-child {
+    margin-right: 1em;
   }
 }
 
