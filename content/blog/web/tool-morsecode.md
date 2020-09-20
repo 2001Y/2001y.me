@@ -118,8 +118,8 @@ decode(".... . .-.. .-.. --- .-.-.-");
 
 ***
 
-jsonのvalueからkeyを取得（モールス信号→英語のところ）したことがなくててこずりました。後で忘れないためにブログメモしとこかな...。
+jsonのvalueからkeyを取得（モールス信号→英語のところ）したことがなくててこずりました。後で忘れないためにブログメモしとこかな。
 
-あと、誕生日を祝っていただき本当にありがとうございます。来年は20か...。
+あと、誕生日を祝っていただき本当にありがとうございます。来年は20歳か...。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">お祝いしてくれた方、<br>ありがとうございます🧚🏻‍♂️ <a href="https://t.co/ugYucojffB">pic.twitter.com/ugYucojffB</a></p>&mdash; 2001Y (@Y20010920T) <a href="https://twitter.com/Y20010920T/status/1307477437266063361?ref_src=twsrc%5Etfw">September 20, 2020</a></blockquote>
