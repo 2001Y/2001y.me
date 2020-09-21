@@ -17,7 +17,7 @@ iOS14でピクチャ・イン・ピクチャ（以下PIP）が追加され、公
 
 ![](../../../images/youtube-premium-2001y.jpg)
 
-## 好きなスピードで動画を再生するブックマークレット
+## YouTubePremiumなしでピクチャインピクチャさせる
 
 <p class=noIndent>
   <a href="javascript:(function()%7Bwindow.location.href%20%3D%20document.querySelector('video').src%7D)()" class=download>YouTubePremiumなしでピクチャインピクチャさせるブックマークレット</a>
