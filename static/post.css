@@ -534,6 +534,11 @@ tr:first-of-type {
   text-indent: 0 !important;
 }
 
+.mobile-scroll {
+  display: flex;
+  overflow: scroll;
+}
+
 @-webkit-keyframes category {
   0% {
     transform: translate(0);
