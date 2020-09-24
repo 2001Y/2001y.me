@@ -536,7 +536,27 @@ tr:first-of-type {
 
 .mobile-scroll {
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: visible;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
+.mobile-scroll>* {
+  font-size: 1em;
+  color: var(--d);
+  max-width: 15rem;
+  width: 15rem;
+  min-width: 15rem;
+  margin: 0 2rem;
+  scroll-snap-align: start;
+}
+
+.mobile-scroll>* img,
+.mobile-scroll>* source {
+  max-height: 100% !important;
+  max-width: 100% !important;
+  margin-bottom: 5rem;
 }
 
 @-webkit-keyframes category {
@@ -642,6 +662,13 @@ tr:first-of-type {
 
   .blogcard {
     width: 100%;
+  }
+
+  .mobile-scroll>* {
+    scroll-snap-align: center;
+    max-width: 60%;
+    width: 60%;
+    min-width: 60%;
   }
 }
 
@@ -752,5 +779,9 @@ tr:first-of-type {
 
   .youtube iframe {
     background: var(--l05);
+  }
+
+  .mobile-scroll>* {
+    color: var(--l);
   }
 }

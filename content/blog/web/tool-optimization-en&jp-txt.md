@@ -16,13 +16,14 @@ css: "tool-optimization-en&jp-txt"
 <div class=flex>
   <div>
     <h3>英語</h3>
-		<textarea id=english onchange="encode();" onkeydown="encode();" placeholder="Hello. " autofocus></textarea>
+		<textarea id=enInput oninput="f();" placeholder="Hello. This is Demo." autofocus></textarea>
   </div>
   <div>
-    <h3>モールス信号</h3>
-		<textarea id=morse onchange="decode();" onkeydown="decode();" placeholder=".... . .-.. .-.. --- .-.-.- "></textarea>
+    <h3>日本語</h3>
+		<textarea id=jpInput oninput="f();" placeholder="こんにちは。これはデモです。"></textarea>
   </div>
 </div>
+
 
 
 ### 結果

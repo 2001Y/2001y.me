@@ -1,0 +1,5 @@
+{{- $title := .Get "title" -}}
+{{- $script := .Get "script" -}}
+<p class=noIndent>
+  <a href='javascript:bookmark("{{ $title }}","{{ $script }}")' class=download>{{ $title }}</a>
+</p>
