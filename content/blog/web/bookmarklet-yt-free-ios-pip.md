@@ -54,6 +54,6 @@ window.location.href = document.querySelector('video').src
 
 ***
 
-Premium限定のベータ版という形で2020/10/20まで<b>ホーム画面で視聴</b>という項目が追加されていました。
+あと、Premium限定のベータ版という形で2020/10/20まで<b>ホーム画面で視聴</b>という項目が追加されていました。
 
 ![https://www.youtube.com/new](../../../images/bookmarklet-yt-free-ios-pip.jpg)

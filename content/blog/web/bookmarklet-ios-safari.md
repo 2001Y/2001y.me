@@ -2,7 +2,7 @@
 title: "[iOS/Safari]ブックマークレットの登録方法"
 date: 2020-09-25T00:00:22+09:00
 categories: ["Web"]
-tags: ["Bookmarklet","WebTopic","Safari"]
+tags: [""]
 ---
 
 iOS（iPhoneのOS）では開いているサイトをブックマークに登録することしかできません。そのため、一旦テキトウなサイトをブックマークに追加してから、URLをコードに書き換える形でブックマークレットを追加します。
