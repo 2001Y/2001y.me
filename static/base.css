@@ -550,6 +550,10 @@ header .search-box {
   bottom: -1.5rem;
 }
 
+header .search-box .search {
+  background: var(--d05);
+}
+
 header .search-box .submit {
   color: var(--l);
 }
@@ -834,6 +838,10 @@ footer .search-box .submit {
 
   .search:hover+.submit {
     color: var(--l);
+  }
+
+  header .search-box .search {
+    background: var(--l05);
   }
 
   header .search-box .submit {
