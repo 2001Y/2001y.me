@@ -849,11 +849,11 @@ footer .search-box .submit {
   }
 
   ::-moz-selection {
-    colour: var(--d);
+    color: var(--d);
   }
 
   ::selection {
-    colour: var(--d);
+    color: var(--d);
   }
 
   #cursor {
