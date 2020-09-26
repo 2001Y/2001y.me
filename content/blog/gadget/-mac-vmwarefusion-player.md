@@ -1,11 +1,19 @@
 ---
 title: "[Mac]無料でWindowsなどの仮想OSが同時に使える、VMwareFusionPlayer"
-date: 2020-09-26T08:00:22+09:00
+date: 2020-09-27T00:10:22+09:00
 categories: ["Gadget"]
 tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 
+VMware Fusion
 
+Parallels Desktop
+
+VirtualBox
+
+Veertu
+
+{{<ad>}}
 
 ## ダウンロード方法
 
@@ -15,11 +23,12 @@ VMwareのアカウントを持ってなかったので、`Create an Account`か�
 
 ![](../../../images/vmwarefusion-player-1.jpg)
 
-ライセンスキーをコピーして、Fusion12をダウンロード。
+ライセンスキーをコピーして、ダウンロード。
 
 ![](../../../images/vmwarefusion-player-2.jpg)
 
-ライセンスキーはインストール時に必要になります。
+あとは先ほどのライセンスキーを使い、Fusion12をインストールします。
 
 ![](../../../images/mac-vmwarefusion-player-3.jpg)
 
+***

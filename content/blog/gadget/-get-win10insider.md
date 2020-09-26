@@ -1,10 +1,12 @@
 ---
 title: "無料のWindows10、InsiderPreviewのISOをダウンロードしてみた"
-date: 2020-09-26T08:00:22+09:00
+date: 2020-09-27T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
 
+
+{{<ad>}}
 
 ## Insider Programに登録
 
@@ -26,6 +28,9 @@ Insider Program に登録が完了したら、Windows10 Insider Preview を入�
 
 ![](../../../images/get-win10insider-2.jpg)
 
-これでゲットできました。
+これでISOを入手することができました。しかし、ライセンスキーは発行を停止しているらしく、取得することができませんでした。
 
 ![](../../../images/get-win10insider-3.jpg)
+
+***
+
