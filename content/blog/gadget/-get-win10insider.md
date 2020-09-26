@@ -1,6 +1,6 @@
 ---
-title: "無料のWindows10InsiderPreviewをダウンロードする"
-date: 2020-06-12T08:00:22+09:00
+title: "無料のWindows10、InsiderPreviewをダウンロードする"
+date: 2020-09-26T08:00:22+09:00
 categories: ["Gadget"]
 tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 ---
@@ -18,11 +18,11 @@ tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 
 ## ISOをダウンロードする
 
-Insider Program に登録が完了したら、Windows10 Insider Preview をダウンロードできるようになります。
+Insider Program に登録が完了したら、Windows10 Insider Preview がダウンロードできるようになります。
 
 {{<blogcard url="https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced#SoftwareDownload_EditionSelection">}}
 
-
+自分の好みの設定にして
 
 ![](../../../images/get-win10insider-2.jpg)
 
