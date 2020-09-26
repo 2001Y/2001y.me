@@ -22,7 +22,7 @@ Insider Program に登録が完了したら、Windows10 Insider Preview を入�
 
 {{<blogcard url="https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced#SoftwareDownload_EditionSelection">}}
 
-自分の好みの設定にしてISOファイルをダウンロードします。
+自分の好みの設定にしてISOファイルをダウンロード。
 
 ![](../../../images/get-win10insider-2.jpg)
 
