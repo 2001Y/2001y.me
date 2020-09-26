@@ -1,8 +1,8 @@
 ---
 title: "[Mac]無料でWindowsなどの仮想OSが同時に使える、VMwareFusionPlayer"
-date: 2020-09-27T00:10:22+09:00
+date: 2020-09-27T01:10:22+09:00
 categories: ["Gadget"]
-tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
+tags: ["Win10","Mac"]
 ---
 
 VMware Fusion
@@ -12,6 +12,8 @@ Parallels Desktop
 VirtualBox
 
 Veertu
+
+BootCamp
 
 {{<ad>}}
 

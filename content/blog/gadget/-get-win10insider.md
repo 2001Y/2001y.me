@@ -1,10 +1,10 @@
 ---
-title: "無料のWindows10、InsiderPreviewのISOをダウンロードしてみた"
+title: "Windows10 InsiderPreviewのISOのダウンロード方法"
 date: 2020-09-27T00:00:22+09:00
 categories: ["Gadget"]
-tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
+tags: ["Win10","Mac"]
 ---
-
+Win10をMacで使いたくて、せっかくなのでInsiderPreviewをダウンロードしてみたのでメモ。
 
 {{<ad>}}
 
@@ -14,7 +14,7 @@ tags: ["GSuite","GoogleDrive","GoogleDriveFileStream","Google","Mac"]
 
 {{<blogcard url="https://insider.windows.com/en-us/register">}}
 
-この画面に切り替わったら、登録が完了。
+この表示に切り替わったら、登録が完了。
 
 ![](../../../images/get-win10insider-1.jpg)
 
@@ -28,9 +28,6 @@ Insider Program に登録が完了したら、Windows10 Insider Preview を入�
 
 ![](../../../images/get-win10insider-2.jpg)
 
-これでISOを入手することができました。しかし、ライセンスキーは発行を停止しているらしく、取得することができませんでした。
+これでISOを入手することができました。ただ、現在（2020.9.27）新規プロダクトキーは発行を停止しているらしく、入手できるのはISOのみでした。
 
 ![](../../../images/get-win10insider-3.jpg)
-
-***
-
