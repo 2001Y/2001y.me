@@ -1,8 +1,9 @@
 ---
 title: "Windows10 InsiderPreviewのISOのダウンロード方法"
-date: 2020-09-27T00:00:22+09:00
+date: 2020-09-27T01:00:22+09:00
 categories: ["Gadget"]
 tags: ["Win10","Mac"]
+draft: true
 ---
 Win10をMacで使いたくて、せっかくなのでInsiderPreviewをダウンロードしてみたのでメモ。
 

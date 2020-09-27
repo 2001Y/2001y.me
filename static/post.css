@@ -102,6 +102,7 @@ h1 {
 
 #article textarea {
   padding: 1rem;
+  height: 10.1em;
 }
 
 #article button,
@@ -502,7 +503,7 @@ tr:first-of-type {
 }
 
 .twitter-tweet {
-  margin: -5rem auto !important;
+  margin: -1.5rem auto !important;
   transform: scale(0.8) !important;
 }
 

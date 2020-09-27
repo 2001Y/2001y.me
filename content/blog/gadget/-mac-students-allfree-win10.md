@@ -1,8 +1,9 @@
 ---
-title: "大学生なら、OSも仮想ソフトも完全無料でMacでWindows10を同時利用"
+title: "OSも仮想ソフトも大学生なら完全無料でMacでWindows10を同時に使える"
 date: 2020-09-27T02:00:22+09:00
 categories: ["Gadget"]
 tags: ["Win10","Mac"]
+draft: true
 ---
 
 新しいMacになりWindowsを使う機会もなかったので、特に仮想
