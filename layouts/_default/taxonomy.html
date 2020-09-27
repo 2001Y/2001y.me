@@ -63,7 +63,7 @@
             <div class=post-meta>
               <time>{{ .Date.Format "2006/01/02" }}</time>・{{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}
             </div>
-            <p>{{ .Content | plainify | truncate 50 }}</p>
+            <p>{{ .Content | plainify | truncate 60 }}</p>
           </div>
         </article>
       </a>
