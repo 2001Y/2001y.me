@@ -27,7 +27,7 @@ tags: ["ブログ"]
 
 ![](../../../images/gmail-alltransfer-3.jpg)
 
-<b>転送"元"Googleアカウントのパスワード</b>を入力して、アカウントを追加。2段階認証が有効な場合はアプリパスワードを使用します。＞詳細
+<b>転送"元"Googleアカウントのパスワード</b>を入力して、アカウントを追加。2段階認証が有効な場合はアプリパスワードを使用します。（手順は後記の通り）
 
 ![](../../../images/gmail-alltransfer-4.jpg)
 
@@ -47,6 +47,8 @@ tags: ["ブログ"]
 
 ***
 
+設定を終えて転送先の[Gmail設定のアカウント](https://mail.google.com/mail/u/1/#settings/accounts)を確認すると転送を行なっていることがわかります。200通づつにわけて受信するみたいです。
 
+![](../../../images/gmail-alltransfer-7-1380352.jpg)
 
 ▶︎ [How to Transfer Emails from One Gmail Account to Another｜YouTube](https://www.youtube.com/watch?v=yyhb6Rl_2BY)
