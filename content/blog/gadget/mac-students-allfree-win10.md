@@ -27,6 +27,8 @@ https://signup.azure.com/studentverification
 
 ### VMware FusionPlayer
 
+FusionPlayer は個人利用であれば、大学生に限らず誰でも無料で利用することができます。
+
 #### ダウンロード手順
 
 {{<blogcard url="https://2001y.me/blog/gadget/mac-vmwarefusion-player/">}}

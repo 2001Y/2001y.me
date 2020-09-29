@@ -1,5 +1,5 @@
 ---
-title: "Windows10 InsiderPreviewのISOのダウンロード方法"
+title: "Windows10InsiderPreviewのISOのダウンロード方法"
 date: 2020-09-29T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["Win10","Mac"]
