@@ -1,11 +1,12 @@
 ---
 title: "[Gmail]過去のメールを含め、全てのメールを他のアカウントに移行する方法"
 date: 2020-09-29T02:00:22+09:00
-img: twitter-schedule-leak
 categories: ["Other"]
 tags: ["ブログ"]
 ---
+Googleの空き容量がなくなってしまったみたいで、折角[GSuiteで容量無制限](https://2001y.me/blog/gadget/gsuite-unlimit/)なのにメールを消去するのももったいないので、全てGSuiteのGmailに転送してみました。
 
+![Gmailの空き容量がなくなりました](../../../images/gmail-alltransfer-0.jpg)
 
 わかりにくくなるので、転送元はブラック背景、転送先はホワイト背景です。
 
