@@ -1,6 +1,6 @@
 ---
-title: "Twitter公式の予約ツイート機能はバレる...？"
-date: 2020-08-19T00:00:22+09:00
+title: "[Gmail]過去のメールを含め、全てのメールを他のアカウントに移行する方法"
+date: 2020-09-29T02:00:22+09:00
 img: twitter-schedule-leak
 categories: ["Other"]
 tags: ["ブログ"]
@@ -9,7 +9,7 @@ tags: ["ブログ"]
 
 わかりにくくなるので、転送元はブラック背景、転送先はホワイト背景です。
 
-## 転送 "元"のGmailで設定
+## 転送"元"のGmailで設定
 
 ### すべてをPOPダウンロードするように指定
 
@@ -17,7 +17,7 @@ tags: ["ブログ"]
 
 ![](../../../images/gmail-alltransfer-1.jpg)
 
-## 転送 "先"のGmailの設定
+## 転送"先"のGmailの設定
 
 転送先の[Gmail設定のアカウント](https://mail.google.com/mail/u/1/#settings/accounts)を開き、<b>メールアカウントを追加する</b>。
 
