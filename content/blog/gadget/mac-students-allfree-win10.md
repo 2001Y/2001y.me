@@ -35,6 +35,8 @@ https://signup.azure.com/studentverification
 
 Parallelsしか使ったことなかったのですが、Fusion も簡易インストールを使えばWin10の初期設定をせずにセットアップできてとても手軽でした。
 
+今回は[InsiderPreviewのISOが手元にあったので](https://2001y.me/blog/gadget/get-win10insider/)、それを使いましたが普段なら[Win10のISO](https://www.microsoft.com/ja-jp/software-download/windows10ISO)を取得する必要があります。
+
 ![](../../../images/mac-students-allfree-win10-1.jpg)
 
 実はプロダクトキーを取得する前にWin10をインストールしたので、[スキッププロダクトキー](https://answers.microsoft.com/ja-jp/insider/forum/insider_wintp-insider_install/windows-10-insider-preview/86173780-0ffc-4d68-b827-f041e29a2927)を使ってセットアップしました。普通は先ほど取得したキーを入力すればok。
