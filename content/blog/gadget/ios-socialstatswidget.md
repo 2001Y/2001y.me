@@ -1,5 +1,5 @@
 ---
-title: "SNSのフォロワー数を表すウィジェットを追加する、SocialStatsWidget"
+title: "SNSのフォロワー数をおしゃれに表すウィジェット、SocialStatsWidget"
 date: 2020-10-01T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["XnConvert","MacApp","Mac"]
@@ -7,13 +7,15 @@ tags: ["XnConvert","MacApp","Mac"]
 
 iOS14からホーム画面にウィジェットを追加する機能が追加されました。Twitterではショートカットを使ってアイコンを変更して[こだわりのホーム画面を作る](https://iphone-mania.jp/news-315424/)のが流行りましたが、やはりまだ対応したアプリが多くない。
 
-SocialStatsWidgetというウィジェットアプリを見つけて、日本の記事が見当たらなったので残しておきます。
+SNSのフォロワー数をシンプルかつおしゃれに表示する<b>SocialStatsWidget</b>というウィジェットアプリを見つけて、日本の記事が見当たらなったので残しておきます。
 
 ## SocialStatsWidget｜無料
 
-ウィジェットは小さいタイプのみ。
+ウィジェットは2x2の小さいタイプのみ。ウィジェットをホーム画面に追加してから、アカウントを指定します。
 
 現時点では Twitter, Instagram, Github, Reddit, Medium, Telegram, Unsplash に対応しています。ただ、120円の課金要素がありInstagramは課金対象でした。
+
+確認した範囲では、ID指定のみで取得してるみたいなのでログインなどは不要で著名人などの
 
 ＞[AppStore](https://apps.apple.com/jp/app/social-stats-widget/id1533776006) 
 
