@@ -11,16 +11,12 @@ SNSのフォロワー数をシンプルかつおしゃれに表示する<b>Socia
 
 ## SocialStatsWidget｜無料
 
+＞[AppStore](https://apps.apple.com/jp/app/social-stats-widget/id1533776006) 
+
 ウィジェットは2x2の小さいタイプのみ。ウィジェットをホーム画面に追加してから、アカウントを指定します。
 
 現時点では Twitter, Instagram, Github, Reddit, Medium, Telegram, Unsplash に対応しています。ただ、120円の課金要素がありInstagramは課金対象でした。
 
-確認した範囲では、ID指定のみで取得してるため、著名人などのログイン情報がわからないユーザーのフォロワー数を表示することも可能です。
-
-＞[AppStore](https://apps.apple.com/jp/app/social-stats-widget/id1533776006) 
+ID指定のみなので、著名人などのログイン情報がわからないユーザーのフォロワー数を表示することも可能です。また、複数アカウントにも対応しています。
 
 {{<mobile-scroll>}}![](../../../images/ios-socialstatswidget-1.jpg)![](../../../images/ios-socialstatswidget-2.jpeg)![](../../../images/ios-socialstatswidget-3.jpeg)![](../../../images/ios-socialstatswidget-4.jpeg)![](../../../images/ios-socialstatswidget-5.jpeg)![](../../../images/ios-socialstatswidget-6.jpeg){{<mobile-scroll-end>}}
-
-***
-
-iOS14になってからキーボードの予測変換が表示されない
