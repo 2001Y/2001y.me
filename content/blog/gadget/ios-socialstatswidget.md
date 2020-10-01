@@ -15,7 +15,7 @@ SNSのフォロワー数をシンプルかつおしゃれに表示する<b>Socia
 
 現時点では Twitter, Instagram, Github, Reddit, Medium, Telegram, Unsplash に対応しています。ただ、120円の課金要素がありInstagramは課金対象でした。
 
-確認した範囲では、ID指定のみで取得してるみたいなのでログインなどは不要で著名人などの
+確認した範囲では、ID指定のみで取得してるため、著名人などのログイン情報がわからないユーザーのフォロワー数を表示することも可能です。
 
 ＞[AppStore](https://apps.apple.com/jp/app/social-stats-widget/id1533776006) 
 
