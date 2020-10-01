@@ -9,13 +9,15 @@ iOS14からホーム画面にウィジェットを追加する機能が追加さ
 
 SocialStatsWidgetというウィジェットアプリを見つけて、日本の記事が見当たらなったので残しておきます。
 
-{{<blogcard url="https://apps.apple.com/jp/app/social-stats-widget/id1533776006">}}
+## SocialStatsWidget｜無料
 
-## SocialStatsWidget
+ウィジェットは小さいタイプのみ。
 
+現時点では Twitter, Instagram, Github, Reddit, Medium, Telegram, Unsplash に対応しています。ただ、120円の課金要素がありInstagramは課金対象でした。
 
+＞[AppStore](https://apps.apple.com/jp/app/social-stats-widget/id1533776006) 
 
-{{<mobile-scroll>}}![](../../../images/ios-socialstatswidget-1.jpg)![](../../../images/ios-socialstatswidget-2.jpeg)![](../../../images/ios-socialstatswidget-3.jpeg)![](../../../images/ios-socialstatswidget-4.jpeg)![](../../../images/ios-socialstatswidget-5.jpeg){{<mobile-scroll-end>}}
+{{<mobile-scroll>}}![](../../../images/ios-socialstatswidget-1.jpg)![](../../../images/ios-socialstatswidget-2.jpeg)![](../../../images/ios-socialstatswidget-3.jpeg)![](../../../images/ios-socialstatswidget-4.jpeg)![](../../../images/ios-socialstatswidget-5.jpeg)![](../../../images/ios-socialstatswidget-6.jpeg){{<mobile-scroll-end>}}
 
 ***
 
