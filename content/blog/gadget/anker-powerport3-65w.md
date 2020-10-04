@@ -3,7 +3,7 @@ title: "MacBookPro13用にAnkerPowerPortIII65wをレビュー"
 date: 2020-08-01T00:00:22+09:00
 img: anker-powerport3-65w
 categories: ["Gadget"]
-tags: ["Mac"]
+tags: ["ガジェット","Mac"]
 ---
 
 うちの学科では入学時にMacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)を購入させられるので、入学前まではMacBook Air (13-inch, Early 2015)で頑張ってきました。

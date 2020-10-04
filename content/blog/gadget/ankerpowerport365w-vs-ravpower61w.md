@@ -1,87 +1,48 @@
 ---
-title: "AnkerPowerPortIII65wとRAVPower61wのサイズ比較"
-date: 2020-10-03T02:00:22+09:00
-img: anker-powerport3-65w
+title: "AnkerPowerPortIII65wとRAVPower61wの比較"
+date: 2020-10-05T00:00:22+09:00
 categories: ["Gadget"]
-tags: ["Mac"]
+tags: ["ガジェット","Mac"]
 ---
 
 以前、[MacBookPro13用にAnkerPowerPortIII65wを購入して](https://2001y.me/blog/gadget/anker-powerport3-65w/)、純正と[PowerPortIII65w](https://amzn.to/3jtBCEt)を比較しましたが、最後に[RAVPower61w](https://amzn.to/3cRPXrK)とも比較するとかいてすっかり忘れていたので、メモしておきたいと思います。
 
-{{<blogcard url="https://amzn.to/33nqfZg">}}
-
-{{<blogcard url="https://amzn.to/3cRPXrK">}}
+{{<ad>}}
 
 ## AnkerPowerPortIII65wPod vs RAVPower61W
 
 ![](../../../images/ankerpowerport365w-vs-ravpower61w-1.jpg)
 
-PowerPortIII 65wは、[USB PDとQC 3.0に対応していることを示す PowerIQ 3.0 (Gen2)](https://magazine.ankerjapan.com/about-poweriq3) に対応した 65w の USB-C 電源アダプタ です。
+名前の通り、PowerPortIII65wは 65w 、 RAVPower61Wは 61w に対応したUSB-C電源アダプタです。MacBookPro13インチは 61w 対応なので、どちらでも最短で充電することができます。
 
-このように 65w に対応しているため、MBP13を最短で高速充電することができます。
+Anerkの方が少し丸み帯びたデザインになっていて、どちらともプラグの折り畳みが可能でコンパクトに持ち運ぶことが可能です。
 
-## 純正の半分ぐらいのサイズ
+## Ankerの方が横長なデザイン
 
 ![](../../../images/ankerpowerport365w-vs-ravpower61w-2.jpg)
 
-純正は `73 × 73mm`(実測)、PowerPortIII 65wは`66 × 45mm`(公式)で、ちょうど半分くらいのサイズ。このサイズで値段は半額の2,990円なので買い足すならほぼ確定。
+RAVPowerが `49 × 49`(実測)、PowerPortIII 65wは`66 × 45mm`(公式)。RAVPowerの方が小さく、プラグに刺した時にAnkerの方が縦長な形をしています。
 
-プラグの折り畳み機能は周辺機器を傷つけないためにもほぼ必須。もちろんPowerPortIII 65wもきちんとプラグの折り畳みが可能です。
+ただ、コンセントに刺す際に幅が狭い方が周りへの干渉が少ないです。その点、ちょっとした差ですがAnkerの方が使いやすい場面が多い気がします。
 
 ## 厚さはほぼ同じ
 
 ![](../../../images/ankerpowerport365w-vs-ravpower61w-3.jpg)
 
-純正`29mm`、PowerPortIII 65w`28mm`なので、ほぼ同じ厚さ。このサイズ感だと真ん中にUSB-C端子が来るのが美しいです。
+厚さはRAVPowerが 32mm 、Ankerが 28mm 。USB-C端子の位置はAnkerが真ん中なのに対し、RAVPowerは真ん中よりも下になっています。つなぎ目の作りはAnkerの方が好みです。
 
 ***
-
-
-
-![](../../../images/anker-powerport3-65w-4.jpg)
-
-純正の電源アダプタはほぼ確実に2つのコンセントを消費してしまいますが、
-
-![](../../../images/anker-powerport3-65w-5.jpg)
-
-このサイズなら隣のコンセントを塞ぐこともかなり減りそう。
-
-***
-
-### 本当は Aukey OMNIA 61w  がいい。
-
-PowerPortIII 65w を購入しましたが、本当はAukeyの [OMNIA 61w (PA-B2)](https://shop.aukey.com/products/omnia-61w-pd-charger) が欲しい。OMNIA 61w は現在日本でが取り扱われていないが、すでに発売済みの商品。
-
-OMNIA 61w は PowerPortIII 65w の`66 × 45 × 29mm`よりもさらに小さい、`30 × 45 × 45mm`という超コンパクトサイズ。で、重さも 92g と PowerPortIII 65w よりも軽い。
-
-![https://shop.aukey.com/products/omnia-61w-pd-charger](../../../images/anker-powerport3-65w-6.jpg)
-
-### でも、 Innergie 60C Pro もいい。
-
-Innergieの [60C Pro](https://myinnergie.jp/ja/product/60c-pro)  も、とても良い。
-
-MBP13のMaxの`61w`ではなく、`60w`までしか対応しないが、隣接コンセントとの干渉が全く起こらない超スリム設計。
-
-長さも Aukey OMNIA 61w に続く短さで、重さも`85g`と一番軽く、日本でも購入可能。
-
-このようにほぼ最強な 60C Pro ではあるが、9,790円と1万円近くする電源アダプタ。
-
-![https://myinnergie.jp/ja/product/60c-pro](../../../images/anker-powerport3-65w-7.jpg)
 
 ## まとめ
 
-#### Anker PowerPortIII 65w
+### Anker PowerPortIII 65w
 
-**65w** ・ 121g ・ 66 × 45 × 29mm ・ **2,990円**
+<b>65w</b> ・ 121g ・ 66 × <b>45</b> × <b>29</b>mm ・ <b>2,990円</b>
 
-#### Aukey OMNIA 61w
+### RAVPower 61W
 
-61w ・ 92g ・ **30** × 45 × 45mm ・ $35.99(約3,809円)
-
-#### Innergie 60C Pro
-
-60w ・ **85g** ・ 60 × **30.4** × **30.4**mm ・ 9,790円
+61w・<b>105g</b>・<b>49</b> × 49 × 32mm・4,599円
 
 ***
 
-[RAVPowerの61W電源アダプタ](https://amzn.to/30gYtvO)も手に入れたので、後々比較に加えたいと思う。
+RAVPowerは借り物でもう手元にないのですが、Ankerはコンセントに刺した時に突き出るデザイン（[過去記事参照](https://2001y.me/blog/gadget/anker-powerport3-65w/)）なので、その点はRAVPowerの方がよかったです。ただ、コスパや工業製品としてはAnkerの方が一段階上に感じる部分がありました。
