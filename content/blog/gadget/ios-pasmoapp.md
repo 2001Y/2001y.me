@@ -15,7 +15,7 @@ tags: ["iOSトピック","ショートカット","Topic"]
 
 {{<blogcard url="https://apps.apple.com/jp/app/pasmo/id1489151487">}}
 
-{{<mobile-scroll>}}![](../../../images/ios-pasmoapp-1.jpeg)![](../../../images/ios-pasmoapp-2.png)![](../../../images/ios-pasmoapp-3.png)![](../../../images/ios-pasmoapp-4.png)![](../../../images/ios-pasmoapp-5.png){{<mobile-scroll-end>}}
+{{<mobile-scroll>}}![](../../../images/ios-pasmoapp-1.jpeg)![](../../../images/ios-pasmoapp-2.jpeg)![](../../../images/ios-pasmoapp-3.jpeg)![](../../../images/ios-pasmoapp-4.jpeg)![](../../../images/ios-pasmoapp-5.jpeg){{<mobile-scroll-end>}}
 
 ***
 
