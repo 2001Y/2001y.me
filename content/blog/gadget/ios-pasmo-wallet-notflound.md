@@ -1,6 +1,6 @@
 ---
 
-title: "[iPhone]WalletにPASMOの項目がない時"
+title: "[iPhone]WalletにPASMO（パスモ）の項目がない時"
 date: 2020-10-06T01:00:22+09:00
 categories: ["Gadget"]
 tags: ["iOSトピック","PASMO","Topic"]

@@ -1,5 +1,5 @@
 ---
-title: "SNSのフォロワー数をおしゃれに表すウィジェット、SocialStatsWidget"
+title: "[iOS14]SNSのフォロワー数をおしゃれに表すウィジェット、SocialStatsWidget"
 date: 2020-10-01T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["XnConvert","MacApp","Mac"]
