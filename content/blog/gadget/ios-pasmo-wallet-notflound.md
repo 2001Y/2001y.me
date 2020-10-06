@@ -1,7 +1,7 @@
 ---
 
 title: "[iPhone]WalletにPASMOの項目がない時"
-date: 2020-10-06T00:00:22+09:00
+date: 2020-10-06T01:00:22+09:00
 categories: ["Gadget"]
 tags: ["iOSトピック","PASMO","Topic"]
 ---
@@ -21,9 +21,3 @@ WalletアプリにPASMOの項目が追加されるはずですが、ぼくの周
 ### PASMOの項目が出てこない実例
 
 {{<mobile-scroll>}}![Walletを開く](../../../images/ios-pasmo-wallet-notflound-0.jpg)![カードを追加](../../../images/ios-pasmo-wallet-notflound-1.jpg)![続ける](../../../images/ios-pasmo-wallet-notflound-2.jpeg)![PASMOがない！](../../../images/ios-pasmo-wallet-notflound-3.jpeg){{<mobile-scroll-end>}}
-
-{{<blogcard url="https://apps.apple.com/jp/app/pasmo/id1489151487">}}
-
-***
-
-これでApplePay Suicaは使えなかった定期とかも使えるようになるのかな...？立川バスの定期がほしい。。。
