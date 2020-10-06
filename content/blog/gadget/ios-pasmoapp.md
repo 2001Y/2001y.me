@@ -2,7 +2,7 @@
 title: "[iPhone]AppStoreの検索でPASMO（パスモ）が出ない時"
 date: 2020-10-06T00:00:22+09:00
 categories: ["Gadget"]
-tags: ["iOSトピック","ショートカット","Topic"]
+tags: ["iOSトピック","PASMO","Topic"]
 ---
 
 {{<ad>}}
