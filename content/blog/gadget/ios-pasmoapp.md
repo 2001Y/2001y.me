@@ -5,15 +5,15 @@ categories: ["Gadget"]
 tags: ["iOSトピック","ショートカット","Topic"]
 ---
 
-
-
 {{<ad>}}
 
 ## PASMOがAppStoreの検索に引っかからない時
 
-公開が始まったばかりだからなのか、ぼくの場合、AppStoreの検索に引っかかりませんでした。[Twitterで](https://twitter.com/Y20010920T/status/1313278190157144064)QRコードが乗っていたので
+公開が始まったばかりだからなのか、ぼくの場合、AppStoreの検索に引っかかりませんでした。[Twitterで](https://twitter.com/Y20010920T/status/1313278190157144064)QRコードが乗っていたのでリンクを載せときます。
 
 {{<blogcard url="https://apps.apple.com/jp/app/pasmo/id1489151487">}}
+
+### PASMO for iPhone
 
 {{<mobile-scroll>}}![](../../../images/ios-pasmoapp-1.jpeg)![](../../../images/ios-pasmoapp-2.jpeg)![](../../../images/ios-pasmoapp-3.jpeg)![](../../../images/ios-pasmoapp-4.jpeg)![](../../../images/ios-pasmoapp-5.jpeg){{<mobile-scroll-end>}}
 
