@@ -1,5 +1,5 @@
 ---
-title: JavaScriptでホーム画面からの起動を検知
+title: "[JavaScript]ホーム画面からの起動を検知"
 date: 2020-06-11T00:00:22+09:00
 img: js-check-addhome
 categories: ["Web"]
