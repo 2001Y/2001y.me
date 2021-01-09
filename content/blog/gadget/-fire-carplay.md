@@ -1,6 +1,6 @@
 ---
-title: "最安のCarPlay装備をFireタブレットで実現してみた"
-date: 2021-1-8T00:00:22+09:00
+title: "最安のワイヤレスCarPlay装備をFireタブレットで実現してみた"
+date: 2021-01-08T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["CarPlay","iOS","Fireタブレット"]
 ---
@@ -9,9 +9,11 @@ tags: ["CarPlay","iOS","Fireタブレット"]
 
 {{<ad>}}
 
-## AutoKitをダウンロード・インストール
+## AutoKitのダウンロード・インストール
 
-Fireタブレットに標準でインストールされている`Silkブラウザ`を使って
+Fireタブレットに標準でインストールされている<b>Silkブラウザ</b>を使って、以下のURLを開き、apkファイルをダウンロードします。
 
-http://121.40.123.198:8080/autokit/autokit.apk
+[http://121.40.123.198:8080/autokit/autokit.apk](http://121.40.123.198:8080/autokit/autokit.apk)
+
+{{<mobile-scroll>}}![](../../../images/fire-carplay-1.jpg)![](../../../images/fire-carplay-2.jpg)![](../../../images/fire-carplay-3.jpg)![](../../../images/fire-carplay-4.jpg)
 
