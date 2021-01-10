@@ -1,25 +1,63 @@
 ---
-title: "最安のワイヤレスCarPlay装備をFireタブレットで実現してみた"
+title: "Fireタブレットで最安ワイヤレスCarPlayナビを実現"
 date: 2021-01-08T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["CarPlay","iOS","Fireタブレット"]
 ---
 
-自分が自由に使っていい車ができてから、運転する機会が非常に増えました。最初の頃は駅までの往復や、すでに知っている場所への運転ばかりでしたが、少し遠くの知らない場所へ行くためにはナビが必須になってきます。
+自分が自由に使っていい車ができてから、運転する機会が非常に増えました。
 
-乗っている車にも一応ナビがついているのですが、東京スカイツリーすら登録されていないような古いマップデータであったり、まず反応が悪くてiPhoneやiPadに慣れていると使う気になれません。そこで、今まではiPhoneでGoogleマップを使っていましたが、安くCarPlayを導入することはできないかと考えました。
+最初の頃は駅までの往復や、すでに知っている場所への運転ばかりでしたが、少し遠くの知らない場所へ行くためにはナビが必須になってきます。
+
+乗っている車にも一応ナビがついているのですが、東京スカイツリーすら登録されていないような古いマップデータであったり、まず反応が悪くてiPhoneやiPadに慣れていると使う気になれません。
+
+そこで、今まではiPhoneでGoogleマップを使っていましたが、安くCarPlayを導入することはできないかと考えました。
 
 ***
 
-そもそも、古い車なので高価なCarPay対応ナビを買うことは選択肢にないので、安価に済ませたいと考えた時、[AmazonのFireタブレット](https://amzn.to/2Xsg026)が頭に浮かびました。
+そもそも、古い車なので高価なCarPay対応ナビを買うことは選択肢にありません。手持ちのiPad mini5をナビ代わりにしてもいいけど、毎回つけ外しをするならiPhoneでいいやってなってしまいそう。
 
-FireタブレットはAmazonの販売するタブレットで、画面サイズは7インチから10インチ、値段は5,980円から15,980円と超破格のタブレットです。
+そこで、[AmazonのFireタブレット](https://amzn.to/2Xsg026)が頭に浮かびました。
 
-![[AmazonのFireタブレット](https://amzn.to/2Xsg026)](../../../images/fire-carplay-0.jpg)
+[Fireタブレット](https://amzn.to/2Xsg026)はAmazonの販売するタブレットで、画面サイズは7〜10インチ、値段は5,980〜15,980円と超破格のタブレットです。でも、毎回と言えるほどいろんなセールの度にさらに安くなっているので通常価格で買うのはもったいないかも。
 
-調べていくうちにCarlinkitという会社が販売するデバイスを使うことでAndroidナビでCarPlayを
+自分も7インチを4,000円以下で買った記憶があります。
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=y2001920t-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07JQP28TN&linkId=5e8253d7700779d47f4aeb827acb9cfe"></iframe><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=y2001920t-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07WJSJ28X&linkId=7559d00d13e61d7c3544b81c54c5308d"></iframe><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=y2001920t-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07KD6TPT6&linkId=ca2d11e6e0605af22d8b56840c05c274"></iframe>
+
+そんなFireタブレットでCarPlayが動作すれば最高だなと思い、調べてみるとFireHD8でCarPlayが動作している[動画](https://youtu.be/yqSm5vlLCfo)を見つけました。
+
+どうやら、Carlinkitという会社がAndroidナビでCarPlayを使えるようにするデバイスを販売していて、Android端末はもちろん、Androidベースで作られているFireタブレットでもCarPlayが実現できるみたい。
 
 {{<ad>}}
+
+## Carlinkitのデバイスを買う
+
+Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせるデバイス](http://carlinkit.com/ycpsj)や[有線CarPlay対応のナビを無線CarPayに対応させるデバイス](http://carlinkit.com/productinfo/447590.html)なども取り扱っているようです。
+
+ただ今回はAndroidナビをCarPayに対応させるため、この二つが候補になります。
+
+{{<bg>}}
+
+**Android USB CarPlay Dongle**<br>　　[http://carlinkit.com/productinfo/354763.html](http://carlinkit.com/productinfo/354763.html)
+
+**Android Wireless CarPlay Dongle**<br>　　[http://carlinkit.com/productinfo/378738.html](http://carlinkit.com/productinfo/378738.html)
+
+{{<bg-end>}}
+
+名前の通り、1つ目は有線のCarPlayのみ、2つ目は無線のCarPlayに対応しています。また、日本のAmazonで買うと以下が正規品らしいです。
+
+{{<bg>}}
+
+**Android USB CarPlay Dongle**｜￥3,599<br>　　[https://amzn.to/38qlO2i](https://amzn.to/38qlO2i)
+
+**Android Wireless CarPlay Dongle**｜￥9,999<br>　　[https://amzn.to/3q2r8yO](https://amzn.to/3q2r8yO)
+
+{{<bg-end>}}
+
+ただ、自分はケチってロゴだけ消された怪しい方を買ってみました。値段は正規品の半額。
+
+![](../../../images/fire-carplay-0.jpg)
 
 ## AutoKitのダウンロード・インストール
 
@@ -46,8 +84,6 @@ AutoKitをインストールしていきます。
 ![](../../../images/fire-carplay-5.jpg)
 
 AutoKitを開くと、<b>ファイル,マイク,カメラへのアクセス許可</b>が求められると思うので許可します。
-
-![fire-carplay-6](../../../images/fire-carplay-6.jpg)
 
 
 

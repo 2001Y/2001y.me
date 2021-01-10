@@ -118,5 +118,5 @@ function stop(){
     goodElem.classList.add('done');
     badElem.classList.add('done');
     votingText.innerHTML = "ありがとうございます！";
-    setTimeout("Voting.classList.remove('hover');", 500);
+    setTimeout("Voting.classList.remove('hover');", 1000);
 }
