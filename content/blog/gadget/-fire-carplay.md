@@ -35,7 +35,7 @@ tags: ["CarPlay","iOS","Fireタブレット"]
 
 {{<ad>}}
 
-## Carlinkitのドングルを購入する
+## Carlinkitのドングルを用意する
 
 Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせるドングル](http://carlinkit.com/ycpsj)や[有線CarPlay対応のナビを無線CarPayに対応させるドングル](http://carlinkit.com/productinfo/447590.html)なども取り扱っているようです。
 
@@ -59,7 +59,7 @@ Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせる�
 
 {{<bg-end>}}
 
-### MicroUSBとUSB-AのOTG対応アダプタを購入する
+### MicroUSBとUSB-AのOTG対応アダプタを用意する
 
 あとは適当にFireタブレットにドングルを接続するために、OTG対応のMicroUSBとUSB-Aのアダプタを用意します。
 
@@ -79,7 +79,7 @@ Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせる�
 
 Amazonなら返品もできそうだし、チャレンジしてみる価値はあるかも。
 
-![](../../../images/FullSizeRender.jpg)
+{{<ad>}}
 
 ## AutoKitのダウンロード・インストール
 
@@ -113,7 +113,29 @@ AutoKitをインストールしていきます。
 
 AutoKitを開くと、<b>ファイル,マイク,カメラへのアクセス許可</b>が求められると思うので許可します。
 
+![](../../../images/Screenshot_20210110-003947_1.jpg)
 
+## AutoKitとドングルのアップデート
+
+これでAutoKitが使えるようになりました。次に左上の設定から<b>AutoKitを最新版にアップデート</b>します。
+
+![](../../../images/Screenshot_20210110-020335-2.jpg)
+
+設定の最下部から**アップデートを確認**を行います。
+
+![](../../../images/Screenshot_20210110-020442-2.jpg)
+
+アップデートがある場合は実行します。
+
+![](../../../images/Screenshot_20210110-020508-2.jpg)
+
+![](../../../images/Screenshot_20210110-020540.jpg)
+
+![](../../../images/fire-carplay-5.jpg)
+
+
+
+![きちんとCarlinkitのロゴ入り](../../../images/FullSizeRender.jpg)
 
 ## さいごに
 
