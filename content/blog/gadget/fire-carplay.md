@@ -1,6 +1,6 @@
 ---
 title: "Fireタブレットで最安ワイヤレスCarPlayナビを実現"
-date: 2021-01-13T00:00:22+09:00
+date: 2021-01-T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["CarPlay","iOS","Fireタブレット"]
 ---
@@ -13,7 +13,7 @@ tags: ["CarPlay","iOS","Fireタブレット"]
 
 そこで、今まではiPhoneでGoogleマップを使っていましたが、<b>安くCarPlayを導入することはできないか</b>と考えました。
 
-{{<ad>}}
+![完成形](../../../images/FullSizeRender.jpg)
 
 ## ディスプレイにはFireタブレット
 
