@@ -11,13 +11,15 @@ tags: ["CarPlay","iOS","Fireタブレット"]
 
 乗っている車にも一応ナビがついているのですが、東京スカイツリーすら登録されていないような古いマップデータであったり、まず反応が悪くてiPhoneやiPadに慣れていると使う気になれません。
 
-そこで、今まではiPhoneでGoogleマップを使っていましたが、安くCarPlayを導入することはできないかと考えました。
+そこで、今まではiPhoneでGoogleマップを使っていましたが、<b>安くCarPlayを導入することはできないか</b>と考えました。
 
-***
+{{<ad>}}
+
+## ディスプレイにはFireタブレット
 
 そもそも、古い車なので高価なCarPay対応ナビを買うことは選択肢にありません。手持ちのiPad mini5をナビ代わりにしてもいいけど、毎回つけ外しをするならiPhoneでいいやってなってしまいそう。
 
-そこで、[AmazonのFireタブレット](https://amzn.to/2Xsg026)が頭に浮かびました。
+そこで、ディスプレイとして格安の<b>Fireタブレット</b>をチョイス。
 
 [Fireタブレット](https://amzn.to/2Xsg026)はAmazonの販売するタブレットで、画面サイズは7〜10インチ、値段は5,980〜15,980円と超破格のタブレットです。でも、毎回と言えるほどいろんなセールの度にさらに安くなっているので通常価格で買うのはもったいないかも。
 
@@ -27,13 +29,15 @@ tags: ["CarPlay","iOS","Fireタブレット"]
 
 そんなFireタブレットでCarPlayが動作すれば最高だなと思い、調べてみるとFireHD8でCarPlayが動作している[動画](https://youtu.be/yqSm5vlLCfo)を見つけました。
 
-どうやら、Carlinkitという会社がAndroidナビでCarPlayを使えるようにするデバイスを販売していて、Android端末はもちろん、Androidベースで作られているFireタブレットでもCarPlayが実現できるみたい。
+どうやら、Carlinkitという会社が<b>AndroidナビでCarPlayを使えるようにするデバイス</b>を販売していて、Android端末はもちろん、Androidベースで作られているFireタブレットでもCarPlayが実現できるみたい。
+
+これは試すしかない。
 
 {{<ad>}}
 
-## Carlinkitのデバイスを買う
+## Carlinkitのドングルを購入する
 
-Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせるデバイス](http://carlinkit.com/ycpsj)や[有線CarPlay対応のナビを無線CarPayに対応させるデバイス](http://carlinkit.com/productinfo/447590.html)なども取り扱っているようです。
+Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせるドングル](http://carlinkit.com/ycpsj)や[有線CarPlay対応のナビを無線CarPayに対応させるドングル](http://carlinkit.com/productinfo/447590.html)なども取り扱っているようです。
 
 ただ今回はAndroidナビをCarPayに対応させるため、この二つが候補になります。
 
@@ -55,15 +59,39 @@ Carlinkitは[CarPlay非対応の車標準のナビをCarPlay対応にさせる�
 
 {{<bg-end>}}
 
-ただ、自分はケチってロゴだけ消された怪しい方を買ってみました。値段は正規品の半額。
+### MicroUSBとUSB-AのOTG対応アダプタを購入する
+
+あとは適当にFireタブレットにドングルを接続するために、OTG対応のMicroUSBとUSB-Aのアダプタを用意します。
+
+{{<bg>}}
+
+**OTG対応のMicroUSBとUSB-Aのアダプタ**<br>　　[https://amzn.to/3nxAxww](https://amzn.to/3nxAxww)
+
+{{<bg-end>}}
+
+***
+
+ただ、自分はロゴは入っていないとしても、どうせ中身は同じだろうという安易な考えで、ロゴが消された[怪しい方](https://amzn.to/2LjTu8T)を買ってみました。
 
 ![](../../../images/fire-carplay-0.jpg)
 
+値段は￥5,299 と正規品の半額ですが、案の定しっかりとCarlinkitのロゴが入った商品が届き、ちゃんと動きました。
+
+Amazonなら返品もできそうだし、チャレンジしてみる価値はあるかも。
+
+![](../../../images/FullSizeRender.jpg)
+
 ## AutoKitのダウンロード・インストール
 
-Fireタブレットに標準でインストールされている<b>Silkブラウザ</b>を使って、以下のURLを開き、apkファイルをダウンロードします。
+ドングルをゲットしたら
+
+{{<bg>}}
 
 [http://121.40.123.198:8080/autokit/autokit.apk](http://121.40.123.198:8080/autokit/autokit.apk)
+
+{{<bg-end>}}
+
+Fireタブレットに標準でインストールされている<b>Silkブラウザ</b>を使って、上記のURLを開き、apkファイルをダウンロードします。
 
 ![](../../../images/fire-carplay-1.jpg)
 
