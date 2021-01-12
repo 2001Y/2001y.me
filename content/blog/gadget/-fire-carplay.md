@@ -133,6 +133,16 @@ AutoKitを開くと、<b>ファイル,マイク,カメラへのアクセス許�
 
 ![](../../../images/fire-carplay-5.jpg)
 
+必要に応じて、再度設定から<b>BOX（ドングル）</b>のアップデートも実行します。
+
+{{<ad>}}
+
+## iPhoneを無線で接続
+
+これで準備は完了。あとはiPhoneから
+
+{{<mobile-scroll>}}![](../../../images/IMG_1121.jpg)![](../../../images/IMG_1123.jpg)![](../../../images/IMG_1125.jpg)![](../../../images/IMG_1130-2.jpg){{<mobile-scroll-end>}}
+
 
 
 ![きちんとCarlinkitのロゴ入り](../../../images/FullSizeRender.jpg)
