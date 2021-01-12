@@ -1,6 +1,6 @@
 ---
 title: "Fireタブレットで最安ワイヤレスCarPlayナビを実現"
-date: 2021-01-08T00:00:22+09:00
+date: 2021-01-13T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["CarPlay","iOS","Fireタブレット"]
 ---
@@ -135,18 +135,34 @@ AutoKitを開くと、<b>ファイル,マイク,カメラへのアクセス許�
 
 必要に応じて、再度設定から<b>BOX（ドングル）</b>のアップデートも実行します。
 
+これで準備は完了。あとはiPhoneを接続するだけ。
+
 {{<ad>}}
 
-## iPhoneを無線で接続
+## iPhoneをCarPlayに接続
 
-これで準備は完了。あとはiPhoneから
+### 有線でCarPlayに接続
+
+有線のドングルの場合はドングルについているUSBポートにLightningでiPhoneを接続するだけで、通常のCarPlayの挙動をするはずです。
+
+### 無線でCarPlayに接続
+
+今回は無線のドングルを使っているので、iPhoneの設定のBluetoothを開きます。そうしたら、AutoKitからペアリング要求がくるので指示に従って設定していきます。
+
+流れとしてはBluetoothに接続すると、自動的にWiFiが"AutoKit"に切り替わりBluetoothの接続は解除されます。
 
 {{<mobile-scroll>}}![](../../../images/IMG_1121.jpg)![](../../../images/IMG_1123.jpg)![](../../../images/IMG_1125.jpg)![](../../../images/IMG_1130-2.jpg){{<mobile-scroll-end>}}
-
-
-
-![きちんとCarlinkitのロゴ入り](../../../images/FullSizeRender.jpg)
 
 ## さいごに
 
 最初はGoogleマップよりAppleマップの方が音声案内がわかりやすいと思うこともありましたが、ラベル機能がとても便利でやはりGoogleマップを使いがちです。
+
+軽く触ってみた感じ、心配していたFireタブレット側のスペック不足はFire7でも挙動には問題なさそう...？
+
+CarPlayはiPhoneのサブモニタのような感覚で、操作自体はiPhoneで済ませることが多いからか、特に不満は感じませんでした。
+
+あと、無線のCarPlayを触ったのが初めてで、やはり有線に比べるとケーブルを刺すという手間が省けるのは嬉しい。充電の減りは早くなるので充電は必須かも。
+
+ただ、Qiを使えば置くだけでiPhoneを充電できるのでGood👍
+
+![](../../../images/FullSizeRender.jpg)
