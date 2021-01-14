@@ -175,6 +175,14 @@ p code {
   border-radius: 2rem;
 }
 
+.bg>*:first-child {
+  margin-top: 0.3rem !important;
+}
+
+.bg>*:last-child {
+  margin-bottom: 0.3rem !important;
+}
+
 .blogcard {
   width: 80%;
   height: 155px;

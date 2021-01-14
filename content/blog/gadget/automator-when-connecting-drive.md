@@ -5,11 +5,23 @@ categories: ["Gadget"]
 tags: ["Automator","Mac"]
 ---
 
+MacでUSBメモリやSDカード、HDDなどの外部ドライブを接続した際に特定のAutomatorワークフローを実行させたい時の手順です。
 
+{{<bg>}}
+
+## Q&A
+
+AutomatorでUSBメモリなどの外部ドライブを接続した時にワークフローを実行するためにはどうすればいいですか？
+
+<b>Automatorのフォルダアクションで`/Volumes`を監視対象にすれば外部ドライブの接続を検知できます。</b>
+
+{{<bg-end>}}
 
 {{<ad>}}
 
-## 　　　　　　　Automatorでフォルダアクションを作成
+## Automatorでフォルダアクションを作成
+
+Automatorでフォルダアクションを新規作成します。
 
 ![](../../../images/automator-when-connecting-drive-1.jpg)
 
@@ -23,11 +35,7 @@ tags: ["Automator","Mac"]
 
 ![](../../../images/automator-when-connecting-drive-3.jpg)
 
-`/（スラッシュ）`キーを押すことでパスからフォルダを指定することができるので、以下の`Volumesフォルダ`のパスを入力します。
-
-```sh
-/Volumes
-```
+<b>/ (スラッシュ)キーを押すことでパスからフォルダを指定することができる</b>ので、`/Volumes`を入力します。
 
 ![](../../../images/automator-when-connecting-drive-4.jpg)
 
@@ -41,6 +49,6 @@ tags: ["Automator","Mac"]
 
 ## あとは普通にワークフローを作成する
 
-![](../../../images/automator-when-connecting-drive-7.jpg)
+画像はMacにドライブを接続した際に通知するワークフローです。
 
-## さごに
+![](../../../images/automator-when-connecting-drive-7.jpg)
