@@ -1,5 +1,5 @@
 ---
-title: "[Mac/Automator]HEIFやPNGなどを右クリックでJPEGに変換するクイックアクション"
+title: "【ダウンロードするだけ超簡単】HEIFやPNGなどを右クリックでJPEGに変換"
 date: 2021-01-19T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["Automator","Mac"]
@@ -13,9 +13,37 @@ LINEなどの別サービスへ転送する際にiOSが自動的にJPEGに変換
 
 {{<ad>}}
 
+## すでに完成したクイックアクションをダウンロード
+
+
+
+{{<bg>}}
+
+### クイックアクション：JPEGに変換
+
+<p class=noIndent>
+  <a href="/download/JPEGに変換.zip" class=download download>ダウンロード</a>
+</p>
+
+{{<bg-end>}}
+
+zipをダブルクリックして展開、`JPEGに変換.workflow`をダブルクリックして<b>"`JPEGに変換"クイックアクションをインストール</b>します。
+
+![](../../../images/Capture1.jpg)
+
+### あとは使うだけ
+
+インストールが完了すると**システム環境設定の機能拡張**ウィンドウが開くので<b>JPEGに変換</b>が追加されていることを確認したら、Finderで画像ファイルを右クリック、クイックアクションから『JPEGに変換』をクリックするだけ。
+
+![](../../../images/Capture3.jpg)
+
+***
+
+## 自分で作る場合
+
 ## Automatorでクイックアクションを作成
 
-**Launchpad**か**アプリケーションフォルダ**から、macOSに標準でインストールされている<b>Automator</b>というアプリを開きます。
+**Launchpad**か**アプリケーションフォルダ**から、macOSに標準でインストールされている<b>Automator</b>というアプリを開きます。よくわからない場合は ⌘ + スペースキー を押してSpotlightで『Automator』と検索。
 
 ![](../../../images/launchpad-automator.jpg)
 

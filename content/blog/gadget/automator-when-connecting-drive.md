@@ -21,7 +21,7 @@ AutomatorでUSBメモリなどの外部ドライブを接続した時にワー�
 
 ## Automatorでフォルダアクションを作成
 
-**Launchpad**か**アプリケーションフォルダ**から、macOSに標準でインストールされている<b>Automator</b>というアプリを開きます。
+**Launchpad**か**アプリケーションフォルダ**から、macOSに標準でインストールされている<b>Automator</b>というアプリを開きます。よくわからない場合は ⌘ + スペースキー を押してSpotlightで『Automator』と検索。
 
 ![](../../../images/launchpad-automator.jpg)
 
