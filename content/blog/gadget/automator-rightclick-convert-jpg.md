@@ -1,6 +1,6 @@
 ---
 title: "[Mac/Automator]HEIFやPNGなどを右クリックでJPEGに変換するクイックアクション"
-date: 2021-01-16T00:00:22+09:00
+date: 2021-01-19T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["Automator","Mac"]
 ---
