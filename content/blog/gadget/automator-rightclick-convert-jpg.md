@@ -21,7 +21,7 @@ LINEなどの別サービスへ転送する際にiOSが自動的にJPEGに変換
 
 Automatorで<b>クイックアクションを新規作成</b>します。
 
-![](../../../images/automator-rightclick-convert-jpg-1.jpg)
+![](../../../images/Capture.jpg)
 
 ## フォルダの検出を /Volumes に指定
 
