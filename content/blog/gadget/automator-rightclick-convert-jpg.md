@@ -5,25 +5,23 @@ categories: ["Gadget"]
 tags: ["Automator","Mac"]
 ---
 
-MacでUSBメモリやSDカード、HDDなどの外部ドライブを接続した際に特定のAutomatorワークフローを実行させたい時の手順です。
+iOS11からiPhoneがHEIFに対応しました。ストレージ節約につながって非常に便利ですが、やはり一般的なのはJPEGやPNG。
 
-{{<bg>}}
+LINEなどの別サービスへ転送する際にiOSが自動的にJPEGに変換してくれますが、MacにAirDropなどでシェアするとHEIFのまま共有されます。
 
-## Q&A
-
-AutomatorでUSBメモリなどの外部ドライブを接続した時にワークフローを実行するためにはどうすればいいですか？
-
-<b>Automatorのフォルダアクションで`/Volumes`を監視対象にすれば外部ドライブの接続を検知できます。</b>
-
-{{<bg-end>}}
+アプリを使えば簡単にHEIFからJPEGに変換することはできますが、今回はFinder上で右クリックからJPEGに変換するクイックアクションを作りたいと思います。
 
 {{<ad>}}
 
-## Automatorでフォルダアクションを作成
+## Automatorでクイックアクションを作成
 
-Automatorでフォルダアクションを新規作成します。
+**Launchpad**か**アプリケーションフォルダ**から、macOSに標準でインストールされている<b>Automator</b>というアプリを開きます。
 
-![](../../../images/automator-when-connecting-drive-1.jpg)
+![](../../../images/launchpad-automator.jpg)
+
+Automatorで<b>クイックアクションを新規作成</b>します。
+
+![](../../../images/automator-rightclick-convert-jpg-1.jpg)
 
 ## フォルダの検出を /Volumes に指定
 
