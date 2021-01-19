@@ -9,7 +9,7 @@ iOS11からiPhoneがHEIFに対応しました。ストレージ節約につな�
 
 LINEなどの別サービスへ転送する際にiOSが自動的にJPEGに変換してくれますが、MacにAirDropなどでシェアするとHEIFのまま共有されます。
 
-アプリを使えば簡単にHEIFからJPEGに変換することはできますが、今回はFinder上で右クリックからJPEGに変換するクイックアクションを作りたいと思います。
+[アプリを使えば](https://apps.apple.com/jp/app/imazing-heic-converter/id1292198261?mt=12)簡単にHEIFからJPEGに変換することはできますが、今回はFinder上で右クリックからJPEGに変換するクイックアクションを作りたいと思います。
 
 {{<ad>}}
 
