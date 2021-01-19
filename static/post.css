@@ -209,7 +209,6 @@ p code {
 }
 
 .download {
-  margin: 2rem auto;
   background: var(--w);
   color: var(--d);
   padding: 0.5rem 1.5rem;
