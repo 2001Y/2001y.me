@@ -381,8 +381,8 @@ textarea {
 }
 
 .post-tmb {
-  -webkit-clip-path: url("#tmb");
-          clip-path: url("#tmb");
+  -webkit-clip-path: url("#tmbSVG");
+          clip-path: url("#tmbSVG");
   width: 7.5rem;
   height: 7.5rem;
   will-change: transform;
