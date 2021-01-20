@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang=ja>
 <head>
-  <link rel="stylesheet" href="/base.min.css?20200926">
-  <link rel="stylesheet" href="/post.min.css?20200926">
+  <link rel="stylesheet" href="/base.min.css?20210121">
+  <link rel="stylesheet" href="/post.min.css?20210121">
   <title>{{ .Title }}｜2001Y.me</title>
   <meta name="robots" content="index,follow,archive">
   {{ partial "head.html" . }}
@@ -20,7 +20,7 @@
   <link rel="prerender" href="{{ with .Site.RegularPages.Related . | first 1 }}{{ range . }}{{ .Permalink }}{{ end }}{{ end }}">
   <script defer>let title ="{{ .File.TranslationBaseName }}";</script>
   <script defer src=/script.min.js?20200705></script>
-  <script defer src=/cursor.min.js?20200926></script>
+  <script defer src=/cursor.min.js?20200705></script>
   <script defer src=/quicklink.min.js?20200705></script>
   {{ if findRE "twitter-tweet" .Content }}
     <script async src=//platform.twitter.com/widgets.js></script>
