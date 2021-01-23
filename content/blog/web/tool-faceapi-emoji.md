@@ -1,10 +1,9 @@
 ---
-title: "写真を読み込むだけで絵文字で顔を隠すツールを作ってみた"
-date: 2021-01-21T00:00:22+09:00
+title: "顔認識で顔を絵文字で隠すツールを作ってみた"
+date: 2021-01-24T00:00:22+09:00
 categories: ["Web"]
 tags: ["Web","PWA","サイト","iOS"]
 js: "face-api/face-api"
-draft: true
 ---
 
 
@@ -84,7 +83,6 @@ draft: true
     width:100%
   }
 </style>
-
 <p class=noIndent><a id=download class=download download="canvas.png">ダウンロード</a></p>
 
 <script src="/tool-faceapi-emoji.min.js"></script>
