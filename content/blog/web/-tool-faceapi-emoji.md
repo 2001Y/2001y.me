@@ -4,6 +4,7 @@ date: 2021-01-21T00:00:22+09:00
 categories: ["Web"]
 tags: ["Web","PWA","サイト","iOS"]
 js: "face-api/face-api"
+draft: true
 ---
 
 
