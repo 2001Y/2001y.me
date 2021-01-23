@@ -91,6 +91,10 @@ js: "face-api/face-api"
 
 {{<ad>}}
 
+## サンプル
+
+![](../../../images/tool-faceapi-emoji-sample.jpg)
+
 ## 
 
 ![https://github.com/justadudewhohacks/face-api.js/issues/586](../../../images/faceapi-landmark.jpg)
