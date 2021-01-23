@@ -51,7 +51,9 @@
 }
 
 *,
-::placeholder {
+::placeholder,
+::before,
+::after {
   font-size: inherit;
   font-family: inherit;
   color: inherit;

@@ -41,6 +41,7 @@ h1
     background: linear-gradient(var(--w), var(--w)) 0 100%/0 .1em no-repeat;
     background-size: 100% .05em;
     transition: .3s;
+    will-change: background
     &:hover
       color var(--d)
       background-size 100% 100%;
@@ -62,25 +63,97 @@ h1
       max-width 100%
       // margin 0 -1rem .3rem -1rem
       border-radius 0
+  textarea,input,iframe,canvas,img,source
+    background var(--d05)
+    +dark()
+      background var(--l05)
+  input[type=file]
+    width: 100%;
+    height: 100px;
+    position: relative;
+    visibility: hidden;
+    &:hover:before
+      color: var(--l05);
+      +dark()
+        color: var(--d05);
+      border: var(--l05) dashed 3px;
+      +dark()
+        border: var(--d05) dashed 3px;
+    &:before
+      font-family icon,Helvetica,"游ゴシック Medium","Yu Gothic",YuGothic,-apple-system,Verdana,Meiryo
+      content "Drag&Drop or CLICK"
+      position absolute
+      top 0
+      left 0
+      width 100%
+      height: 100%;
+      font-size 1.5rem
+      color: var(--d05);
+      +dark()
+        color: var(--l05);
+      text-align: center;
+      line-height:  94px;
+      border: var(--d05) dashed 3px;
+      +dark()
+        border: var(--l05) dashed 3px;
+      border-radius: 1.3rem;
+      margin-bottom: 1%;
+      visibility: visible
+      transition: .3s;
+  form
+    div
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:not(:last-child)
+        margin-bottom .5rem
+      *:last-child
+        flex 1
+      label + input
+        margin-left 1rem !important
+        transition .3s !important
+      input:checked + label + input
+        box-shadow: 0 0 0 .2rem var(--w)
+  input
+    &[type=checkbox],&[type=radio]
+      width 2.4rem
+      height 2.4rem
+      border-radius 100%
+      position relative
+      &:after
+        content ""
+        width 0
+        height 0
+        top 1.2rem
+        left 1.2rem
+        border-radius 100%
+        transition .3s
+        will-change background
+        position absolute
+      &:checked:after
+        width 1.2rem
+        height 1.2rem
+        top .6rem
+        left .6rem
+        background var(--w)
   textarea,input
     font-size .8em
-    // max-width 40rem
-    width 100%
-    // height 2.5rem
     margin auto
     display block
     border-radius 1.3rem
-    color var(--d)      
-    background var(--d05)
+    color var(--d)
     transition box-shadow .3s
     +dark()
       color var(--l)
-      background var(--l05)
-    &:focus
+    &:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="hidden"]):not([type="submit"]):not([type="reset"]):not([type="button"]):not([type="image"]):focus
       box-shadow: 0 0 0 .2rem var(--w)
+  textarea,input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="hidden"]):not([type="submit"]):not([type="reset"]):not([type="button"]):not([type="image"])
+    width 100%
   textarea
     padding 1rem
     height 10.1em
+  label
+    padding .3rem
   button,input[type="button"],input[type="search"],input[type="text"]
     padding .3rem 1rem
 
@@ -422,11 +495,9 @@ tr:first-of-type
 .twitter-tweet
   margin -1.5rem auto !important
   transform scale(.8) !important
-
 .youtube
   position relative
   width 80%
-  background var(--d05)
   margin auto
   @media (max-width: 560px)
     width 100%
@@ -436,8 +507,6 @@ tr:first-of-type
     display block
     padding-top 56.25%
   iframe
-    +dark()
-      background var(--l05)
     position: absolute;
     width: 100%;
     height: 100%;
