@@ -141,7 +141,7 @@ async function getFaceData(img) {
       ctx.fillText(txt, positions[30].x, positions[2].y);
 
       document.getElementById("download").href = canvas.toDataURL();
-      info.innerText = " - 処理完了"
+      info.innerText = " - 完了"
 
     }
   }

@@ -30,17 +30,26 @@ ol,ul
   list-style-type none
 a
   text-decoration none
-input,button,textarea
-  outline none
-  background none
-  appearance:none
-  border: none
-  resize: vertical
-  // color var(--d)      
-  // background var(--d05)
-  // +dark()
-  //   color var(--l)
-  //   background var(--l05)
+
+//https://www.i-ryo.com/entry/2019/08/24/225050
+input,button,select,textarea
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+textarea
+  resize: vertical;
+input[type='checkbox'],input[type='radio']
+  display: none;
+input[type='submit'],input[type='button'],label,button,select
+  cursor: pointer;
+select::-ms-expand
+  display: none;
+
 input,textarea
   &[readonly=""]
     -webkit-user-select: all;
