@@ -102,3 +102,9 @@ js: "face-api/face-api"
 ## サンプル
 
 ![](../../../images/tool-faceapi-emoji-sample.jpg)
+
+## 仕組み
+
+[face-api.js](https://github.com/justadudewhohacks/face-api.js/)で顔認識を行うことで、以下のような顔の点を取得することができます。そこから、<b>顔の中心</b>と<b>顔のサイズ</b>を決めています。
+
+![](../../../images/faceapi-landmark.jpg)
