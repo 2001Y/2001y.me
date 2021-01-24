@@ -18,6 +18,7 @@ dark()
 ::after
   font-size inherit
   font-family inherit
+  line-break strict
   color inherit
   margin 0
   padding 0
@@ -214,6 +215,7 @@ p,textarea
   display flex
   flex-direction column
   justify-content center
+  overflow hidden
   p
     font-size .95rem
 .post-tmb
@@ -221,6 +223,7 @@ p,textarea
   width 7.5rem
   height 7.5rem
   will-change: transform
+  flex-shrink: 0;
   img
     width 100%
     height 100%

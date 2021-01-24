@@ -9,6 +9,7 @@
 ::-webkit-input-placeholder {
   font-size: inherit;
   font-family: inherit;
+  line-break: strict;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@
 ::-moz-placeholder {
   font-size: inherit;
   font-family: inherit;
+  line-break: strict;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -31,6 +33,7 @@
 :-ms-input-placeholder {
   font-size: inherit;
   font-family: inherit;
+  line-break: strict;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -42,6 +45,7 @@
 ::-ms-input-placeholder {
   font-size: inherit;
   font-family: inherit;
+  line-break: strict;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -56,6 +60,7 @@
 ::after {
   font-size: inherit;
   font-family: inherit;
+  line-break: strict;
   color: inherit;
   margin: 0;
   padding: 0;
@@ -399,6 +404,7 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .post-data p {
@@ -411,6 +417,7 @@ textarea {
   width: 7.5rem;
   height: 7.5rem;
   will-change: transform;
+  flex-shrink: 0;
 }
 
 .post-tmb img {
