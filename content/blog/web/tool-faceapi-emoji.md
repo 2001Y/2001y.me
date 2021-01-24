@@ -101,10 +101,26 @@ js: "face-api/face-api"
 
 ## サンプル
 
-![](../../../images/tool-faceapi-emoji-sample.jpg)
+![赤ちゃんの顔もバッチリいい感じ](../../../images/tool-faceapi-emoji-sample-1.jpg)
+
+![このぐらいの人数になってくると自動化の出番ですね。ぼやけてる後ろの方の人は認識されてないみたい](../../../images/tool-faceapi-emoji-sample-2.jpg)
+
+![サングラスをしてる男の人もいるけどバッチリ！](../../../images/tool-faceapi-emoji-sample-3.jpg)
+
+![と思ったら...でもサングラスしてれば隠す必要ないかも...？](../../../images/tool-faceapi-emoji-sample-4.jpg)
 
 ## 仕組み
+
+### 顔認識
 
 [face-api.js](https://github.com/justadudewhohacks/face-api.js/)で顔認識を行うことで、以下のような顔の点を取得することができます。そこから、<b>顔の中心</b>と<b>顔のサイズ</b>を決めています。
 
 ![](../../../images/faceapi-landmark.jpg)
+
+### 絵文字
+
+せっかくなら絵文字をランダムにしたかったので、頻繁に更新されている[unicode-emoji-json](https://github.com/muan/unicode-emoji-json)を利用させてもらいました。具体的には、ただ絵文字が羅列されている`data-ordered-emoji.json`を使いました。
+
+最初は完全ランダムにしようと思っていたのですが、表情の絵文字じゃないと顔が隠れにくかったので94番目までの表情系の絵文字のみを対象としました。
+
+{{<blogcard url="https://github.com/muan/unicode-emoji-json">}}
