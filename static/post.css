@@ -264,6 +264,10 @@ input[readonly=""] {
 }
 
 p code {
+  -webkit-user-select: all;
+  -moz-user-select: all;
+   -ms-user-select: all;
+       user-select: all;
   word-wrap: normal;
   letter-spacing: 0;
   padding: 0.2em 0.7em;
