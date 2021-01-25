@@ -1,5 +1,5 @@
 ---
-title: 'flex:1;で解消しない"潰れ"はflex-shrink：0;'
+title: 'flex:1;で解消しない『潰れ』はflex-shrink:0;'
 date: 2021-01-24T02:00:22+09:00
 categories: ["Web"]
 tags: ["CSS","Flex"]

@@ -54,8 +54,8 @@
       <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
         <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
           <picture class=post-tmb>
-            <source srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-            <img src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+            <source width=120 height=120 srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+            <img width=120 height=120 src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
           </picture>
           <div class=post-data>
             <h2>{{ .Title }}</h2>
@@ -75,8 +75,8 @@
       <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
         <article class="post {{ if .Params.tags }}{{ range .Params.tags }}{{ . }}{{ end }}{{ end }}">
           <picture class=post-tmb>
-            <source srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-            <img src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+            <source width=120 height=120 srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+            <img width=120 height=120 src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
           </picture>
           <div class=post-data>
             <h2>{{ .Title }}</h2>
@@ -102,8 +102,8 @@
         <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
           <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
             <picture class=post-tmb>
-              <source srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-              <img src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+              <source width=120 height=120 srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+              <img width=120 height=120 src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
             </picture>
             <div class=post-data>
               <h2>{{ .Title }}</h2>
