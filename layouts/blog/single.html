@@ -95,58 +95,28 @@
         <ins class="adsbygoogle" style="display:block;width:200px;height:200px" data-ad-client="ca-pub-3750999099107987" data-ad-slot="3114303912"></ins>
       </div>
       <h4 id=related><a href="/blog/{{ if .Params.categories }}{{ range .Params.categories }}{{ . | urlize }}{{ end }}{{ end }}" title="">あなたにおすすめ</a></h4>
-      {{ if .Site.RegularPages.Related . }}
-        {{ with .Site.RegularPages.Related . | first 3 }}
-          {{ range . }}
-          <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
-            <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
-              <picture class=post-tmb>
-                <source width=120 height=120 srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-                <img width=120 height=120 src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
-              </picture>
-              <div class=post-data>
-                <h2>{{ .Title }}</h2>
-                <div class=post-meta>
-                  <time>{{ .Date.Format "2006/01/02" }}</time>・{{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}
-                  {{ if ne (.Date.Format ( .Site.Params.dateformat | default "2006年1月2日")) (.Lastmod.Format ( .Site.Params.dateformat | default "2006年1月2日"))}}
-                      <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "2006年1月2日") }}</time>
-                  {{ end }}
-                </div>
-                <p>{{ .Content | plainify | truncate 60 }}</p>
+      {{ with .Site.RegularPages.Related . | first 3 }}
+        {{ range . }}
+        <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
+          <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
+            <picture class=post-tmb>
+              <source width=120 height=120 srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
+              <img width=120 height=120 src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
+            </picture>
+            <div class=post-data>
+              <h2>{{ .Title }}</h2>
+              <div class=post-meta>
+                <time>{{ .Date.Format "2006/01/02" }}</time>・{{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}
+                {{ if ne (.Date.Format ( .Site.Params.dateformat | default "2006年1月2日")) (.Lastmod.Format ( .Site.Params.dateformat | default "2006年1月2日"))}}
+                    <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "2006年1月2日") }}</time>
+                {{ end }}
               </div>
-            </article>
-          </a>
-          {{ end }}
-        {{ else }}
-          {{ range first 3 (where $.Site.RegularPages "Section" "blog") }}
-          <a href={{ .Permalink }} title="{{ .Title }}｜2001Y.me">
-            <article class="post {{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}">
-              <picture class=post-tmb>
-                <source width=120 height=120 srcset="/img/{{ .File.BaseFileName }}-120.webp, /img/{{ .File.BaseFileName }}-240.webp 2x,/img/{{ .File.BaseFileName }}-360.webp 3x" decoding=async loading=lazy type=image/webp>
-                <img width=120 height=120 src=/img/{{ .File.BaseFileName }}-120.jpg srcset="/img/{{ .File.BaseFileName }}-240.jpg 2x,/img/{{ .File.BaseFileName }}-360.jpg 3x" alt="{{ .Title }}｜2001Y.me" decoding=async loading=lazy>
-              </picture>
-              <div class=post-data>
-                <h2>{{ .Title }}</h2>
-                <div class=post-meta>
-                  <time>{{ .Date.Format "2006/01/02" }}</time>・{{ if .Params.categories }}{{ range .Params.categories }}{{ . }}{{ end }}{{ end }}
-                  {{ if ne (.Date.Format ( .Site.Params.dateformat | default "2006年1月2日")) (.Lastmod.Format ( .Site.Params.dateformat | default "2006年1月2日"))}}
-                      <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05JST" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "2006年1月2日") }}</time>
-                  {{ end }}
-                </div>
-                <p>{{ .Content | plainify | truncate 60 }}</p>
-              </div>
-            </article>
-          </a>
-          {{ end }}
+              <p>{{ .Content | plainify | truncate 60 }}</p>
+            </div>
+          </article>
+        </a>
         {{ end }}
       {{ end }}
-      {{ with .CurrentSection }}
-  <ul>
-    {{ range .Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{ end }}
-  </ul>
-{{ end }}
     </aside>
   </main>
   <aside id=fixed>
