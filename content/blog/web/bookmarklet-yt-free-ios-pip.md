@@ -3,7 +3,7 @@ title: "YouTubePremiumなしでピクチャインピクチャ/バックグラウ
 date: 2020-09-25T23:00:22+09:00
 categories: ["Web"]
 tags: ["Bookmarklet","WebTopic"]
-js: "bookmark"
+js: ["ブックマーク"]
 ---
 
 iOS14では、バックグラウンド再生と呼ばれることも多い<b>ピクチャ・イン・ピクチャ</b>（以下PIP）が追加され、公開直後はYouTubePremiumに入っていない無料会員でもSafariでPIPを使うことでバックグラウンド再生を行うことができました。

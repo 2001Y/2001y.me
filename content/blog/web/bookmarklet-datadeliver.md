@@ -3,10 +3,10 @@ title: "データ便を一括ダウンロードできるブックマークレッ
 date: 2020-07-09T05:00:22+09:00
 img: bookmarklet-datadeliver
 categories: ["Web"]
-tags: ["Bookmarklet","WebTopic"]
+tags: ["ブックマーク","WebTopic"]
 ---
 
-[データ便](https://www.datadeliver.net/)というサービスで少し多めのファイルを送られたらしく、「一つ一つリンクを開くのがめんどうだから、一括でダウンロードできないのか」と聞かれたので、リンクを一括で展開するブックマークレットをメモ。
+[データ便](https://www.datadeliver.net/)というサービスで少し多めのファイルを送られたらしく、「一つ一つリンクを開くのがめんどうだから、一括でダウンロードできないのか」と聞かれたので、<b>リンクを一括で展開するブックマークレット</b>を作ってみました。
 
 と言っても、リンクを全部新規タブで開いてるだけです。。
 
@@ -24,19 +24,25 @@ tags: ["Bookmarklet","WebTopic"]
 
 ### 登録方法
 
-下のボタンをブックマークバーにドラッグ&ドロップ。スマホは、[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
+ブックマークバーに上のボタンを**ドラッグ&ドロップ**、詳しくは以下を参考に。
 
-{{<blogcard url="https://2001y.me/blog/web/bookmarklet-chrome/">}}
+Chromeをお使いの方：https://2001y.me/blog/web/bookmarklet-chrome<br>Safariをお使いの方：https://2001y.me/blog/web/bookmarklet-mac-safari
 
-{{<blogcard url="https://2001y.me/blog/web/bookmarklet-mac-safari/">}}
+スマホの場合は[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
 
 ### 使い方
 
-ダウンロード一覧ページで実行すれば全て新規タブで開いて一括でダウンロードできる。
+ダウンロードページにて、このブックマークレットを実行すれば全てのファイルを一括ダウンロードできます。
+
+![](../../../images/bookmarklet-datadeliver-0.jpg)
+
+## うまく動かないとき
+
+ポップアップがブロックされている場合、うまく動作しません。<b>ポップアップとリダイレクトを常に許可</b>を選択します。
 
 ![ポップアップブロックなどは許可する必要がある](../../../images/bookmarklet-datadeliver-1.jpg)
 
-### 仕組み
+## 仕組み
 
 本当にただ新規タブで開いてるだけ。
 
