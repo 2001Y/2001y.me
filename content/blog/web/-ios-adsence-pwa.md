@@ -1,25 +1,25 @@
 ---
-title: "[iOS]既存サイトをアイコン指定してホーム画面に追加でアプリ化する"
+title: "[iOS]既存サイトをアイコン指定してホーム画面に追加でアプリ化"
 date: 2021-01-28T00:00:22+09:00
 img: ios-all-site-pwa
 categories: ["Web"]
 tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
 js: "ios-adsence-pwa"
 draft: true
-
 ---
 
 
 
-## 既存サイトをアイコン指定してホーム画面に追加でアプリ化する
+## 既存サイトをアイコン指定してホーム画面に追加する
 
 
 
-<form onsubmit="F();return false;">
+<form onchange="F();return false;">
   <input type=text id=title placeholder=タイトル>
   <input type=text id=url placeholder=URL>
 	<input type=file id=file accept=image/*>
 </form>
+
 
 <a class=download id=open>開く</a>
 
