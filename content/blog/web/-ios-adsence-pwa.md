@@ -5,6 +5,7 @@ img: ios-all-site-pwa
 categories: ["Web"]
 tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
 js: "ios-adsence-pwa"
+draft: true
 
 ---
 

@@ -17,20 +17,21 @@ tags: ["ブックマーク","WebTopic"]
 <p class=noIndent>
   <a href="javascript:(function()%7Blet%20el%20%3D%20document.querySelectorAll(%22.tbl_wd_full%20td%3Afirst-of-type%20a%22)%3Bfor(let%20i%3D0%3B%20i%3Cel.length%3B%20i%2B%2B)%7Bwindow.open(el%5Bi%5D.href)%3B%7D%7D)()" class=download>データ便一括ダウンロード</a>
 </p>
+{{<bg>}}
 
 ### 対応サイト
 
 データ便：[https://www.datadeliver.net/](https://www.datadeliver.net/)
 
-### 登録方法
+### ブックマークレットの登録方法
 
 ブックマークバーに上のボタンを**ドラッグ&ドロップ**、詳しくは以下を参考に。
 
-Chromeをお使いの方：https://2001y.me/blog/web/bookmarklet-chrome<br>Safariをお使いの方：https://2001y.me/blog/web/bookmarklet-mac-safari
+<p class="noIndent"><a href="https://2001y.me/blog/web/bookmarklet-chrome" target="_blank" rel="noopener noreferrer">Chromeをお使いの方</a>・<a href="https://2001y.me/blog/web/bookmarklet-mac-safari" target="_blank" rel="noopener noreferrer">Safari(Mac)をお使いの方</a>・<a href="https://2001y.me/blog/web/bookmarklet-ios-safari" target="_blank" rel="noopener noreferrer">Safari(iOS)をお使いの方</a></p>
 
-スマホの場合は[こちら](https://wayohoo.com/ios/tips/how-to-install-bookmarklet-in-safari-for-ios.html)を参考に。
+{{<bg-end>}}
 
-### 使い方
+## 使い方
 
 ダウンロードページにて、このブックマークレットを実行すれば全てのファイルを一括ダウンロードできます。
 
