@@ -1,5 +1,5 @@
   <div id=left>
-      <h5>カテゴリ</h5>
+      <h3>カテゴリ</h3>
       <ul>
         <li><a href="/blog/gadget" title="ガジェット｜2001Y.me">ガジェット</a></li>
         <li><a href="/blog/camera" title="カメラ｜2001Y.me">カメラ</a></li>
@@ -8,7 +8,7 @@
       </ul>
   </div>
   <div id=center>
-      <h5>タグ</h5>
+      <h4>タグ</h4>
       <ul id=tag>
         {{ if lt 0 (len .Site.Taxonomies.tags) }}
           {{ range .Site.Taxonomies.tags.ByCount }}
