@@ -641,6 +641,7 @@ footer .search-box .submit {
   position: relative;
   will-change: transform, width, height;
   position: fixed;
+  mix-blend-mode: exclusion;
   top: -0.3rem;
   left: -0.3rem;
   width: 0.6rem;
