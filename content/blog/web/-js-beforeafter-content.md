@@ -6,7 +6,9 @@ tags: ["Web","PWA","サイト","iOS"]
 draft: true
 ---
 
+JavaScriptでは（疑似要素
 
+{{<ad>}}
 
 ## JavaScriptでbefore/afterのcontentを書き換える
 
@@ -18,13 +20,4 @@ new_style.innerHTML = 'Emmet:before { content: "書き換えたいテキスト" 
 ```
 
 
-
-```js
-contentReplace("Emmet:before","置き換えたいテキスト");
-
-let new_style = document.body.appendChild(document.createElement("style"));
-function contentReplace(e1,e2) {
-	new_style.innerHTML = e1+'{ content: "'+e2+'" !important }';
-}
-```
 

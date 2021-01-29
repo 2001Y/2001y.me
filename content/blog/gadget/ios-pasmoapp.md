@@ -15,7 +15,7 @@ tags: ["iOSトピック","PASMO","Topic"]
 
 ### PASMO for iPhone
 
-{{<mobile-scroll>}}![](../../../images/ios-pasmoapp-1.jpeg)![](../../../images/ios-pasmoapp-2.jpeg)![](../../../images/ios-pasmoapp-3.jpeg)![](../../../images/ios-pasmoapp-4.jpeg)![](../../../images/ios-pasmoapp-5.jpeg){{<mobile-scroll-end>}}
+{{<mobile-scroll>}}![](../../../images/ios-pasmoapp-1.jpg)![](../../../images/ios-pasmoapp-2.jpg)![](../../../images/ios-pasmoapp-3.jpg)![](../../../images/ios-pasmoapp-4.jpg)![](../../../images/ios-pasmoapp-5.jpg){{<mobile-scroll-end>}}
 
 ***
 

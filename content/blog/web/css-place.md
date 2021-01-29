@@ -40,7 +40,7 @@ place-content: center;
 
 [Twitterで](https://twitter.com/takamosoo/status/1290520674025353216)`place-items`の存在を知ったのですが、そこでは`display: flex;`を使ってました。でも、実際にコードにしてみると動かない...？
 
-<iframe height=170px class=codepen src="https://mineditor.github.io/?h=%253Cbody%253E%250A%2520%2520%253Cdiv%253E%253C%2Fdiv%253E%250A%253C%2Fbody%253E&c=body%2520%257B%250A%2520%2520display%3A%2520flex%3B%250A%2520%2520place-items%3A%2520center%3B%250A%257D%250A%250A%250Adiv%2520%257B%250A%2520%2520background%3A%2520%23000%3B%250A%2520%2520height%3A%252050px%3B%250A%2520%2520width%3A%2520100px%3B%250A%257D&j="></iframe>
+<iframe height=170px class=codepen src="https://mineditor.github.io/?h=%253Cbody%253E%250A%2520%2520%253Cdiv%253E%253C%2Fdiv%253E%250A%253C%2Fbody%253E&c=body%2520%257B%250A%2520%2520display%3A%2520flex%3B%250A%2520%2520place-items%3A%2520center%3B%250A%257D%250A%250A%250Adiv%2520%257B%250A%2520%2520background%3A%2520%23000%3B%250A%2520%2520height%3A%252050px%3B%250A%2520%2520width%3A%2520100px%3B%250A%257D&j=none"></iframe>
 
 #### `justify`,`align`,`content`,`items` のまとめ
 

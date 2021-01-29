@@ -22,4 +22,4 @@ WalletアプリにPASMOの項目が追加されるはずですが、ぼくの周
 
 ### PASMOの項目が出てこない実例
 
-{{<mobile-scroll>}}![Walletを開く](../../../images/ios-pasmo-wallet-notflound-0.jpg)![カードを追加](../../../images/ios-pasmo-wallet-notflound-1.jpg)![続ける](../../../images/ios-pasmo-wallet-notflound-2.jpeg)![PASMOがない！](../../../images/ios-pasmo-wallet-notflound-3.jpeg){{<mobile-scroll-end>}}
+{{<mobile-scroll>}}![Walletを開く](../../../images/ios-pasmo-wallet-notflound-0.jpg)![カードを追加](../../../images/ios-pasmo-wallet-notflound-1.jpg)![続ける](../../../images/ios-pasmo-wallet-notflound-2.jpg)![PASMOがない！](../../../images/ios-pasmo-wallet-notflound-3.jpg){{<mobile-scroll-end>}}

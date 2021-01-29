@@ -19,4 +19,4 @@ SNSのフォロワー数をシンプルかつおしゃれに表示する<b>Socia
 
 ID指定のみなので、著名人などのログイン情報がわからないユーザーのフォロワー数を表示することも可能です。また、複数アカウントにも対応しています。
 
-{{<mobile-scroll>}}![](../../../images/ios-socialstatswidget-1.jpg)![](../../../images/ios-socialstatswidget-2.jpeg)![](../../../images/ios-socialstatswidget-3.jpeg)![](../../../images/ios-socialstatswidget-4.jpeg)![](../../../images/ios-socialstatswidget-5.jpeg)![](../../../images/ios-socialstatswidget-6.jpeg){{<mobile-scroll-end>}}
+{{<mobile-scroll>}}![](../../../images/ios-socialstatswidget-1.jpg)![](../../../images/ios-socialstatswidget-2.jpg)![](../../../images/ios-socialstatswidget-3.jpg)![](../../../images/ios-socialstatswidget-4.jpg)![](../../../images/ios-socialstatswidget-5.jpg)![](../../../images/ios-socialstatswidget-6.jpg){{<mobile-scroll-end>}}
