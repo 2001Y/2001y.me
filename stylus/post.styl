@@ -38,13 +38,11 @@ h1
   a:not(.download)
     color var(--w)
     text-indent 0
-    background: linear-gradient(var(--w), var(--w)) 0 100%/0 .1em no-repeat;
-    background-size: 100% .05em;
     transition: .3s;
-    will-change: background
+    will-change: transform
+    display: inline-block;
     &:hover
-      color var(--d)
-      background-size 100% 100%;
+      transform:scale(1.1);
   img,source
     cursor pointer
     max-width 80%
@@ -265,16 +263,24 @@ p code
   
 table
   font-size .8em
-  margin auto
+  margin 0 auto
   border-collapse:  collapse;
 th,td
   padding .2em 1em
 th
-  font-weight normal
-tr>*:first-child
-  border-right: solid 1px;
-tr:first-of-type
+  font-weight 800
   border-bottom: solid 1px;
+  color var(--l)
+  background var(--d)
+  +dark()
+    color var(--d)
+    background var(--l)
+tr>*+*
+  border-left: solid 1px;
+tr:nth-child(odd) td
+  background var(--d05)
+  +dark()
+    background var(--l05)
 #top
   color var(--l)
   font-size 3rem

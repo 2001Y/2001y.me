@@ -34,7 +34,7 @@
   <header>
     <a id=top href=/blog title="2001Y.me｜2001YがWebやガジェットなどから写真まで、好きなことばかり書くブログ">&#xe904;</a>
     <form class=search-box>
-        <input class=search type=search id="s" onkeyup="search(this.value)">
+        <input class=search type=search onkeyup=search(this.value) placeholder=Search>
         <input class=submit type=submit value="&#xe901;">
     </form>
   </header>
@@ -130,7 +130,7 @@
     </ol>
   {{ partial "footer.html" . }}
   <form class=search-box>
-      <input class=search type=search id="s" onkeyup="search(this.value)">
+      <input class=search type=search placeholder=Search onkeyup=search(this.value)>
       <input class=submit type=submit value="&#xe901;">
   </form>
 </footer>

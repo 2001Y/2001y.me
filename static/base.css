@@ -276,6 +276,7 @@ h3,
 h4,
 h5,
 h6,
+th,
 #bar,
 #submit {
   font-family: icon, Helvetica, "游ゴシック Medium", "Yu Gothic", YuGothic, -apple-system, Verdana, Meiryo;
@@ -502,7 +503,7 @@ main a:first-child article:hover:after,
   text-align: right;
 }
 
-#right h6 {
+#right h5 {
   margin-bottom: 0.5rem;
 }
 
