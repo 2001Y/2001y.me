@@ -51,7 +51,7 @@ tags: ["Web","Lighthouse"]
 
 ## aria-labelでもいいみたい
 
-`aria-label`でも[解決するみたい](https://pgmemo.tokyo/data/archives/1882.html)。
+`aria-label`でも[解決するみたい](https://dequeuniversity.com/rules/axe/3.3/label)。
 
 ```html
 <input type=search aria-label=Search>
