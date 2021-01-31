@@ -8,7 +8,7 @@ tags: ["Web","PWA","サイト","iOS"]
 
 
 
-![](../../../images/lighthouse-placeholder-0.png)
+![](../../../images/lighthouse-placeholder-0.jpg)
 
 {{<ad>}}
 
