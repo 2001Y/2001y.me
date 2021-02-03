@@ -2,7 +2,7 @@
 title: "NetlifyCMSのエラー対応(NetlifyIdentity/GitGateway)"
 date: 2021-01-24T00:00:22+09:00
 categories: ["Web"]
-tags: ["Web","PWA","サイト","iOS"]
+tags: ["Netlify"]
 ---
 
 久しぶりに新しいサイトにNetlifyCMSを導入した時に少し躓いたのでメモ。

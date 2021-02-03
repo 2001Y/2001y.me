@@ -3,7 +3,7 @@ title: "[Netlify]サイトマップの更新を自動的にPing送信（Google,B
 date: 2020-06-25T9:00:22+09:00
 img: netlify-auto-ping
 categories: ["Web"]
-tags: ["ブログ","Web","サイトマップ","Google","Bing","GoogleSearchConsole"]
+tags: ["Netlify","GoogleSearchConsole"]
 ---
 
 現在、Github経由でNetlifyでHugoを使ってこのブログを作っています。そこで、記事を追加するたびにサイトマップをGoogleやBingに手動で通知するのも面倒で自動化の手順をメモしておきます。
