@@ -73,7 +73,7 @@ h1 {
   will-change: transform, box-shadow;
   display: block;
   margin: 0 auto 0.3rem auto;
-  border-radius: 6px;
+  border-radius: 12px;
 }
 
 #article img:hover,
