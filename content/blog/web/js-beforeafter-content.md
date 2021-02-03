@@ -2,7 +2,7 @@
 title: "JavaScriptでbefore/afterのcontentを書き換える"
 date: 2021-02-03T00:00:22+09:00
 categories: ["Web"]
-tags: ["Web","PWA","サイト","iOS"]
+tags: ["JS"]
 ---
 
 JavaScriptで`:before`や`:after`などの疑似要素の`content`を動的に変化させるためには、styleタグを追加するしかないみたいです。
