@@ -257,11 +257,15 @@ hr {
 code,
 .chroma,
 input[readonly=""] {
-  font-size: 0.8rem;
   font-family: Menlo, "Courier New", Consolas, monospace;
 }
 
+.chroma {
+  font-size: 0.8rem;
+}
+
 p code {
+  font-size: 0.8rem;
   -webkit-user-select: all;
   -moz-user-select: all;
    -ms-user-select: all;
