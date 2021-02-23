@@ -1,6 +1,6 @@
 ---
 title: '[Hugo].Site.BaseURLがhttps:\/\/となる解決策'
-date: 2021-02-20T1:00:22+09:00
+date: 2021-02-24T0:00:22+09:00
 categories: ["Web"]
 tags: ["Hugo"]
 ---
@@ -11,7 +11,7 @@ HugoでJSON-LD構造化データを作っている時、`{{ .Site.BaseURL }}`が
 
 {{<ad>}}
 
-## `.Site.BaseURL` が `https:\/\/` となる
+## `.Site.BaseURL` が `https:\/\/` となる
 
 #### ダメなコード
 
