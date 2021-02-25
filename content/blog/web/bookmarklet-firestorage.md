@@ -12,7 +12,7 @@ tags: ["ブックマーク","WebTopic"]
 ## firestorageを一括ダウンロードできるBookmarklet
 
 <p class=noIndent>
-  <a href="javascript:(function()%7Blet%20el%20%3D%20document.querySelectorAll(%22.tbl_wd_full%20td%3Afirst-of-type%20a%22)%3Bfor(let%20i%3D0%3B%20i%3Cel.length%3B%20i%2B%2B)%7Bwindow.open(el%5Bi%5D.href)%3B%7D%7D)()" class=download>firestorage一括ダウンロード</a>
+  <a href="javascript:(function()%7Blet%20el%20%3D%20document.querySelectorAll(%22.spiffydownfg%3Afirst-of-type%20td%20div%20a%22)%3Bfor(let%20i%3D0%3B%20i%3Cel.length%3B%20i%2B%2B)%7Bwindow.open(el%5Bi%5D.href)%3B%7D%7D)()" class=download>firestorage一括ダウンロード</a>
 </p>
 
 {{<bg>}}
