@@ -1,5 +1,5 @@
 ---
-title: "無料,商用利用可能な日本文化特化のピクトグラムアイコン「EXPERIENCE JAPAN PICTOGRAMS」"
+title: "無料,商用利用可能な日本文化特化のピクトグラムアイコン、EXPERIENCE JAPAN PICTOGRAMS"
 date: 2021-02-26T01:00:22+09:00
 categories: ["Web"]
 tags: ["ブックマーク","WebTopic"]
@@ -8,7 +8,7 @@ tags: ["ブックマーク","WebTopic"]
 
 {{<ad>}}
 
-## 無料,商用利用可能な日本文化特化のピクトグラムアイコン「[EXPERIENCE JAPAN PICTOGRAMS](https://experience-japan.info)」
+## 無料,商用利用可能な日本文化特化のピクトグラムアイコン、[EXPERIENCE JAPAN PICTOGRAMS](https://experience-japan.info)
 
 <b>『寿司』</b>や<b>『うなぎ』</b>などの食べ物から、<b>『東京タワー』『厳島神社』</b>などの建造物、<b>『参拝』『お辞儀』</b>などの行為のピクトグラムまで登録されている、日本文化特化の無料,商用利用可能なピクトグラムアイコンを無料でダウンロードすることができます。
 

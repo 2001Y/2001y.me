@@ -230,7 +230,7 @@ figure {
 }
 
 .codepen {
-  width: 80%;
+  width: 100%;
   margin: 0 auto 0.8em auto;
   display: block;
 }
@@ -785,10 +785,6 @@ tr:nth-child(odd) td {
 }
 
 @media (max-width: 600px) {
-  .codepen {
-    width: 100%;
-  }
-
   .blogcard {
     width: 100%;
   }
