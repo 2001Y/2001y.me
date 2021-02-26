@@ -232,7 +232,8 @@ body:after,
 #form,
 #submit,
 #categoryAlert,
-.bg {
+.bg,
+blockquote {
   background: var(--d05);
 }
 
@@ -279,7 +280,7 @@ h6,
 th,
 #bar,
 #submit {
-  font-family: icon, Helvetica, "游ゴシック Medium", "Yu Gothic", YuGothic, -apple-system, Verdana, Meiryo;
+  font-family: icon, Helvetica, "游ゴシック", "Yu Gothic", YuGothic, -apple-system, Verdana, Meiryo;
   font-feature-settings: "palt";
 }
 
@@ -847,7 +848,8 @@ footer .search-box .submit {
   #form,
   #submit,
   #categoryAlert,
-  .bg {
+  .bg,
+  blockquote {
     background: var(--l05);
   }
 

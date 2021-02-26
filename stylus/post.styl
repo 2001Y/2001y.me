@@ -213,11 +213,12 @@ p
     background var(--d05)
     +dark()
       background: var(--l05)
-.chroma,.bg
+.chroma,.bg,blockquote
   width 100%
   padding 1rem 1.5rem
   border-radius 2rem
-.bg>*
+.bg,blockquote
+  &>*
     &:first-child
       margin-top .3rem !important
     &:last-child

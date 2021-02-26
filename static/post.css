@@ -279,17 +279,20 @@ p code {
 }
 
 .chroma,
-.bg {
+.bg,
+blockquote {
   width: 100%;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
 }
 
-.bg>*:first-child {
+.bg>*:first-child,
+blockquote>*:first-child {
   margin-top: 0.3rem !important;
 }
 
-.bg>*:last-child {
+.bg>*:last-child,
+blockquote>*:last-child {
   margin-bottom: 0.3rem !important;
 }
 
