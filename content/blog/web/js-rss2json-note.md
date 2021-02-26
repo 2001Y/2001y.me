@@ -15,7 +15,9 @@ noteは自分のURL末尾に「rss」を付与するだけでRSSを取得する�
 https://note.com/yellow_mug/rss
 ```
 
-## [`rss2json`](https://rss2json.com)でRSSをJSONに
+{{<ad>}}
+
+## rss2jsonでRSSをJSONに
 
 [`rss2json`](https://rss2json.com)に先ほど取得したRSSを入力して、JSONに変換。無料プラン（登録不要）では1回/時間の周期でチェックしてくれるらしい。
 
@@ -46,6 +48,36 @@ fetch("先ほど取得したJSON化したRSSのリンク")
    rss.innerHTML = html;
   }
 });
+```
+
+### HTML
+
+```html
+<ul id="rss">
+  読み込み中...
+</ul>
+```
+
+***
+
+### 出力されるHTML
+
+```html
+<ul id="rss">
+  <li>
+    <a href="https://note.com/name/n/a1b2c3d4" target="_blank">
+      <h2>タイトル1</h2>
+      <time>2021-02-25 09:55:51</time>
+    </a>
+  </li>
+  ・・・
+  <li>
+    <a href="https://note.com/name/n/a1b2c3d4" target="_blank">
+      <h2>タイトル5</h2>
+      <time>2021-02-23 05:55:51</time>
+    </a>
+  </li>
+</ul>
 ```
 
 ### Demo
