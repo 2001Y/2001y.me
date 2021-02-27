@@ -8,7 +8,7 @@ tags: ["Blog","JavaScript"]
 
 動画のプログレスバー（どこまで進んでるか）の表示を付け加えたくて、わざわざ動画編集ソフトを使うのも面倒だったので、Keynoteでオリジナルのプログレスバーを付け加えたのでメモ。
 
-{{< youtube url="https://youtu.be/r3Zv1MY-IBw" >}}
+{{< youtubeO url="https://youtu.be/r3Zv1MY-IBw" >}}
 
 {{<ad>}}
 
