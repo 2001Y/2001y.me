@@ -800,7 +800,8 @@ tr:nth-child(odd) td {
 @media (max-width: 560px) {
   #article img,
   #article source {
-    max-width: 100%;
+    max-width: 100vw;
+    margin: 0 calc(50% - 50vw);
     border-radius: 0;
   }
 
@@ -812,8 +813,8 @@ tr:nth-child(odd) td {
   }
 
   .youtube {
-    width: 100%;
-    margin: 0 -1rem;
+    width: 100vw;
+    margin: 0 calc(50% - 50vw);
   }
 }
 
