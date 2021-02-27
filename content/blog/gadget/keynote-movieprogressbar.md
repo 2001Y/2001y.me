@@ -1,8 +1,8 @@
 ---
 title: "動画に独自のプログレスバーをKeynoteで追加する"
 date: 2021-02-27T0:00:22+09:00
-categories: ["Web"]
-tags: ["Blog","JavaScript"]
+categories: ["Gadget"]
+tags: ["Mac","Keynote"]
 
 ---
 
