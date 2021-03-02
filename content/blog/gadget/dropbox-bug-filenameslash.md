@@ -1,5 +1,5 @@
 ---
-title: "MacのDropBoxで作ったフォルダがWindowsに同期されない"
+title: "MacのDropBoxで作ったフォルダがWindowsに同期されない時"
 date: 2021-03-03T00:00:22+09:00
 categories: ["Gadget"]
 tags: ["DropBox","Mac"]
