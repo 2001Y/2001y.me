@@ -1,22 +1,22 @@
 ---
-title: "MacのDropBoxで作ったフォルダがWindowsに同期されない時"
+title: "MacのDropoxで作ったフォルダがWindowsに同期されない時"
 date: 2021-03-03T00:00:22+09:00
 categories: ["Gadget"]
-tags: ["DropBox","Mac"]
+tags: ["Dropbox","Mac"]
 ---
 
 {{<ad>}}
 
-<b>職場のWindowsPCでDropBoxのフォルダだけ同期されない。</b>と言う相談を受けて調べてみたところ、DropBoxはスラッシュなどの特殊文字が含まれているファイル/フォルダは同期されないそう。
+<b>職場のWindowsPCでDropboxのフォルダだけ同期されない。</b>と言う相談を受けて調べてみたところ、Dropboxはスラッシュなどの特殊文字が含まれているファイル/フォルダは同期されないそう。
 
 ただ、<b>どのオペレーティング システムとも互換性がありません。</b>と書いてあるが、一応Macからのアップロードには対応してる模様。
 
-## MacのDropBoxで作ったフォルダがWindowsに同期されない
+## MacのDropboxで作ったフォルダがWindowsに同期されない
 
 ### 症状
 
-- MacのDropBoxで作ったフォルダがWindowsに同期されない
-- iPhoneからやWebからは確認できるためDropBox自体には上がっている
+- MacのDropboxで作ったフォルダがWindowsに同期されない
+- iPhoneからやWebからは確認できるためDropbox自体には上がっている
 
 ### 原因：ファイル名にスラッシュが含まれていた
 
@@ -29,6 +29,6 @@ tags: ["DropBox","Mac"]
 > - 次の特殊文字を含むファイル名は Windows と互換性がありません。
 >   - 「<（より小記号）」、「>（より大記号）」、「:（コロン）」、「“ ”（引用符）」、「|（縦線）」、「?（クエスチョン マーク）」、「*（アスタリスク）」
 > - 特定の言語固有の文字列に対応していないオペレーティング システムもあります。
-> - Mac や Windows のパソコン、Excel スプレッドシートには[特定のファイル名の文字数制限](https://help.dropbox.com/ja-jp/installs-integrations/sync-uploads/files-not-syncing)があります。
+> - Mac や Windows のパソコン、Excel スプレッドシートには[特定のファイル名の文字数制限](https://help.Dropbox.com/ja-jp/installs-integrations/sync-uploads/files-not-syncing)があります。
 
-source:[Dropbox が更新されない | 同期問題を解決する | Dropbox ヘルプ](https://help.dropbox.com/ja-jp/installs-integrations/sync-uploads/files-update-issues)
+source:[Dropbox が更新されない | 同期問題を解決する | Dropbox ヘルプ](https://help.Dropbox.com/ja-jp/installs-integrations/sync-uploads/files-update-issues)
