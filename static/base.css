@@ -78,6 +78,14 @@ ul {
   list-style-type: none;
 }
 
+blockquote ul {
+  list-style-type: disc;
+}
+
+blockquote ol {
+  list-style-type: decimal;
+}
+
 a {
   text-decoration: none;
 }
