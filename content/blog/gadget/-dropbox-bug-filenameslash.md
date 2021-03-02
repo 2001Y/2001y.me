@@ -15,8 +15,8 @@ tags: ["DropBox","Mac"]
 
 ### 症状
 
-- MacのDropBoxで作ったフォルダがWindowsに同期されない
-- iPhoneからやWebからは確認できるためDropBox自体には上がっている
+- MacのDropBoxで作ったフォルダがWindowsに同期されないMacのDropBoxで作ったフォルダがWindowsに同期されないMacのDropBoxで作ったフォルダがWindowsに同期されないMacのDropBoxで作ったフォルダがWindowsに同期されない
+- iPhoneからやWebからは確認できるためDropBox自体には上がっているiPhoneからやWebからは確認できるためDropBox自体には上がっている
 
 ### 原因：ファイル名にスラッシュが含まれていた
 
@@ -31,4 +31,4 @@ tags: ["DropBox","Mac"]
 > - 特定の言語固有の文字列に対応していないオペレーティング システムもあります。
 > - Mac や Windows のパソコン、Excel スプレッドシートには[特定のファイル名の文字数制限](https://help.dropbox.com/ja-jp/installs-integrations/sync-uploads/files-not-syncing)があります。
 
-source:[Dropbox が更新されない | 同期問題を解決する | Dropbox ヘルプ]( [https://help.dropbox.com/ja-jp/installs-integrations/sync-uploads/files-update-issues](https://help.dropbox.com/ja-jp/installs-integrations/sync-uploads/files-update-issues))
+source:[Dropbox が更新されない | 同期問題を解決する | Dropbox ヘルプ](https://help.dropbox.com/ja-jp/installs-integrations/sync-uploads/files-update-issues)
