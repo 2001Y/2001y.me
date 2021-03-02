@@ -13,7 +13,7 @@ tags: ["CSS","List"]
 
 検証環境は
 
-```txt
+```html
 Safari Technology Preview 118
 Safari 14.0.2
 Chrome 88.0.4324.192`
@@ -21,7 +21,7 @@ Chrome 88.0.4324.192`
 
 です。
 
-![](../../../images/css-list-style-type-txt-bugsafari-1.png)
+![](../../../images/css-list-style-type-txt-bugsafari-1.jpg)
 
 ### Demo
 
