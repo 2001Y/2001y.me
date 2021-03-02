@@ -15,8 +15,8 @@ tags: ["DropBox","Mac"]
 
 ### 症状
 
-- MacのDropBoxで作ったフォルダがWindowsに同期されないMacのDropBoxで作ったフォルダがWindowsに同期されないMacのDropBoxで作ったフォルダがWindowsに同期されないMacのDropBoxで作ったフォルダがWindowsに同期されない
-- iPhoneからやWebからは確認できるためDropBox自体には上がっているiPhoneからやWebからは確認できるためDropBox自体には上がっている
+- MacのDropBoxで作ったフォルダがWindowsに同期されない
+- iPhoneからやWebからは確認できるためDropBox自体には上がっている
 
 ### 原因：ファイル名にスラッシュが含まれていた
 

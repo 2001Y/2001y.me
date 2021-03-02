@@ -62,11 +62,39 @@ h1 {
   transform: scale(1.1);
 }
 
+#article li {
+  text-indent: -1.5em;
+  padding-left: 1.5em;
+  margin-bottom: 0.6em;
+}
+
 #article li:before {
   content: "";
+  display: inline-block;
+  width: 1rem;
+  margin-right: 0.5rem;
+  text-align: right;
   font-size: 0.5em;
   vertical-align: 0.15em;
-  margin: 0 1em 0 1em;
+}
+
+#article blockquote ul,
+#article blockquote ol {
+  list-style-type: initial;
+  list-style-position: outside;
+  text-indent: -1em;
+  margin-left: 1em;
+}
+
+#article blockquote ul li,
+#article blockquote ol li {
+  text-indent: 0;
+  padding-left: 0;
+}
+
+#article blockquote ul li:before,
+#article blockquote ol li:before {
+  display: none;
 }
 
 #article img,

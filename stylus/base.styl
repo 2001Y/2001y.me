@@ -14,8 +14,7 @@ dark()
   font-style normal
   font-display block
 
-*,::placeholder,::before,
-::after
+*,::placeholder,::before,::after
   font-size inherit
   font-family inherit
   line-break strict
@@ -25,16 +24,15 @@ dark()
   border 0
   box-sizing border-box
   background-repeat no-repeat
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 html
   overflow auto
 ol,ul
-  list-style-type: "\1F4A9";
-  list-style-position: outside;
-  padding-left: 20px;
+  list-style-type none
+  list-style-position inside
 
-blockquote
-  ul,ol
-    list-style-type initial
 a
   text-decoration none
 

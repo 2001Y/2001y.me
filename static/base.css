@@ -16,6 +16,9 @@
   border: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 ::-moz-placeholder {
@@ -28,6 +31,9 @@
   border: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 :-ms-input-placeholder {
@@ -40,6 +46,9 @@
   border: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 ::-ms-input-placeholder {
@@ -52,6 +61,9 @@
   border: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 *,
@@ -67,6 +79,9 @@
   border: 0;
   box-sizing: border-box;
   background-repeat: no-repeat;
+  line-break: strict;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 html {
@@ -75,14 +90,8 @@ html {
 
 ol,
 ul {
-  list-style-type: "\1F4A9";
-  list-style-position: outside;
-  padding-left: 20px;
-}
-
-blockquote ul,
-blockquote ol {
-  list-style-type: initial;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 a {
