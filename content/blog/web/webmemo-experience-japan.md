@@ -2,7 +2,7 @@
 title: "無料,商用利用可能な日本文化特化のピクトグラムアイコン、EXPERIENCE JAPAN PICTOGRAMS"
 date: 2021-02-26T01:00:22+09:00
 categories: ["Web"]
-tags: ["ブックマーク","WebTopic"]
+tags: ["WebMemo","WebTopic"]
 
 ---
 
