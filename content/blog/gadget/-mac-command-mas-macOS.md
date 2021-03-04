@@ -65,7 +65,7 @@ https://apps.apple.com/jp/app/macos-high-sierra/id1246284741
 
 macOSのインストローラーはダウンロードが完了すると自動的にアプリが開くためこのような表示が出ますが、
 
-![](../../../images/mac-command-mas-macOS-3.png)
+![](../../../images/mac-command-mas-macOS-3.jpg)
 
 
 
