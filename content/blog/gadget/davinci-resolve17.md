@@ -1,5 +1,5 @@
 ---
-title: "[Mac,Win,Linux]無料でFinalCutやPremiere並みの動画編集ができる、DaVinciResolve17"
+title: "APIリクエストを簡単操作でできるPostmanをWeb上だけで完結できる、Hoppscotchs"
 date: 2021-03-07T01:00:22+09:00
 categories: ["Gadget"]
 tags: ["MacApp"]
