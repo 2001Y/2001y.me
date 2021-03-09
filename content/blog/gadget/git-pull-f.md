@@ -1,7 +1,7 @@
 ---
 title: "git pullを強制してローカルを上書き"
 date: 2021-03-10T0:00:22+09:00
-categories: ["Web"]
+categories: ["Gadget"]
 tags: ["Git","MacCommand"]
 
 ---
