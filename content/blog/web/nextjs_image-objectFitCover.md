@@ -21,5 +21,5 @@ tags: ["Next.js"]
 <Image src="img.jpg" alt="説明" height="300" width="500" objectFit="cover" />
 ```
 
-
+CSSの[object-fit](https://developer.mozilla.org/ja/docs/Web/CSS/object-fit)と同じ値を指定することができます。
 
