@@ -13,7 +13,7 @@ Lightroomでの現像を手軽にしようと思い、MIDIコントローラー�
 
 ## MIDI Control Center と BeatStep の同期
 
-BeatStep をUSBで繋いだら、[Arturia Software Center](https://www.arturia.com/v-collection/asc) から MIDI Control Center をインストール。
+[Arturia Software Center](https://www.arturia.com/v-collection/asc) から MIDI Control Center をインストール。
 
 BeatStep を繋いで、MIDI Control Center を起動しただけでは設定が同期されないようなので、<b>サイドバー上のDEVICEが BeatStep になっていることを確認したら、`Sync`ボタンをクリックして同期を開始。</b>
 
