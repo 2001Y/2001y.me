@@ -5,11 +5,11 @@ categories: ["Camera"]
 tag: ["Lightroom"]
 ---
 
-{{<ad>}}
-
 Lightroomでの現像を手軽にしようと思い、MIDIコントローラーである Arturia BeatStep を購入して設定していたのですが、どうにもパッド部分の反応が悪くて、設定を変えたらよくなったのでメモ。
 
 ただ、どちらにせよMIDIコントローラーに触れたことすらない自分のような人は<b>パッドは叩くもの</b>という意識を持ったほうがいいかもしれない。
+
+{{<ad>}}
 
 ## MIDI Control Center と BeatStep の同期
 
