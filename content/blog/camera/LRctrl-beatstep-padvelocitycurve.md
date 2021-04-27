@@ -21,7 +21,8 @@ BeatStep を繋いで、MIDI Control Center を起動しただけでは設定が
 
 ## パッドの感度を変更
 
-`Sync`ボタンがブルーになっていることを確認したら、<b>Projectタブに移動したら、Pad Velocity Curve の値を Full に。</b>変更した時、サイドバー上の上矢印がオレンジに光ることを確認したら設定完了。
+`Sync`ボタンがブルーになっていることを確認したら、<b>Projectタブに移動したら、Pad Velocity Curve の値を`Full`に。</b>変更した時、サイドバー上の上矢印がオレンジに光ることを確認したら設定完了。
 
 ![](../../../images/LRctrl-beatstep-padvelocitycurve-2.jpg)
 
+source: http://junaimaru.blog.fc2.com/blog-entry-290.html
