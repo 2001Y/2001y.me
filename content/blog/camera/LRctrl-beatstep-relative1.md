@@ -21,7 +21,7 @@ BeatStep を繋いで、MIDI Control Center を起動しただけでは設定が
 
 `Sync`ボタンがブルーになっていることを確認したら、任意の<b>ノブを選択した上で Knob XX のOptionの値を`Relative #1`に変更。</b>変更した時、サイドバー上の上矢印がオレンジに光ることを確認したら設定完了。
 
-![](../../../images/LRctrl-beatstep-relative1.jpg)
+![](../../../images/LRctrl-beatstep-relative1-1.jpg)
 
 ## MIDI2LRの設定も相対値に変更
 
