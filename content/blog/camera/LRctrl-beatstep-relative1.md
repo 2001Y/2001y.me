@@ -15,7 +15,7 @@ Lightroomでの現像を手軽にしようと思い、MIDIコントローラー�
 
 BeatStep を繋いで、MIDI Control Center を起動しただけでは設定が同期されないようなので、<b>サイドバー上のDEVICEが BeatStep になっていることを確認したら、`Sync`ボタンをクリックして同期を開始。</b>
 
-![](../../../images/LRctrl-beatstep-padvelocitycurve.jpg)
+![](../../../images/LRctrl-beatstep-padvelocitycurve-1.jpg)
 
 ## ノブの設定を相対値に変更
 
