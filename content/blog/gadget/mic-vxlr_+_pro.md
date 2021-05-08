@@ -1,11 +1,9 @@
 ---
 title: "Rode VXLRの無印,+,Proの比較"
-date: 2020-07-24T08:00:22+09:00
+date: 2021-05-08T08:00:22+09:00
 categories: ["Gadget"]
 tags: ["Mac"]
 ---
-
-
 
 クラムシェルのMacbookProをeGPU経由でモニタに繋いで使っているため、既に持っていたショットガンマイクaudio-technicaの[AT9944](https://amzn.to/3vQ5noH)をMacのマイクとして使ってます。
 
